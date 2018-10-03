@@ -621,12 +621,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-03T12:39:47.086Z",
+      "buildTime": "2018-10-03T12:49:00.555Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "46a0d55179a70f5bd4de5fd7293e9ddf",
+        "contentDigest": "3b57a7f8a8665a9e5a7b4a6842bf975d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

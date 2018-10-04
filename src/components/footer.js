@@ -54,6 +54,7 @@ const Container = styled.div`
   width:100%;
   height:384px;
   background-color: #394952;
+  
 `
 const Wrapp = styled.div`
 margin-left: 13em;

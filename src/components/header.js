@@ -11,7 +11,7 @@ export default class Header extends Component {
 
       <HeaderContainer >
         <HeaderImg src = {headerLogo}/>
-        <Link to = '/' ><IvoryLogo src={ivoryLogo} /></Link>
+        <Link to = '/page-2' ><IvoryLogo src={ivoryLogo} /></Link>
         <HeaderTitle>Ivory</HeaderTitle>
         <HeaderText>Turning 5 months project into 4 weeks project</HeaderText>
         <Link to = '/page-2'><GetStarted>Get Started</GetStarted></Link>

@@ -196,6 +196,79 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5ce8202342dd524bb5389d681dbebdaf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-react-helmet": {
       "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
@@ -277,79 +350,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-styled-components": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-styled-components",
-      "id": "Plugin gatsby-plugin-styled-components",
-      "name": "gatsby-plugin-styled-components",
-      "version": "3.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateBabelConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "wrapRootElement",
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-styled-components",
-      "packageJson": {
-        "name": "gatsby-plugin-styled-components",
-        "description": "Gatsby plugin to add support for styled components",
-        "version": "3.0.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "styled-components"
-        ],
-        "author": {
-          "name": "Guten Ye",
-          "email": "ywzhaifei@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "babel-plugin-styled-components",
-            "version": ">1.5.0"
-          },
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "styled-components",
-            "version": ">= 2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "5ce8202342dd524bb5389d681dbebdaf",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-plugin-manifest": {
       "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-manifest",
       "id": "Plugin gatsby-plugin-manifest",
@@ -362,8 +362,7 @@
         "start_url": "/",
         "background_color": "#663399",
         "theme_color": "#663399",
-        "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "display": "minimal-ui"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -432,7 +431,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4b17ed7ea852a6c754cbc73fa5b662e0",
+        "contentDigest": "7a11572cdbefc5b9a7cfdcf7552f2827",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -526,7 +525,7 @@
       "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "39e2062e20d7cd0ace8ac66e04034347",
+      "version": "5aa3d92a7353ead11ba91928744d94c7",
       "pluginOptions": {
         "plugins": []
       },
@@ -598,7 +597,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "95a589572558272ddec2ac82056f46e0",
+        "contentDigest": "ffe8e6256d3698bf7e670f2c23004053",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -706,12 +705,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-04T07:30:12.085Z",
+      "buildTime": "2018-10-04T09:06:05.850Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "614b9570a58025280285fb6eec3cfcb9",
+        "contentDigest": "1d17bb367f6f3410b17fcae19cab5ba5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -799,7 +798,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c0dfc2f02a41431e397bdfe75fd6a538"
+    "PLUGINS_HASH": "9a44b808c1a997286cfd18e2d0e8ea5a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -814,8 +813,8 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js": {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import styled, {injectGlobal} from 'styled-components'
+import styled from 'styled-components'
 import database from '../images/database.svg'
 import speed from '../images/speed.svg'
 import machineLearning from '../images/machine_learning.svg'
@@ -10,7 +10,7 @@ import quality from '../images/quality.svg'
 import pods from '../images/pods.svg'
 import openSource from '../images/open_source.svg'
 import constants from '../constants/constants'
-import Averta from '../fonts/AvertaDemo-Regular.otf'
+
 export default class Presentation extends Component {
   render () {
     return (

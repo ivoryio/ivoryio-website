@@ -218,7 +218,7 @@ const HeaderText = styled.h3`
 const GetStarted = styled.button`
   position: absolute;
   top: 30.5em;
-  left: 52.5em;
+  left: 52.75em;
   width: 107px;
   height: 41px;
   background-color: white;

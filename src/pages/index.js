@@ -17,4 +17,6 @@ export default IndexPage
 const Container = styled.div`
 width: 100%;
 height: 2581px;
+margin:0;
+padding:0;
 `

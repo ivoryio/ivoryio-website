@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js",
+      "component": "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "82e5ed1f61ec77ae800ec1e63dd81cbb",
+        "contentDigest": "538b745bcdf5d402009d14bf2a31b431",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "617dd4bed1176c7f42316e1c93d312b6",
+        "contentDigest": "f849aaf8be0d6f19c1e85299bf46f75c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin load-babel-config": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "90b223d567bc4d9dc2e1f552b95ceb1f",
+        "contentDigest": "b0993b2cf2f811df0a0de961918dc333",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ac19c8c0b76fcd7af9ed3930ef05c94a",
+        "contentDigest": "b10b9d1845d94a5c9870867eaeac895b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fa9e6ee22134deac0162c8ae85b0b8dc",
+        "contentDigest": "8c7819488654cd272fef5e114cc9bf23",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5f909c171a4150eb34027ebb5c96c5ba",
+        "contentDigest": "ac521cb6b9c4b8ba06dea8b894d4fc4b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-styled-components": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-styled-components",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-styled-components",
       "id": "Plugin gatsby-plugin-styled-components",
       "name": "gatsby-plugin-styled-components",
       "version": "3.0.0",
@@ -212,7 +212,7 @@
         "wrapRootElement",
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-styled-components",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-styled-components",
       "packageJson": {
         "name": "gatsby-plugin-styled-components",
         "description": "Gatsby plugin to add support for styled components",
@@ -264,13 +264,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5ce8202342dd524bb5389d681dbebdaf",
+        "contentDigest": "a18c23b880e67d8e979985c6142e459f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.0",
@@ -282,7 +282,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -345,13 +345,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "950157c1ad1138f8efbad6fa4f547649",
+        "contentDigest": "72b23ee91f67674f0750454208d081e0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-manifest": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-manifest",
       "id": "Plugin gatsby-plugin-manifest",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.2",
@@ -371,7 +371,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
@@ -431,13 +431,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7a11572cdbefc5b9a7cfdcf7552f2827",
+        "contentDigest": "d8f0542ffcd3ddf2377d70a04796ca27",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-offline": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-offline",
       "id": "Plugin gatsby-plugin-offline",
       "name": "gatsby-plugin-offline",
       "version": "2.0.5",
@@ -454,7 +454,7 @@
         "onServiceWorkerActive"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
@@ -516,13 +516,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8d29c66a5db851b35cc606fbf1fcd882",
+        "contentDigest": "6da335dc82f37d5c45e1569525056e82",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "5aa3d92a7353ead11ba91928744d94c7",
@@ -532,7 +532,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -597,19 +597,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ffe8e6256d3698bf7e670f2c23004053",
+        "contentDigest": "3cc94666bfd1abc992f36778a62872bd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.0",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages",
+        "path": "/Users/Oana/Desktop/ivoryio-website/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -617,7 +617,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -692,7 +692,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f412f9f41698d3705c3ea8327a046628",
+        "contentDigest": "a3e726204462b8298e381ff335a83fae",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -705,12 +705,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-04T14:44:34.294Z",
+      "buildTime": "2018-10-04T15:01:55.638Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9406f567b60c195750d74964f795b9ab",
+        "contentDigest": "ab318c49c08730e30d8643a85cd4ddfd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -719,18 +719,18 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/404.js",
+      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/404.js",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8f9c3a8ccbbfdf4302cbe8a7acdfc418",
+        "contentDigest": "bc18bf97b7cff31a372296eeafaae771",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -739,18 +739,18 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js",
+      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dd9f619bfeaf5d54ea8f04845f825ed2",
+        "contentDigest": "cc64f517c3389931af5cd38b79bfcbdf",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -759,18 +759,18 @@
       "jsonName": "page-2-fbc",
       "internalComponentName": "ComponentPage2",
       "path": "/page-2/",
-      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/page-2.js",
+      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/page-2.js",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js",
       "id": "SitePage /page-2/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f62ce6e1a9d7e9d0150039c99e880f6e",
+        "contentDigest": "f1657747e55087624b3f546b30e3f1b1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -779,18 +779,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/404.js",
+      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/404.js",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "67d8eb214953bd6e252e7b2565d20164",
+        "contentDigest": "e4f1a8cf1e7d5c6ca7c514c178bf491c",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -818,27 +818,27 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js": {
+    "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js"
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js"
     },
-    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/404.js": {
+    "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js": {
       "query": "",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/404.js"
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js"
     },
-    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js": {
+    "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js": {
       "query": "",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js"
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js"
     },
-    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/page-2.js": {
+    "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js": {
       "query": "",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/page-2.js"
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/components/layout.js",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/components/layout.js",
       "id": "sq--src-components-layout-js",
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",

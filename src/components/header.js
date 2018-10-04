@@ -35,7 +35,7 @@ const HeaderContainer = styled.div`
 
 const HeaderImg = styled.img`
    
-   height: 763px;
+   height: 800px;
    width: 100%;
 
    @media only screen and (max-width: 360px){
@@ -46,10 +46,9 @@ const HeaderImg = styled.img`
 
 const HeaderTitle = styled.h1`
   position: absolute;
-  top: 293px;
-  left: 605px;
-  right: 299px;
-  bottom: 411px;
+  top: 5.5em;
+  left: 14.05em;
+  
   font-size: 52px;
   color: white;
   font-family: Averta;
@@ -128,10 +127,8 @@ const HeaderTitle = styled.h1`
 
 const HeaderText = styled.h3`
   position: absolute;
-  top: 358px;
-  right: 89px;
-  left: 735px;
-  bottom: 352px;
+  top: 14.75em;
+  left: 30.5em;
   font-size: 24px;
   color: white;
   width: 330px;
@@ -220,8 +217,8 @@ const HeaderText = styled.h3`
 `
 const GetStarted = styled.button`
   position: absolute;
-  top: 434px;
-  left: 735px;
+  top: 30.5em;
+  left: 52.5em;
   width: 107px;
   height: 41px;
   background-color: white;

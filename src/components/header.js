@@ -6,15 +6,15 @@ import Averta from '../fonts/AvertaDemo-Regular.otf'
 import { Link } from 'gatsby'
 
 export default class Header extends Component {
-  render(){
-    return(
+  render () {
+    return (
 
       <HeaderContainer >
-        <HeaderImg src = {headerLogo}/>
-        <Link to = '/page-2' ><IvoryLogo src={ivoryLogo} /></Link>
+        <HeaderImg src={headerLogo} />
+        <Link to='/page-2' ><IvoryLogo src={ivoryLogo} /></Link>
         <HeaderTitle>Ivory</HeaderTitle>
         <HeaderText>Turning 5 months project into 4 weeks project</HeaderText>
-        <Link to = '/page-2'><GetStarted>Get Started</GetStarted></Link>
+        <Link to='/page-2'><GetStarted>Get Started</GetStarted></Link>
       </HeaderContainer>
     )
   }
@@ -30,6 +30,7 @@ injectGlobal`
 const HeaderContainer = styled.div`
   position: relative;
   object-fit: contain;
+
 `
 
 const HeaderImg = styled.img`
@@ -135,7 +136,7 @@ const IvoryLogo = styled.img`
 //             textDecoration: 'none',
 //           }}
 //         >
-          
+
 //         </div>
 //       </h1>
 //     </div>

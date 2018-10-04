@@ -18,7 +18,7 @@ Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.
           <FormContainer>
             <Input type='text' placeholder='Name' />
             <Input type='text' placeholder='Email address' />
-            <Subscribe type='submit' value='Subscribe' />
+            <Subscribe type='submit' value='SUBSCRIBE' />
           </FormContainer>
         </La>
       </LaunchingContainer>
@@ -82,7 +82,7 @@ width: 125px;
   background-color: #394952;
   color: #ffffff;
   font-family: Averta;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;

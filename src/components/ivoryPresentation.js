@@ -112,15 +112,9 @@ export default class Presentation extends Component {
   }
 }
 
-injectGlobal`
-  @font-face {
-    font-family: Averta;
-    src: url('${Averta}') format('opentype')
-  }
-`
 const Text = styled.div`
   font-family: Averta;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -140,10 +134,11 @@ font-family: Averta;
   text-align: center;
   color: #394952;
   margin-bottom: 1.5em;
+  margin-top: 31px;
 `
 const Title = styled.div`
   font-family: Averta;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -177,9 +172,9 @@ justify-content: space-between;
 const TextPictureContainer = styled.div`
 display: flex;
 flex-direction: column;
-width: 11em;
+width: 12em;
 `
 const Container = styled.div`
-margin-left: 10em;
-margin-right: 10em;
+margin-left: 15em;
+margin-right: 15em;
 `

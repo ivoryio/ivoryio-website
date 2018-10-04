@@ -196,6 +196,79 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a18c23b880e67d8e979985c6142e459f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-react-helmet": {
       "resolve": "/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
@@ -289,8 +362,7 @@
         "start_url": "/",
         "background_color": "#663399",
         "theme_color": "#663399",
-        "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "display": "minimal-ui"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -359,7 +431,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "deedc342ef4282755eb5ffdfbad1f99c",
+        "contentDigest": "d8f0542ffcd3ddf2377d70a04796ca27",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -453,7 +525,7 @@
       "resolve": "/Users/Oana/Desktop/ivoryio-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "6ce84ea52c192dfa6ed83a90a23ae50d",
+      "version": "40395f5fd533898f5fc5ac3dbb0b681c",
       "pluginOptions": {
         "plugins": []
       },
@@ -472,6 +544,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.8.0"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.0"
           },
@@ -488,6 +564,10 @@
             "version": "^3.0.0"
           },
           {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.0"
+          },
+          {
             "name": "react",
             "version": "^16.5.1"
           },
@@ -498,6 +578,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.9"
           }
         ],
         "devDependencies": [
@@ -513,7 +597,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b65a89bf8593a5e36d8f9c648cb35ddd",
+        "contentDigest": "75b1e7f8282cf58cdfbd02b4d4aeb3f1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -621,12 +705,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-03T12:49:00.555Z",
+      "buildTime": "2018-10-04T06:03:49.425Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3b57a7f8a8665a9e5a7b4a6842bf975d",
+        "contentDigest": "283d811c1db249a71e6cf7c12d9777bb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -714,7 +798,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f9f9b691fa7c20cc4229b733df4c6298"
+    "PLUGINS_HASH": "6c9d5fdffd216a87b67a58406e031ac5"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -729,8 +813,8 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js": {

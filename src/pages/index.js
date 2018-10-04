@@ -1,15 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
-import Layout from '../components/layout'
+import Presentation from '../components/ivoryPresentation'
 
 const IndexPage = () => (
-  <Layout>
-    <h1>Hi there people</h1>
-    <p>Welcome to your new cool Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <Presentation />
 )
 
 export default IndexPage

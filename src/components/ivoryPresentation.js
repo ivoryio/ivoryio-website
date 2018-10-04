@@ -13,7 +13,7 @@ import constants from '../constants/constants'
 export default class Presentation extends Component {
   render () {
     return (
-      <Container>
+      <div>
         <TextFromTitle>
           <BigTitle>
             {constants.TITLE}<br /></BigTitle>
@@ -106,17 +106,11 @@ export default class Presentation extends Component {
             </Text>
           </TextPictureContainer>
         </PictureContainer>
-      </Container>
+      </div>
     )
   }
 }
-const Container = styled.div`
-margin-right: 10em;
-margin-left: 10em;
-margin-top: 2em;
-width: 1024px;
-height: 2581px;
-`
+
 const Text = styled.div`
   font-family: Averta;
   font-size: 18px;

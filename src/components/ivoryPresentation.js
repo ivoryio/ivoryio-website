@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import styled from 'styled-components'
+import styled, {injectGlobal} from 'styled-components'
 import database from '../images/database.svg'
 import speed from '../images/speed.svg'
 import machineLearning from '../images/machine_learning.svg'
@@ -10,10 +10,11 @@ import quality from '../images/quality.svg'
 import pods from '../images/pods.svg'
 import openSource from '../images/open_source.svg'
 import constants from '../constants/constants'
+import Averta from '../fonts/AvertaDemo-Regular.otf'
 export default class Presentation extends Component {
   render () {
     return (
-      <div>
+      <Container>
         <TextFromTitle>
           <BigTitle>
             {constants.TITLE}<br /></BigTitle>
@@ -106,11 +107,17 @@ export default class Presentation extends Component {
             </Text>
           </TextPictureContainer>
         </PictureContainer>
-      </div>
+      </Container>
     )
   }
 }
 
+injectGlobal`
+  @font-face {
+    font-family: Averta;
+    src: url('${Averta}') format('opentype')
+  }
+`
 const Text = styled.div`
   font-family: Averta;
   font-size: 18px;
@@ -171,4 +178,8 @@ const TextPictureContainer = styled.div`
 display: flex;
 flex-direction: column;
 width: 11em;
+`
+const Container = styled.div`
+margin-left: 10em;
+margin-right: 10em;
 `

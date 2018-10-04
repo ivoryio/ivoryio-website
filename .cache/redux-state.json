@@ -705,12 +705,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-04T09:06:05.850Z",
+      "buildTime": "2018-10-04T11:06:19.992Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1d17bb367f6f3410b17fcae19cab5ba5",
+        "contentDigest": "ef04789db4d5e1f00f1f4b5c42cc2d9c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

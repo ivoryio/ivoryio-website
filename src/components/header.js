@@ -35,7 +35,7 @@ const HeaderContainer = styled.div`
 
 const HeaderImg = styled.img`
    
-   height: 768;
+   height: 763px;
    width: 100%;
 
    @media only screen and (max-width: 360px){
@@ -46,8 +46,9 @@ const HeaderImg = styled.img`
 
 const HeaderTitle = styled.h1`
   position: absolute;
-  top: 390px;
-  left: 755px;
+  top: 293px;
+  left: 605px;
+  right: 299px;
   bottom: 411px;
   font-size: 52px;
   color: white;
@@ -127,20 +128,22 @@ const HeaderTitle = styled.h1`
 
 const HeaderText = styled.h3`
   position: absolute;
-  top: 460px;
-  left: 755px;
+  top: 358px;
+  right: 89px;
+  left: 735px;
+  bottom: 352px;
   font-size: 24px;
   color: white;
-  width: 320px;
-  height: 48px;
+  width: 330px;
+  height: 58px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  family-text: Averta;
+  font-family: Averta;
   
   @media only screen and (max-width: 1024px){
     position: absolute;
@@ -157,7 +160,7 @@ const HeaderText = styled.h3`
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    family-text: Averta;
+    font-text: Averta;
   }
 
   @media only screen and (max-width: 768px){
@@ -175,7 +178,7 @@ const HeaderText = styled.h3`
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    family-text: Averta;
+    font-text: Averta;
   }
 
   @media only screen and (max-width: 414px){
@@ -192,7 +195,7 @@ const HeaderText = styled.h3`
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    family-text: Averta;
+    font-text: Averta;
 
   }
 
@@ -210,15 +213,15 @@ const HeaderText = styled.h3`
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    family-text: Averta;
+    font-text: Averta;
 
   }
 
 `
 const GetStarted = styled.button`
   position: absolute;
-  top: 540px;
-  left: 755px;
+  top: 434px;
+  left: 735px;
   width: 107px;
   height: 41px;
   background-color: white;
@@ -315,7 +318,7 @@ const IvoryLogo = styled.img`
   top: 0px;
   left: 0px;
   width: 20%;
-  height: 18%;
+  height: 22%;
 
   
   

@@ -4,13 +4,14 @@ import LaunchingSoon from '../components/launchingSoon'
 import Footer from '../components/footer'
 import styled from 'styled-components'
 import Header from '../components/header'
+import 'bootstrap/dist/css/bootstrap.css'
+import '../customStyles/custom.styles.css'
+
 const IndexPage = () => (
-  <Container>
+  
     <Header />
-    <Presentation />
-    <LaunchingSoon />
-    <Footer />
-  </Container>
+    
+  
 )
 
 export default IndexPage

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 import logo from '../images/logo.png'
+import {Alert} from 'react-bootstrap'
 export default class Footer extends Component {
   render () {
     return (

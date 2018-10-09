@@ -713,33 +713,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-09T10:42:11.316Z",
+      "buildTime": "2018-10-09T10:44:30.925Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3d39c846d1697315119b4f0e2f81262b",
+        "contentDigest": "a4274117fc0535163db042d3becdb41b",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "jsonName": "404-22d",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bc18bf97b7cff31a372296eeafaae771",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -760,46 +740,6 @@
         "type": "SitePage",
         "contentDigest": "cc64f517c3389931af5cd38b79bfcbdf",
         "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f1657747e55087624b3f546b30e3f1b1",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e4f1a8cf1e7d5c6ca7c514c178bf491c",
-        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
@@ -828,17 +768,9 @@
       "query": "",
       "componentPath": "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js"
     },
-    "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js": {
-      "query": "",
-      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/404.js"
-    },
     "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js"
-    },
-    "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js": {
-      "query": "",
-      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/page-2.js"
     }
   },
   "staticQueryComponents": {}

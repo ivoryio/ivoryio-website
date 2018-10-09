@@ -1,53 +1,41 @@
 .wrapper{
     margin-right: 0.5em;
     margin-left: 0.5em;
+    font-family: Averta;
+    font-style: normal;
+    font-stretch: normal;
+    color: #394952;
 }
 .title {
-    font-family: Averta;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-  font-stretch: normal;
+  font-size: 16px;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #394952;
   margin-bottom: 0.5em;
 }
 .text {
-    font-family: Averta;
     font-size:  14px;
     font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.29;
     letter-spacing: normal;
     text-align: left;
-    color: #394952;
 }
 .bigTitle {
- font-family: Averta;
   font-size: 24px;
   font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #394952;
   margin-bottom: 0.5em;
   margin-top: 1.5em;
   text-align: center;
 }
 .textFromTitle {
-    font-family: Averta;
   font-size: 14px;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #394952;
   margin-bottom: 3em;
 }
 .image {
@@ -56,13 +44,14 @@
 }
 .row {
     margin-bottom: 0.5em;
-}@media (min-width: 768px){
+}
+@media (min-width: 768px){
     .wrapper{
         margin-right: 4em;
     margin-left: 4em;
     }
 }
-@media (max-width: 765px){
+@media (max-width: 766px){
 .col-sm-12 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -99,6 +88,10 @@ max-width: 1580px;
 .wrapper {
     margin-right: 10em;
     margin-left: 10em;
+}
+.column {
+    padding-left: 5em;
+    padding-right: 5em;
 }
 }
 

@@ -1,22 +1,21 @@
 import React from 'react'
-import Presentation from '../components/ivoryPresentation'
-// import LaunchingSoon from '../components/launchingSoon'
-// import Footer from '../components/footer'
 import Header from '../components/header'
+import Presentation from '../components/ivoryPresentation'
+import LaunchingSoon from '../components/launchingSoon'
+// import Footer from '../components/footer'
 import {injectGlobal} from 'styled-components'
 import Averta from '../fonts/AvertaDemo-Regular.otf'
 import 'bootstrap/dist/css/bootstrap.css'
 import '../customStyles/custom.styles.css'
 import '../customStyles/presentation.css'
+import '../customStyles/launchingSoonCSS.css'
 
 const IndexPage = () => (
-  
   <div>
-      <Header />
-      <Presentation />
+    <Header />
+    <Presentation />
+    <LaunchingSoon />
   </div>
-    
-  
 )
 export default IndexPage
 

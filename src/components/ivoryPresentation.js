@@ -26,51 +26,51 @@ export default class Presentation extends Component {
         <Grid >
           <Row >
             <Col className={'column'} sm={12} md={4} >
-              <img className={'image'} src={database} />
+              <img alt='' className={'image'} src={database} />
               <h3 className={'title'} > {constants.DATABASE_TITLE}</h3>
               <p className={'text'}>{constants.DATABASE_TEXT}</p>
             </Col>
             <Col className={'column'} sm={12} md={4} >
-              <img className={'image'} src={speed} />
+              <img alt='' className={'image'} src={speed} />
               <h3 className={'title'}> {constants.SPEED_TITLE}</h3>
               <p className={'text'}>{constants.SPEED_TEXT}</p>
             </Col>
             <Col className={'column'} sm={12} md={4} >
-              <img className={'image'} src={machineLearning} />
+              <img alt='' className={'image'} src={machineLearning} />
               <h3 className={'title'}> {constants.MACHINE_LEARNING_TITLE}</h3>
               <p className={'text'}>{constants.MACHINE_LEARNING_TEXT}</p>
             </Col>
           </Row>
           <Row>
             <Col className={'column'} sm={12} md={4} >
-              <img className={'image'} src={secure} />
+              <img alt='' className={'image'} src={secure} />
               <h3 className={'title'}> {constants.SECURE_TITLE}</h3>
               <p className={'text'}>{constants.SECURE_TEXT}</p>
             </Col>
             <Col className={'column'} sm={12} md={4} >
-              <img className={'image'} src={blockchain} />
+              <img alt='' className={'image'} src={blockchain} />
               <h3 className={'title'}> {constants.BLOCKCHAIN_TITLE}</h3>
               <p className={'text'}>{constants.BLOCKCHAIN_TEXT}</p>
             </Col>
             <Col className={'column'} sm={12} md={4} >
-              <img className={'image'} src={devops} />
+              <img alt='' className={'image'} src={devops} />
               <h3 className={'title'}> {constants.DEVOPS_TITLE}</h3>
               <p className={'text'}>{constants.DEVOPS_TEXT}</p>
             </Col>
           </Row>
           <Row>
             <Col className={'column'} sm={12} md={4}>
-              <img className={'image'} src={quality} />
+              <img alt='' className={'image'} src={quality} />
               <h3 className={'title'}> {constants.QUALITY_TITLE}</h3>
               <p className={'text'}>{constants.QUALITY_TEXT}</p>
             </Col>
             <Col className={'column'} sm={12} md={4}>
-              <img className={'image'} src={pods} />
+              <img alt='' className={'image'} src={pods} />
               <h3 className={'title'}> {constants.PODS_TITLE}</h3>
               <p className={'text'}>{constants.PODS_TEXT}</p>
             </Col>
             <Col className={'column'} sm={12} md={4}>
-              <img className={'image'} src={openSource} />
+              <img alt='' className={'image'} src={openSource} />
               <h3 className={'title'}> {constants.OPENSOURCE_TITLE}</h3>
               <p className={'text'}>{constants.OPENSOURCE_TEXT}</p>
             </Col>

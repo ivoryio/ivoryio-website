@@ -713,12 +713,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-09T07:04:30.526Z",
+      "buildTime": "2018-10-09T08:23:55.361Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "995a5bf1b9c0481a7ca788f37c613615",
+        "contentDigest": "e308b368bd39c68e1cea414a2ebcc8d6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -810,9 +810,7 @@
   },
   "componentDataDependencies": {
     "nodes": {
-      "Site": [
-        "sq--src-components-layout-js"
-      ]
+      "Site": []
     },
     "connections": {}
   },
@@ -843,14 +841,5 @@
       "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/page-2.js"
     }
   },
-  "staticQueryComponents": {
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
-    }
-  }
+  "staticQueryComponents": {}
 }

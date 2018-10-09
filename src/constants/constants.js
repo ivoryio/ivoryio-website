@@ -1,6 +1,6 @@
 let CONSTANTS = {
   TITLE: ' Ivory accelerates Blockchain and AI product development.',
-  TITLE_TEXT: '  Lorem ipsum dolor sit amet, tantas cetero option cu cum.Tu esse debet vim, facete peopriae adversarium id qui, has in quodsi tractatos. Te duo semper offendit, ne deseruisse necessitatibus conclusionemque nec. Et dolore consequat usu. His prima dicunt detraxit ut.',
+  TITLE_TEXT: '  Lorem ipsum dolor sit amet, tantas cetero option cu cum. Tu esse debet vim, facete peopriae adversarium id qui, has in quodsi tractatos. Te duo semper offendit, ne deseruisse necessitatibus conclusionemque nec. Et dolore consequat usu. His prima dicunt detraxit ut.',
   DATABASE_TITLE: ' Serverless microservices based architecture',
   DATABASE_TEXT: 'Highly opinionated architecture based on microservices and serverless - composition of AWS services - Dynamo, etc.',
   SPEED_TITLE: ' Speed is a first class citizen',

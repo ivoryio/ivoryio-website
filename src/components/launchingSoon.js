@@ -1,27 +1,23 @@
 import React, {Component} from 'react'
+import { Row, Grid, Col, FormControl } from 'react-bootstrap'
 import styled from 'styled-components'
+import './launchingSoonCSS.css'
+import constants from '../constants/constants'
+
 export default class LaunchingSoon extends Component {
   render () {
     return (
-      <LaunchingContainer>
-        <La>
-          <Title>
-              LAUNCHING SOON
-          </Title>
-          <SignUp>
-            SIGN UP FOR THE IVORY MAILING LIST
-          </SignUp>
-          <SmallText>
-        Lorem ipsum dolor sit amet, tantas cetero option cu cum. <br />
-Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.
-          </SmallText>
-          <FormContainer>
-            <Input type='text' placeholder='Name' />
-            <Input type='text' placeholder='Email address' />
-            <Subscribe type='submit' value='SUBSCRIBE' />
-          </FormContainer>
-        </La>
-      </LaunchingContainer>
+      <div className={'containerLaunching'}>
+        <Grid className='d-flex justify-content-center'>
+          <Row className='d-flex justify-content-center'>
+            <Col sm={12} md={12} >
+              <h1 className={'h1Style'}> {constants.LAUNCHING_SOON}</h1>
+              <h3 className={'h3Style'}>{constants.SIGN_UP}</h3>
+              <p className={'pStyle'}> {constants.SMALL_TEXT}</p>
+            </Col>
+          </Row>
+        </Grid>
+      </div>
     )
   }
 }

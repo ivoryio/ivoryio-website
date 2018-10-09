@@ -36,8 +36,7 @@
 .logoIvory {
     width: 155px;
     height: 105px;
-    padding: 0;
-    margin-right: 10em;
+    
 }
 
 @media  (max-width: 1200px) {
@@ -69,9 +68,13 @@
         margin-left: 5em;
     }
 }
+
+
 @media (max-width: 600px) {
     .headerTitle {
         font-size: 32px;
+        margin-left: -0.10em;
+        
     }
 
     .headerText {
@@ -87,4 +90,24 @@
         height: 400px;
     }
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .headerTitle{
+        margin-left: -2.5em;
+    }
+
+    .headerGroupRight {
+        margin-left: -6em;
+    }
+}
+
+@media (max-width: 320px) {
+    .headerTitle {
+        font-size: 30px;
         
+    }
+
+    .headerGroupRight{
+        margin-left: 10em;
+    }
+}

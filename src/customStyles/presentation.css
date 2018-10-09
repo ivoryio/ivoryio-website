@@ -81,17 +81,17 @@
     margin-left: 2em;
 }
 }
-@media (min-width: 1200px){
+@media (min-width: 1600px){
 .container {
-max-width: 1580px;
+max-width: 1990px !important;
 }
 .wrapper {
-    margin-right: 10em;
-    margin-left: 10em;
+    margin-right: 15em;
+    margin-left: 15em;
 }
 .column {
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 }
 

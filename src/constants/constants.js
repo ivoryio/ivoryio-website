@@ -18,6 +18,9 @@ let CONSTANTS = {
   PODS_TITLE: ' Ready Made Pods',
   PODS_TEXT: 'Tens of ready made like user management, multi-language localisation, transaction emails, etc. All pods have web & mobile UI built with REact and Native React; most pods have admin interfaces.',
   OPENSOURCE_TITLE: 'Open Source Community',
-  OPENSOURCE_TEXT: 'Lorem ipsum dolor sit amet, tantas cetero option cu cum. Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.'
+  OPENSOURCE_TEXT: 'Lorem ipsum dolor sit amet, tantas cetero option cu cum. Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.',
+  LAUNCHING_SOON: 'LAUNCHING SOON',
+  SIGN_UP: 'SIGN UP FOR THE IVORY MAILING LIST',
+  SMALL_TEXT: 'Lorem ipsum dolor sit amet, tantas cetero option cu cum. Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.'
 }
 export default CONSTANTS

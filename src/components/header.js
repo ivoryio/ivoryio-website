@@ -15,7 +15,6 @@ export default class Header extends Component {
     return (
       <div class='headerContainer'>
         <Grid>
-
           <Row>
             <Col xs={12} sm={12} md={12} lg={12}>
               <Link to='/'>

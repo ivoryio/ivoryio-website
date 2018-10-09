@@ -26,6 +26,7 @@
     font-size: 14px;
     font-weight: 600;
     margin: none;
+   border-radius: 0 !important;
 }
 
 .headerGroupRight {
@@ -95,7 +96,6 @@
     .headerTitle{
         margin-left: -2.5em;
     }
-
     .headerGroupRight {
         margin-left: -6em;
     }
@@ -104,9 +104,7 @@
 @media (max-width: 320px) {
     .headerTitle {
         font-size: 30px;
-        
     }
-
     .headerGroupRight{
         margin-left: 10em;
     }

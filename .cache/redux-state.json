@@ -713,12 +713,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-09T13:27:47.621Z",
+      "buildTime": "2018-10-09T14:41:03.310Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cc7f7a905f9b1bb0601b106ecc84168f",
+        "contentDigest": "2e2820c6480f64bda8652f03c8495cde",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -755,22 +755,22 @@
     "connections": {}
   },
   "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js"
-    },
     "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js"
+    },
+    "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js"
     }
   },
   "staticQueryComponents": {}

@@ -1,119 +1,86 @@
-import React, {Component} from 'react'
-import styled from 'styled-components'
-import logo from '../images/logo.png'
-import {Alert} from 'react-bootstrap'
+import React, { Component } from 'react'
+import ivoryLogo from '../images/logo.png'
+import fbLogo from '../images/facebook-logo.svg'
+import twLogo from '../images/twitter-logo-silhouette.svg'
+import { Image, Grid, Col, Row } from 'react-bootstrap'
+import { Link } from 'gatsby'
+
+import '../customStyles/footer.css'
+
 export default class Footer extends Component {
   render () {
     return (
-      <Container>
-        <Wrapp>
-          <TextContainer>
-            <TextTitle>
-              <Text>
-                <Title>
-          Built With Love
-                </Title>
-      Quis malis no usu, in eos commodo ponderum periculis. Nonumes facilisi perpetua ei vel, tale animal facilis ea sed. Vim eu integre iudicabit corrumpit. Ex civibus maiestatis argumentum vis, scripta scribentur id vis.
-              </Text>
-            </TextTitle>
-            <TextTitle>
-              <Text>
-                <Title>
-          Ivory
-                </Title>
-                What is Ivory? <br /> Community <br /> News <br /> For business
-              </Text>
-            </TextTitle>
-            <TextTitle>
-              <Text>
-                <Title>
-          About
-                </Title>
-                Our company <br /> Security <br /> Legal <br /> Logos/artwork
-              </Text>
-            </TextTitle>
-            <TextTitle>
-              <Text>
-                <Title>
-          Help
-                </Title>
-                Get started<br /> Documentation <br /> Contribute <br /> Take a class
-              </Text>
-            </TextTitle>
-          </TextContainer>
-          <WrappPictureCredit>
-            <Picture src={logo} />
-            <Credit>
-            © 2018 Ivory. <br /> Ivory framework is free and open-source
-            </Credit>
-          </WrappPictureCredit>
-        </Wrapp>
-      </Container>)
+      <div class='footerContainer'>
+        <Grid>
+
+          <div class='footerTitles'>
+            <Row>
+              <Col xs={6} sm={6} md={6} lg={6}>
+                <div class='low-res-align-title1'>
+                  Built With Love
+                </div>
+                <div class='footerDescription'>
+                  Quis malis no usu, in eos commodo ponderum periculis. Nonumes facilisi perpetua ei vel, tale animal facilis ea sed. Vim eu integre iudicabit corrumpit. Ex civibus maiestatis argumentum vis, scripta scribentur id vis.
+                </div>
+              </Col>
+              {/* <Col xs={2} sm={2} md={2} lg={2}>
+              <div class='low-res-align-container'>
+                <div class='low-res-align-titles'>
+                  Ivory
+                </div>
+                <div class='low-res-align-footer'>
+                  <Link class='footerLinks' to='\'>What is Ivory?</Link>
+                  <Link class='footerLinks' to='\'>Community</Link>
+                  <Link class='footerLinks' to='\'>News</Link>
+                  <Link class='footerLinks' to='\'>For Business</Link>
+                </div>
+              </div>
+              </Col>
+              <Col xs={2} sm={2} md={2} lg={2}>
+                <div class='low-res-align-titles'>
+                  About
+                </div>
+                <div class='low-res-align-footer'>
+                  <Link class='footerLinksSecondary' to='\'>Our company</Link>
+                  <Link class='footerLinksSecondary' to='\'>Security</Link>
+                  <Link class='footerLinksSecondary' to='\'>Legal</Link>
+                  <Link class='footerLinksSecondary' to='\'>Legal/artwork</Link>
+                </div>
+              </Col>
+              <Col xs={2} sm={2} md={2} lg={2}>
+                <div class='low-res-align-titles'>
+                  Help
+                </div>
+                <div class='low-res-align-footer'>
+                  <Link class='footerLinksTertiary' to='\'>Get Started</Link>
+                  <Link class='footerLinksTertiary' to='\'>Security</Link>
+                  <Link class='footerLinksTertiary' to='\'>Legal</Link>
+                  <Link class='footerLinksTertiary' to='\'>Legal/artwork</Link>
+                </div>
+              </Col> */}
+            </Row>
+          </div>
+
+          <Row>
+            <Col xs={6} sm={6} md={6} lg={6}>
+              <Image className='ivory-logoFooter' src={ivoryLogo} responsive />
+              <div class='footerCopyright'>
+                © 2018 Ivory. <br />
+                Ivory Framework is free and open-source.
+              </div>
+            </Col>
+
+            <Col xs={3} sm={3} md={3} lg={3}>
+              <Image className='facebook-logo' src={fbLogo} responsive />
+            </Col>
+
+            <Col xs={3} sm={3} md={3} lg={3}>
+              <Image className='twitter-logo' src={twLogo} responsive />
+            </Col>
+          </Row>
+
+        </Grid>
+      </div>
+    )
   }
 }
-const Container = styled.div`
-  width:100%;
-  height:384px;
-  background-color: #394952;
-  
-`
-const Wrapp = styled.div`
-margin-left: 13em;
-margin-right: 15em;
-`
-const WrappPictureCredit = styled.div`
-display: flex;
-flex-direction: column;
-`
-const Picture = styled.img`
-  width:104px;
-  height:70px;
-  margin-bottom: 0px;
-`
-const Credit = styled.div`
-  width: 228px;
-  height: 15px;
-  font-family: Averta;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-`
-const TextContainer = styled.div`
-display: flex;
-justify-content: space-between;
-`
-const TextTitle = styled.div`
-display: flex;
-flex-direction: column;
-max-width: 266px;
-`
-const Title = styled.p`
-font-family: Averta;
-font-size: 16px;
-font-weight: 600;
-font-style: normal;
-font-stretch: normal;
-line-height: normal;
-letter-spacing: normal;
-text-align: left;
-color: #ffffff;
-padding-top: 97px;
-margin-bottom: 0px;
-padding-bottom: 10px;
-`
-const Text = styled.p`
-font-family: Averta;
-font-size: 13px;
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-line-height: 1.31;
-letter-spacing: normal;
-text-align: left;
-color: #ffffff;
-`

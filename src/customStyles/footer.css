@@ -1,0 +1,381 @@
+.footerContainer {
+    background-color: #394952;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    padding: 6em;
+}
+
+.ivory-logoFooter {
+    width: 104px;
+    height: 75px;
+    margin-left: 1.5em;
+    margin-top: -5em;
+}
+.footerTitles {
+    font-family: Averta;
+    color: white;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 15px;
+}
+
+.footerDescription {
+    font-family: Averta;
+    font-size: 12px;
+    color: white;
+    align-content: left;
+    margin-left: 0em;
+    line-height: 12px;
+    width: 300px;
+    height: 150px;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: left;
+    line-height: 17px;
+    font-size: 13px;
+    color: white;
+    
+}
+
+.footerLinks:hover {
+    text-decoration: none;
+    color: #00adee;
+}
+
+.footerLinksSecondary{
+    display: flex;
+    justify-content: left;
+    line-height: 17px;
+    font-size: 13px;
+    color: white;
+}
+
+.footerLinksSecondary:hover{
+    text-decoration: none;
+    color: #00adee;
+}
+
+.footerLinksTertiary {
+    display: flex;
+    justify-content: left;
+    line-height: 17px;
+    font-size: 13px;
+    color: white;
+}
+
+.footerLinksTertiary:hover {
+    text-decoration: none;
+    color: #00adee;
+}
+
+.footerCopyright {
+    font-family: Averta;
+    font-size: 12px;
+    color: white;
+    justify-content: left;
+    line-height: 12px;
+    width: 300px;
+    height: 150px;
+    margin-left: 3.5em;
+    margin-top: -2em;
+}
+
+.facebook-logo {
+    width: 30px;
+    height: 60px;
+    margin-top: -2.5em;
+}
+
+.twitter-logo {
+    width: 40.5px;
+    height: 35px;
+    margin-top: -2.5em;
+    margin-left: -12em;
+    
+}
+
+@media (max-width: 1200px) {
+    .twitter-logo {
+        margin-left: -8em;
+    }
+
+    .footerDescription {
+        line-height: 13px;
+        font-size: 10px;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 993px) {
+    .footerContainer {
+        font-size: 12px;
+    }
+
+    .footerTitles {
+        font-size: 12px;
+    }
+
+    .footerLinks {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footerLinksSecondary {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footerLinksTertiary {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footerDescription {
+        font-size: 8px;
+        width: 200px;
+        height: 150px;
+    }
+    
+    .facebook-logo{
+        margin-top: -3em;
+    }
+    .twitter-logoFooter {
+        margin-top: -1.25em;
+    }
+}
+
+@media (max-width: 768px) {
+        .footerContainer {
+            font-size: 12px;
+           
+        }
+
+        .footerTitles {
+            font-size: 12px;
+        }
+
+        .footerLinks {
+            font-size: 8px;
+            line-height: 12px;
+        }
+
+        .footerLinksSecondary {
+            font-size: 8px;
+            line-height: 12px;
+        }
+
+        .footerLinksTertiary {
+            font-size: 8px;
+           
+            line-height: 12px;
+        }
+
+        .footerDescription {
+            font-size: 8px;
+            width: 250px;
+            height: 150px;
+        }
+
+        .twitter-logo {
+           margin-top: -1.25em;
+        }
+    
+        
+}
+
+@media (max-width: 600px) {
+    .footerContainer {
+        font-size: 12px;
+       
+        
+    }
+
+    .footerTitles {
+        font-size: 12px;
+    }
+
+    .footerLinks {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footerLinksSecondary {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footerLinksTertiary {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footerDescription {
+        font-size: 8px;
+        width: 150px;
+        height: 150px;
+        
+        
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .footerContainer {
+        font-size: 6px;
+       
+    }
+
+    .footerTitles {
+        font-size: 10px;
+    }
+
+    .footerLinks {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .footerLinksSecondary {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .footerLinksTertiary {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .footerDescription {
+        font-size: 7px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .twitter-logo {
+        margin-top: 0em;
+    }
+
+    .footerCopyright {
+        margin-left: 3em;
+    }
+
+    .ivory-logoFooter {
+        margin-bottom: 1em;
+        margin-left: 3em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .low-res-align-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 12px;
+        /* margin-left: 5em;
+        margin-top: 0em; */
+        margin-bottom: 1em; 
+        
+    }
+    .low-res-align-title1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+        font-size: 16px;
+
+    }
+    .low-res-align-titles {
+        display: flex;
+        justify-content: left;
+        /* margin-left: 5em; */
+        font-size: 13px;
+        margin-top: 0em;
+    }
+
+    .low-res-align-container {
+        margin-top: -3em;
+    }
+
+    .footerDescription {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        font-size: 10px;
+        width: 250px;
+        margin-left: -4.5em;
+        
+    }
+
+    .footerContainer {
+        display: flex;
+        justify-content: center;
+        height: 520px;
+    }
+  
+    .twitter-logo {
+        margin-top: -33em;
+        margin-left: 18em;
+    }
+
+    .facebook-logo {
+        margin-top: -30em;
+        margin-left: 14em;
+    }
+
+    .ivory-logoFooter{
+        display: flex;
+        justify-content: center;
+        margin-top: -2em;
+        margin-left: -3em;
+        margin-bottom: 1em;
+    }
+    
+    .footerCopyright {
+        margin-left: -2em;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .footerContainer {
+        margin: 0;
+        padding: 0;
+    }
+    .low-res-align-title1{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-left: 1em;
+        width: 200px;
+    }
+
+    .footerDescription {
+        margin-left: 2em;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+    }
+
+    .footerCopyright {
+        font-size: 10px;
+        margin-left: 5.5em;
+        width: 200px;
+    }
+
+    .facebook-logo {
+       
+        margin-left: 15em;
+        margin-top: -31em;
+    }
+
+    .twitter-logo {
+       
+        margin-left: 18em;
+        margin-top: -33.5em;
+    }
+
+    .ivory-logoFooter {
+        margin-left: 3em;
+    }
+}

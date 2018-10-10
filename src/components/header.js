@@ -1,21 +1,16 @@
 import React, { Component } from 'react'
-import headerLogo from '../images/headerSmall.png'
 import ivoryLogo from '../images/logo.png'
-import styled, { injectGlobal } from 'styled-components'
-// import Averta from '../fonts/AvertaDemo-Regular.otf'
 import { Link } from 'gatsby'
 import {
   Image,
-  PageHeader,
   Button,
   Col,
-  Jumbotron,
   Grid,
   Row
 } from 'react-bootstrap'
+
 import '../customStyles/custom.styles.css'
 
-// import { bootstrapUtils } from 'react-bootstrap/lib/utils'
 
 export default class Header extends Component {
   render () {
@@ -25,8 +20,8 @@ export default class Header extends Component {
 
           <Row>
             <Col xs={12} sm={12} md={12} lg={12}>
-              <Link to='/'>
-                <Image className='ivory-logo' src={ivoryLogo}  responsive />
+              <Link to='\'>
+                <Image className='ivory-logo' src={ivoryLogo}  responsive width='155' height='105' />
               </Link>
             </Col>
           </Row>
@@ -52,7 +47,7 @@ export default class Header extends Component {
           <Row>
             <Col xs={8} sm={8} md={7} lg={7} />
             <Col xs={4} sm={4} md={5} lg={5}>
-              <Link to='/'>
+              <Link to='\'>
                 <Button className='headerButton'>Get Started</Button>
               </Link>
             </Col>

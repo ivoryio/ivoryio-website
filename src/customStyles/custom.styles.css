@@ -21,6 +21,7 @@
 }
 
 .headerButton {
+    background-color: #ffffff;
     color: #00adee;
     font-family: Averta;
     font-size: 14px;
@@ -39,7 +40,11 @@
     height: 105px;
     
 }
-
+@media (min-width: 1200px){
+    .ivory-logo{
+        margin-left: 0.5em;
+    }
+}
 @media  (max-width: 1200px) {
     .headerContainer{
         height: 800px;

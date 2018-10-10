@@ -21,7 +21,8 @@ export default class Presentation extends Component {
         <h3 className='d-flex justify-content-center bigTitle'>
           {constants.TITLE}</h3>
         <p className='d-flex justify-content-center textFromTitle '>
-          Lorem ipsum dolor sit amet, tantas cetero option cu cum. <br />Tu esse debet vim, facete peopriae adversarium id qui, has in quodsi tractatos. <br />Te duo semper offendit, ne deseruisse necessitatibus conclusionemque nec. Et dolore consequat <br />usu. His prima dicunt detraxit ut.
+        Built by developers with over 100 B2B products, Ivory aims to significantly reduce costs <br /> and time to market for digital products.
+Ivory aims to provide developers build-ready "Pods" <br /> or modules, filled with features that are required, but don't bring value, <br />allowing developers to focus on value-creating features.
         </p>
         <Grid >
           <Row >
@@ -50,7 +51,10 @@ export default class Presentation extends Component {
             <Col className={'column'} sm={12} md={4} >
               <img alt='' className={'image'} src={blockchain} />
               <h3 className={'title'}> {constants.BLOCKCHAIN_TITLE}</h3>
-              <p className={'text'}>{constants.BLOCKCHAIN_TEXT}</p>
+              <p className={'text'}>Ivory aims to accelerate the development of a typical Blockchain MVP by a factor of 10x. Ivory has native support for Blockchain and significantly accelerates Blockchain development in 3 areas: <br />
+1) Devops <br />
+2) Solidity contract development <br />
+3) Monitoring</p>
             </Col>
             <Col className={'column'} sm={12} md={4} >
               <img alt='' className={'image'} src={devops} />

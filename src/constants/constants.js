@@ -1,6 +1,6 @@
 let CONSTANTS = {
-  TITLE: ' Ivory accelerates Blockchain and AI product development.',
-  TITLE_TEXT: '  Lorem ipsum dolor sit amet, tantas cetero option cu cum. Tu esse debet vim, facete peopriae adversarium id qui, has in quodsi tractatos. Te duo semper offendit, ne deseruisse necessitatibus conclusionemque nec. Et dolore consequat usu. His prima dicunt detraxit ut.',
+  TITLE: 'Ivory Accelerates the development of complex Blockchain and AI products by a factor of 10x(at least).',
+  // TITLE_TEXT: "Built by developers with over 100 B2B products, Ivory aims to significantly reduce costs and time to market for digital products. Ivory aims to provide developers build-ready 'Pods' or modules, filled with features that are required, but don't bring value, allowing developers to focus on value-creating features.",
   DATABASE_TITLE: ' Serverless microservices based architecture',
   DATABASE_TEXT: 'Highly opinionated architecture based on microservices and serverless - composition of AWS services - Dynamo, etc.',
   SPEED_TITLE: ' Speed is a first class citizen',
@@ -10,7 +10,7 @@ let CONSTANTS = {
   SECURE_TITLE: 'Secure & GDPR compliant',
   SECURE_TEXT: 'Fully encryption in transit and at rest. Advanced user permission. Data location option - EU users have their data located in EU. Export all data. Data retention policies. Independent security review by XXX.',
   BLOCKCHAIN_TITLE: ' Blockchain Enabled',
-  BLOCKCHAIN_TEXT: 'Lorem ipsum dolor sit amet, tantas cetero option cu cum. Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.',
+  // BLOCKCHAIN_TEXT: 'vory aims to accelerate the development of a typical Blockchain MVP by a factor of 10x. Ivory has native support for Blockchain and significantly accelerates Blockchain development in 3 areas: 1) Devops 2) Solidity contract development 3) Monitoring',
   DEVOPS_TITLE: ' Zero DevOps',
   DEVOPS_TEXT: 'Continous deployment build pipeline. Fully based on serverless so need for devops is reduced to minimum. Take every code change to production with a simple "git push". Enable features for users gradually with feature flagging.',
   QUALITY_TITLE: 'High quality',
@@ -18,7 +18,7 @@ let CONSTANTS = {
   PODS_TITLE: ' Ready Made Pods',
   PODS_TEXT: 'Tens of ready made like user management, multi-language localisation, transaction emails, etc. All pods have web & mobile UI built with REact and Native React; most pods have admin interfaces.',
   OPENSOURCE_TITLE: 'Open Source Community',
-  OPENSOURCE_TEXT: 'Lorem ipsum dolor sit amet, tantas cetero option cu cum. Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.',
+  OPENSOURCE_TEXT: 'Ivory is open and free for commercial use. We believe that by providing a good product which addresses the needs of product developers today with a world class architecture and advanced ready built functionalities we will be able to convince them to contribute to this project.',
   LAUNCHING_SOON: 'LAUNCHING SOON',
   SIGN_UP: 'SIGN UP FOR THE IVORY MAILING LIST',
   SMALL_TEXT: 'Lorem ipsum dolor sit amet, tantas cetero option cu cum. Te esse debet vim, facete propriae adversarium id qui, has in quodsi tractatos.'

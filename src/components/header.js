@@ -33,7 +33,7 @@ export default class Header extends Component {
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
                 <p class='headerText'>
-                Making 5 months project into <br /> 4 week project
+                Open Source Cloud & Mobile App <br />Development Platform
                 </p>
               </Col>
             </Row>

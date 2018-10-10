@@ -40,7 +40,7 @@ export default class Header extends Component {
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-                <Button className='headerButton'>Get Started</Button>
+                <a href='https://github.com/ivoryio/ivoryio-website' target='_blank' rel='noopener norefferer'>  <Button className='headerButton'>Get Started</Button> </a>
               </Col>
             </Row>
           </div>

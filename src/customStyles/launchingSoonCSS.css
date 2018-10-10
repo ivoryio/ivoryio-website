@@ -55,7 +55,7 @@
   width: 125px;
   height: 35px ;
 }   
-@media (max-width: 760px){
+@media (max-width: 767px){
     .h1Style{
         font-size: 30px;
         margin-top: 60px;

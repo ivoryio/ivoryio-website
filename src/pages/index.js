@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/header'
 import Presentation from '../components/ivoryPresentation'
 import LaunchingSoon from '../components/launchingSoon'
-// import Footer from '../components/footer'
+import Footer from '../components/footer'
 import {injectGlobal} from 'styled-components'
 import Averta from '../fonts/AvertaDemo-Regular.otf'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -15,6 +15,7 @@ const IndexPage = () => (
     <Header />
     <Presentation />
     <LaunchingSoon />
+    <Footer />
   </div>
 )
 export default IndexPage

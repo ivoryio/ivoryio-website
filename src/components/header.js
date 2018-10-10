@@ -18,7 +18,7 @@ export default class Header extends Component {
           <Row>
             <Col xs={12} sm={12} md={12} lg={12}>
               <Link to='/'>
-                <Image className='ivory-logo' src={ivoryLogo} responsive />
+                <Image className='ivory-logo' src={ivoryLogo} onClick='window.location.reload()' responsive />
               </Link>
             </Col>
           </Row>
@@ -40,9 +40,7 @@ export default class Header extends Component {
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-                <Link to='/'>
-                  <Button className='headerButton'>Get Started</Button>
-                </Link>
+                <Button className='headerButton'>Get Started</Button>
               </Col>
             </Row>
           </div>

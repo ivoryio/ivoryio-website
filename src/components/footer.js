@@ -9,61 +9,61 @@ import '../customStyles/footer.css'
 export default class Footer extends Component {
   render () {
     return (
-      <div className='footerContainer'>
+      <div class='footerContainer'>
         <Grid>
 
-          <div className='footerTitles'>
+          {/* <div class='footerTitles'>
             <Row>
               <Col xs={6} sm={6} md={6} lg={6}>
-                <div className='low-res-align-title1'>
+                <div class='low-res-align-title1'>
                   Built With Love
                 </div>
-                <div className='footerDescription'>
+                <div class='footerDescription'>
                   Quis malis no usu, in eos commodo ponderum periculis. Nonumes facilisi perpetua ei vel, tale animal facilis ea sed. Vim eu integre iudicabit corrumpit. Ex civibus maiestatis argumentum vis, scripta scribentur id vis.
                 </div>
               </Col>
-              {/* <Col xs={2} sm={2} md={2} lg={2}>
-              <div className='low-res-align-container'>
-                <div className='low-res-align-titles'>
+              <Col xs={2} sm={2} md={2} lg={2}>
+              <div class='low-res-align-container'>
+                <div class='low-res-align-titles'>
                   Ivory
                 </div>
-                <div className='low-res-align-footer'>
-                  <Link className='footerLinks' to='\'>What is Ivory?</Link>
-                  <Link className='footerLinks' to='\'>Community</Link>
-                  <Link className='footerLinks' to='\'>News</Link>
-                  <Link className='footerLinks' to='\'>For Business</Link>
+                <div class='low-res-align-footer'>
+                  <Link class='footerLinks' to='\'>What is Ivory?</Link>
+                  <Link class='footerLinks' to='\'>Community</Link>
+                  <Link class='footerLinks' to='\'>News</Link>
+                  <Link class='footerLinks' to='\'>For Business</Link>
                 </div>
               </div>
               </Col>
               <Col xs={2} sm={2} md={2} lg={2}>
-                <div className='low-res-align-titles'>
+                <div class='low-res-align-titles'>
                   About
                 </div>
-                <div className='low-res-align-footer'>
-                  <Link className='footerLinksSecondary' to='\'>Our company</Link>
-                  <Link className='footerLinksSecondary' to='\'>Security</Link>
-                  <Link className='footerLinksSecondary' to='\'>Legal</Link>
-                  <Link className='footerLinksSecondary' to='\'>Legal/artwork</Link>
+                <div class='low-res-align-footer'>
+                  <Link class='footerLinksSecondary' to='\'>Our company</Link>
+                  <Link class='footerLinksSecondary' to='\'>Security</Link>
+                  <Link class='footerLinksSecondary' to='\'>Legal</Link>
+                  <Link class='footerLinksSecondary' to='\'>Legal/artwork</Link>
                 </div>
               </Col>
               <Col xs={2} sm={2} md={2} lg={2}>
-                <div className='low-res-align-titles'>
+                <div class='low-res-align-titles'>
                   Help
                 </div>
-                <div className='low-res-align-footer'>
-                  <Link className='footerLinksTertiary' to='\'>Get Started</Link>
-                  <Link className='footerLinksTertiary' to='\'>Security</Link>
-                  <Link className='footerLinksTertiary' to='\'>Legal</Link>
-                  <Link className='footerLinksTertiary' to='\'>Legal/artwork</Link>
+                <div class='low-res-align-footer'>
+                  <Link class='footerLinksTertiary' to='\'>Get Started</Link>
+                  <Link class='footerLinksTertiary' to='\'>Security</Link>
+                  <Link class='footerLinksTertiary' to='\'>Legal</Link>
+                  <Link class='footerLinksTertiary' to='\'>Legal/artwork</Link>
                 </div>
-              </Col> */}
+              </Col>
             </Row>
-          </div>
+          </div> */}
 
           <Row>
             <Col xs={6} sm={6} md={6} lg={6}>
               <Image className='ivory-logoFooter' src={ivoryLogo} responsive />
-              <div className='footerCopyright'>
+              <div class='footerCopyright'>
                 © 2018 Ivory. <br />
                 Ivory Framework is free and open-source.
               </div>

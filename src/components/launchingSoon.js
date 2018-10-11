@@ -18,7 +18,6 @@ export default class LaunchingSoon extends Component {
       document.head.appendChild(newScript); 
   }
   render() {
-  
     return (
       <div className={"containerLaunching"}>
         <Grid>

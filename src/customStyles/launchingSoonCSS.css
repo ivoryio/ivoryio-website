@@ -61,6 +61,26 @@
     .pStyle{
         font-size: 9px;
     }
+    @keyframes submit {
+        from {
+          background-color: #394952;
+          border-color:  #394952;
+          width: 50%;
+          font-weight: 400;
+          font-size: 12px;
+       
+        }
+        to {
+          background-color: #394952;
+          border-color:  #394952;
+          width: 50%;
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+      .ml-mobileButton-horizontal button {
+        animation: 1s linear infinite submit;
     }
+}
  
   

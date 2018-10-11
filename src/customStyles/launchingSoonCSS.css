@@ -1,11 +1,34 @@
 .containerLaunching{
     width:100%;
-    height: 384px;
+    height: 500px;
     background-color: #00adee;
     margin-top: 3em;
     font-family: Averta;
     color: #ffffff;
 }
+@keyframes forceColor {
+    from {
+      background-color: #394952;
+      border-color:  #394952;
+      padding: 8px;
+      font-weight: 400;
+      font-size: 12px;
+      width: 200px;
+    }
+    to {
+      background-color: #394952;
+      border-color:  #394952;
+      padding: 8px;
+      font-weight: 400;
+      font-size: 12px;
+      width: 200px;
+    }
+  }
+  #mlb2-1071240.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button  {
+    background: #212529 !important;
+    animation: 1s linear infinite forceColor;
+  }
+
 .h1Style{
     font-size: 40px;
     font-weight: 500;
@@ -27,34 +50,6 @@
     letter-spacing: normal;
     text-align: center;
 }
-.inputMailing{
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #9b9b9b;
-    border: none;
-    border-radius: 0 !important;
-    width: 200px;
-    height: 35px ;
-    font-size: 12px
-}
-.subscribeMailing {
-  background-color: #394952;
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 12px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  border: none;
-  border-radius: 0 !important;
-  width: 125px;
-  height: 35px ;
-}   
 @media (max-width: 767px){
     .h1Style{
         font-size: 30px;
@@ -66,16 +61,6 @@
     .pStyle{
         font-size: 9px;
     }
-    .inputMailing{
-        width: 225px;
-        height: 30px ;
-        padding-bottom: 1em;
-        display:block;
-        margin:0 auto;
     }
-    .subscribeMailing {
-        height: 30px ;
-        display:block;
-        margin:0 auto;
-      }   
-    }
+ 
+  

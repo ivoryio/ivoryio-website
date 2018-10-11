@@ -18,7 +18,7 @@ export default class Header extends Component {
           <Row>
             <Col xs={12} sm={12} md={12} lg={12}>
               <Link to='/'>
-                <Image className='ivory-logo' src={ivoryLogo} onClick={window.location.reload} responsive />
+                <Image className='ivory-logo' src={ivoryLogo} responsive />
               </Link>
             </Col>
           </Row>

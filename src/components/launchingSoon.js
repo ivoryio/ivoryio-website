@@ -5,7 +5,20 @@ import "../customStyles/launchingSoonCSS.css";
 import constants from "../constants/constants";
 
 export default class LaunchingSoon extends Component {
+  componentDidMount(){
+    var newScript=document.createElement("script")
+    var newContent = document.createTextNode(`(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){ 
+          var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+          f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+          var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+          _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+          
+          var ml_account = ml('accounts', '1292624', 'y2g6q7x8c8', 'load');`); 
+          newScript.appendChild(newContent); 
+      document.head.appendChild(newScript); 
+  }
   render() {
+  
     return (
       <div className={"containerLaunching"}>
         <Grid>
@@ -28,7 +41,7 @@ export default class LaunchingSoon extends Component {
             <Row>
               <Col sm={12} md={12}>
                 <div
-                  class="ml-form-embed"
+                  className="ml-form-embed"
                   data-account="1292624:y2g6q7x8c8"
                   data-form="1071240:d2n8x2"
                 />

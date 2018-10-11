@@ -13,26 +13,26 @@ import '../customStyles/custom.styles.css'
 export default class Header extends Component {
   render () {
     return (
-      <div class='headerContainer'>
+      <div className='headerContainer'>
         <Grid>
           <Row>
             <Col xs={12} sm={12} md={12} lg={12}>
               <Link to='/'>
-                <Image className='ivory-logo' src={ivoryLogo} onClick='window.location.reload()' responsive />
+                <Image className='ivory-logo' src={ivoryLogo} onClick={window.location.reload} responsive />
               </Link>
             </Col>
           </Row>
-          <div class='headerGroupRight'>
+          <div className='headerGroupRight'>
             <Row>
               <Col xs={10} sm={10} md={7} lg={7} />
               <Col xs={2} sm={2} md={5} lg={5}>
-                <h1 class='headerTitle'>Ivory</h1>
+                <h1 className='headerTitle'>Ivory</h1>
               </Col>
             </Row>
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-                <p class='headerText'>
+                <p className='headerText'>
                 Open Source Cloud & Mobile App <br />Development Platform
                 </p>
               </Col>

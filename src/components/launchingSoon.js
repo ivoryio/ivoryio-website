@@ -31,11 +31,6 @@ export default class LaunchingSoon extends Component {
               <h3 className={"h3Style"}>{constants.SIGN_UP}</h3>
             </Col>
           </Row>
-          <Row>
-            <Col sm={12} md={12}>
-              <p className={"pStyle"}> {constants.SMALL_TEXT}</p>
-            </Col>
-          </Row>
           <div className="d-flex justify-content-center">
             <Row>
               <Col sm={12} md={12}>

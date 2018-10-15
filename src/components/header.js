@@ -13,7 +13,7 @@ import '../customStyles/custom.styles.css'
 export default class Header extends Component {
 
   scrollBottom = () => {
-    // window.scrollTo(0, document.body.scrollHeight);
+   
     window.scrollTo({top: 3500, behavior: "smooth"})
   }
 
@@ -22,11 +22,32 @@ export default class Header extends Component {
       <div class='headerContainer'>
         <Grid>
           <Row>
-            <Col xs={12} sm={12} md={12} lg={12}>
+            <Col xs={7} sm={7} md={7} lg={7}>
               <Link to='/'>
                 <Image className='ivory-logo' src={ivoryLogo} onClick='history.go(0)' responsive />
               </Link>
             </Col>
+
+            <Col xs={3} sm={3} md={3} lg={3}>
+              <div class='navigationButtons'>
+              <Link className='menuLinks' to='/'>
+                For Business
+              </Link>
+          
+              <Link className='menuLinks' to='/'>
+                For Developers
+              </Link>
+              </div>
+            </Col>
+
+            <Col xs={2} sm={2} md={2} lg={2}>
+              <div class='navigationButtons-contact'>
+              <Link className='menuLinks' to='/'>
+                Contact
+              </Link>
+              </div>
+            </Col>
+
           </Row>
           <div class='headerGroupRight'>
             <Row>

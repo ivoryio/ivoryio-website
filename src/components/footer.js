@@ -5,7 +5,7 @@ import twLogo from '../images/twitter-logo-silhouette.svg'
 import { Image, Grid, Col, Row } from 'react-bootstrap'
 
 import '../customStyles/footer.css'
-
+import '../customStyles/fonts.css'
 export default class Footer extends Component {
   render () {
     return (

@@ -13,67 +13,9 @@
     margin-left: 1.5em;
     margin-top: -5em;
 }
-.footerTitles {
-    font-family: Averta;
-    color: white;
-    margin-left: 3em;
-    margin-right: 3em;
-    font-size: 15px;
-}
-
-.footerDescription {
-    font-family: Averta;
-    font-size: 12px;
-    color: white;
-    align-content: left;
-    margin-left: 0em;
-    line-height: 12px;
-    width: 300px;
-    height: 150px;
-}
-
-.footerLinks {
-    display: flex;
-    justify-content: left;
-    line-height: 17px;
-    font-size: 13px;
-    color: white;
-    
-}
-
-.footerLinks:hover {
-    text-decoration: none;
-    color: #00adee;
-}
-
-.footerLinksSecondary{
-    display: flex;
-    justify-content: left;
-    line-height: 17px;
-    font-size: 13px;
-    color: white;
-}
-
-.footerLinksSecondary:hover{
-    text-decoration: none;
-    color: #00adee;
-}
-
-.footerLinksTertiary {
-    display: flex;
-    justify-content: left;
-    line-height: 17px;
-    font-size: 13px;
-    color: white;
-}
-
-.footerLinksTertiary:hover {
-    text-decoration: none;
-    color: #00adee;
-}
 
 .footerCopyright {
-    font-family: Averta;
+    font-family: 'Averta-Regular';
     font-size: 12px;
     color: white;
     justify-content: left;

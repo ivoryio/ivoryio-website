@@ -9,6 +9,7 @@ import {
   Row
 } from 'react-bootstrap'
 import '../customStyles/custom.styles.css'
+import '../customStyles/fonts.css'
 
 export default class Header extends Component {
 

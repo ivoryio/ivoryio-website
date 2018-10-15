@@ -8,14 +8,14 @@
 
 .headerTitle {
     color: white;
-    font-family: Averta;
-    font-size: 54px;
+    font-family: Averta-regular;
+    font-size: 52px;
     font-weight: bold;
 }
 
 .headerText {
     color: white;
-    font-family: Averta;
+    font-family: Averta-regular;
     font-size: 24px;
     
 }
@@ -23,11 +23,11 @@
 .headerButton {
     background-color: #ffffff;
     color: #00adee;
-    font-family: Averta;
+    font-family: Averta-Regular;
     font-size: 14px;
     font-weight: 600;
     margin: none;
-   border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 
 .headerGroupRight {
@@ -43,7 +43,7 @@
 
 .navigationButtons {
     text-decoration: none;
-    font-family: Averta;
+    font-family: Averta-Regular;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -52,7 +52,7 @@
 }
 
 .navigationButtons-contact {
-    font-family: Averta;
+    font-family: Averta-Regular;
     color: white;
     display: flex;
     margin-top: 2.5em;
@@ -68,7 +68,7 @@
 
 @media (min-width: 1366px){
     .ivory-logo{
-        margin-left: 0.5em;
+        margin-left: -9em;
     }
 
     .navigationButtons {
@@ -221,6 +221,7 @@
     .navigationButtons {
         font-size: 7px;
         display: flex;
+        font-family: Averta-bold;
         justify-content: space-evenly;
         margin-top: -5.5em;
         margin-left: 20em;
@@ -229,6 +230,7 @@
     
     .navigationButtons-contact {
         font-size: 7px;
+        font-family: Averta-bold;
         display: flex;
         justify-content: flex-end;
         margin-top: -5.5em;

@@ -101,19 +101,19 @@
         height: 370px;
     }
     .twitter-logo {
-        width: 60.5px;
-        height: 55px;
-        margin-top: 0em;
-        margin-left: -16em;
-
+        width: 37.5px;
+        height: 32px;
+        margin-top: 5em;
+        margin-left: 3em;
+        
     }
 
     .facebook-logo{
-        width: 45px;
-        height: 80px;
-        margin-top: -1em;
-        margin-left: -3em;
-        margin-right: 3em;
+        width: 33.4px;
+        height: 35px;
+        margin-top: 5em;
+        margin-left: 15em;
+        
     }
 
     .low-res-align-title1 {
@@ -129,15 +129,17 @@
     }
 
     .ivory-logoFooter {
-        width: 254px;
-        height: 194px;
+        width: 100px;
+        height: 70px;
         margin-left: 8em;
+        margin-top: 2em;
+        margin-bottom: 1em;
     }
 
     .footerCopyright{
-        font-size: 18px;
+        font-size: 12px;
         width: 500px;
-        margin-left: 10em;
+        margin-left: 12em;
         line-height: 17px;
     }
 }
@@ -148,13 +150,21 @@
         height: 370px;
     }
     .twitter-logo {
-        margin-left: -8em;
+        margin-left: 5em;
+        margin-top: 4em;
     }
 
-    .footerDescription {
-        line-height: 13px;
-        font-size: 10px;
+    .facebook-logo {
+        margin-left: 10em;
+        margin-top: 4em;
     }
+
+    .ivory-logoFooter {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    
     
 }
 
@@ -163,37 +173,9 @@
         font-size: 12px;
         height: 370px;
     }
-
-    .footerTitles {
-        font-size: 12px;
-    }
-
-    .footerLinks {
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .footerLinksSecondary {
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .footerLinksTertiary {
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .footerDescription {
-        font-size: 8px;
-        width: 200px;
-        height: 150px;
-    }
     
     .facebook-logo{
-        margin-top: -3em;
-    }
-    .twitter-logoFooter {
-        margin-top: -1.25em;
+        margin-top: 4em;
     }
 }
 
@@ -204,34 +186,8 @@
            
         }
 
-        .footerTitles {
-            font-size: 12px;
-        }
-
-        .footerLinks {
-            font-size: 8px;
-            line-height: 12px;
-        }
-
-        .footerLinksSecondary {
-            font-size: 8px;
-            line-height: 12px;
-        }
-
-        .footerLinksTertiary {
-            font-size: 8px;
-           
-            line-height: 12px;
-        }
-
-        .footerDescription {
-            font-size: 8px;
-            width: 250px;
-            height: 150px;
-        }
-
         .twitter-logo {
-           margin-top: -1.25em;
+           margin-top: 4em;
         }
     
         
@@ -243,33 +199,6 @@
         height: 370px;
         
     }
-
-    .footerTitles {
-        font-size: 12px;
-    }
-
-    .footerLinks {
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .footerLinksSecondary {
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .footerLinksTertiary {
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .footerDescription {
-        font-size: 8px;
-        width: 150px;
-        height: 150px;
-        
-        
-    }
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
@@ -277,34 +206,9 @@
         font-size: 6px;
         height: 270px;
     }
-
-    .footerTitles {
-        font-size: 10px;
-    }
-
-    .footerLinks {
-        font-size: 6px;
-        line-height: 10px;
-    }
-
-    .footerLinksSecondary {
-        font-size: 6px;
-        line-height: 10px;
-    }
-
-    .footerLinksTertiary {
-        font-size: 6px;
-        line-height: 10px;
-    }
-
-    .footerDescription {
-        font-size: 7px;
-        width: 200px;
-        height: 100px;
-    }
-
+    
     .twitter-logo {
-        margin-top: 0em;
+        margin-top: 4em;
     }
 
     .footerCopyright {

@@ -1,5 +1,5 @@
 let CONSTANTS = {
-  TITLE: 'Ivory Accelerates the development of complex Blockchain and AI products by a factor of 10x(at least).',
+  // TITLE: 'Ivory Accelerates the development of complex Blockchain and AI products by a factor of 10x(at least).',
   // TITLE_TEXT: "Built by developers with over 100 B2B products, Ivory aims to significantly reduce costs and time to market for digital products. Ivory aims to provide developers build-ready 'Pods' or modules, filled with features that are required, but don't bring value, allowing developers to focus on value-creating features.",
   DATABASE_TITLE: ' Serverless microservices based architecture',
   DATABASE_TEXT: 'Highly opinionated architecture based on microservices and serverless - composition of AWS services - Dynamo, etc.',

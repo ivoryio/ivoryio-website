@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 import { Row, Grid, Col } from 'react-bootstrap'
 
-import database from '../images/database.svg'
-import speed from '../images/speed.svg'
-import machineLearning from '../images/machine_learning.svg'
-import secure from '../images/secure.svg'
-import blockchain from '../images/blockchain.svg'
-import devops from '../images/devops.svg'
-import quality from '../images/quality.svg'
-import pods from '../images/pods.svg'
-import openSource from '../images/open_source.svg'
+import database from '../../images/database.svg'
+import speed from '../../images/speed.svg'
+import machineLearning from '../../images/machine_learning.svg'
+import secure from '../../images/secure.svg'
+import blockchain from '../../images/blockchain.svg'
+import devops from '../../images/devops.svg'
+import quality from '../../images/quality.svg'
+import pods from '../../images/pods.svg'
+import openSource from '../../images/open_source.svg'
 
-import constants from '../constants/constants'
-import '../customStyles/presentation.css'
-import '../customStyles/fonts.css'
+import constants from '../../constants/homeConstants'
+import '../../customStyles/homeStyle/presentation.css'
+import '../../customStyles/fonts.css'
 
 export default class Presentation extends Component {
   render () {

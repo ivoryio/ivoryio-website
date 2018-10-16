@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ivoryLogo from '../images/logo.png'
+import ivoryLogo from '../../images/logo.png'
 import { Link } from 'gatsby'
 import {
   Image,
@@ -8,8 +8,8 @@ import {
   Grid,
   Row
 } from 'react-bootstrap'
-import '../customStyles/custom.styles.css'
-import '../customStyles/fonts.css'
+import '../../customStyles/homeStyle/custom.styles.css'
+import '../../customStyles/fonts.css'
 
 export default class Header extends Component {
 
@@ -31,7 +31,7 @@ export default class Header extends Component {
 
             <Col xs={3} sm={3} md={3} lg={3}>
               <div class='navigationButtons'>
-              <Link className='menuLinks' to='/'>
+              <Link className='menuLinks' to='/businessPage'>
                 For Business
               </Link>
           

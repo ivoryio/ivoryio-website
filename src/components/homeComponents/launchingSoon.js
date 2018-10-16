@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Row, Grid, Col} from "react-bootstrap";
 
-import "../customStyles/launchingSoonCSS.css";
-import constants from "../constants/constants";
+import '../../customStyles/homeStyle/launchingSoonCSS.css'
+import constants from '../../constants/homeConstants'
 
 export default class LaunchingSoon extends Component {
   componentDidMount(){

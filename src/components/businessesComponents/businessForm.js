@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../customStyles/fonts.css";
-import "../../customStyles/businessStyle/BusinessForm.css";
+import "../../customStyles/businessStyle/businessForm.css";
 import { Button, Grid, Row, Col } from "react-bootstrap";
 
 export default class BusinessForm extends Component {

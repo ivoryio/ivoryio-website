@@ -1,0 +1,117 @@
+.businessWrapper{
+    margin-right: 240px;
+    margin-left: 240px;
+}
+.businessTtile {
+    font-family: 'Averta-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: 115px;
+    color: #394952;
+    width:100%;
+  }
+  .businessText {
+    font-family: 'Averta-Light';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #394952;
+    margin-bottom: 44px;
+    width:100%;
+}
+.latestProjects {
+    background-color: #00aeef;
+    color:  #ffffff;
+    font-family: 'Averta-Regular';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin: none;
+    border-radius: 0 !important;
+    width: 208px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+.learnMore {
+    background-color: #ffffff;
+    color: #00aeef;
+    font-family: 'Averta-Regular';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin: none;
+    border-radius: 0 !important;
+    width: 156px;
+    height: 10px;
+}
+.businessLine {
+    width: 100%;
+    height: 3px;
+    border: solid 1px #dedede;
+    margin-bottom: 100px;
+  }
+.teamPhoto{
+    width: 275px;
+    height: 275px;
+    margin-bottom: 28px;
+}
+.la{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+ @media (max-width: 1400px){
+    /* .businessWrapper {
+        margin-right: 0px;
+        margin-left: 0em;
+    } */
+      
+ } 
+@media (max-width: 1290px){
+    .businessWrapper {
+     margin-right: 10px;
+     margin-left: 10px;
+    }
+    .businessLine{
+        width: 683px;
+        margin-left: 4em;
+    }
+    .teamPhoto{
+        width: 230px;
+        height: 230px;
+        margin-bottom: 28px;
+        margin-left:2em;
+    }
+    .businessDescriptionWrapper{
+        margin-left:2em;
+        margin-right:6em;
+    }
+    .businessTtile{
+        margin-left:2em;
+        margin-right:6em;
+    } 
+ }  
+  @media (min-width: 1500px){
+    .businessWrapper {
+        margin-right: 240px;
+        margin-left: 240px;
+    }
+      
+ } 

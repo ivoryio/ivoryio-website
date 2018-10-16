@@ -2,10 +2,11 @@ import React from 'react'
 
 
 import 'bootstrap/dist/css/bootstrap.css'
+import BusinessHeader from '../components/businessesComponents/businessHeader'
 
 const ForBusiness = () => (
     <div>
-      Placeholder
+      <BusinessHeader />
     </div>
   )
   export default ForBusiness

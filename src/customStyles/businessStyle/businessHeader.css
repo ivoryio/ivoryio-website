@@ -1,0 +1,307 @@
+.business-headerContainer {
+    background-image: url('../../images/headerSmall.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.business-headerTitle {
+    color: white;
+    font-family: Averta-regular;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 488px;
+    
+}
+
+.business-headerText {
+    color: white;
+    font-family: Averta-regular;
+    font-size: 24px;
+    
+}
+
+.business-headerButton {
+    background-color: #ffffff;
+    color: #00adee;
+    font-family: Averta-Regular;
+    font-size: 14px;
+    font-weight: 600;
+    margin: none;
+    border-radius: 0 !important;
+}
+
+.business-headerGroupRight {
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
+.business-ivory-logo {
+    width: 155px;
+    height: 105px;
+    
+}
+
+.business-navigationButtons {
+    text-decoration: none;
+    font-family: Averta-Regular;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5em;
+    margin-left: -1em;
+}
+
+.business-navigationButtons-contact {
+    font-family: Averta-Regular;
+    color: white;
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: 3em;
+}
+.business-menuLinks {
+    color: white;
+}
+
+.business-menuLinks:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 1366px) and (max-width: 1500px) {
+    .business-headerTitle {
+        font-size: 42px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1366px){
+    .business-ivory-logo{
+        margin-left: -9em;
+    }
+
+    .business-navigationButtons {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3.5em;
+        margin-left: 4.5em;
+        margin-right: -4em;
+    }
+    
+    .business-navigationButtons-contact {
+        font-size: 16px;
+        display: flex;
+        margin-top: 3.5em;
+        margin-left: 10em;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+
+    .business-headerTitle{
+        font-size: 42px;
+        width: 100%;
+        
+        
+    }
+    .business-ivory-logo {
+        margin-left: 0.5em;
+    }
+
+    .business-navigationButtons {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3.5em;
+        margin-left: 5em;
+    }
+    
+    .business-navigationButtons-contact {
+        font-size: 12px;
+        display: flex;
+        margin-top: 3.5em;
+        margin-left: 5em;
+    }
+}
+
+@media  (max-width: 1200px) {
+    .business-headerContainer{
+        height: 800px;
+    }
+    
+    .business-headerGroupRight {
+        margin-top: 10em;
+        margin-left: 10em;
+    }
+
+    .business-headerText {
+        font-size: 18px;
+    }
+
+    .business-navigationButtons {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3.5em;
+        margin-right: -2em;
+        margin-left: 5em;
+    }
+    
+    .business-navigationButtons-contact {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 7em;
+    }
+
+    .business-headerTitle {
+        font-size: 32px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .business-navigationButtons {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3.5em;
+        margin-left: 5em;
+        margin-right: -8em;
+    }
+    
+    .business-navigationButtons-contact {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 6em;
+    }
+    
+    .business-headerTitle {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .business-ivory-logo{
+        margin-left: -2em;
+        width: 150px;
+        height: 100px;
+    }
+    .business-headerTitle{
+        font-size: 42px;
+        width: 100%;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .business-headerText{
+        font-size: 16px;
+    }
+
+    .business-headerGroupRight {
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+
+    .business-navigationButtons {
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4.75em;
+        margin-left: 2em;
+        margin-right: -2.5em;
+    }
+    
+    .business-navigationButtons-contact {
+        font-size: 10px;
+        margin-top: 4.75em;
+        margin-left: 4em;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .business-headerTitle{
+        margin-left: -1.5em;
+    }
+    .business-headerGroupRight {
+        margin-left: -7em;
+    }
+
+    .business-navigationButtons {
+        margin-right: -5em;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .business-headerTitle {
+        font-size: 32px;
+        margin-left: -0.10em;
+        
+    }
+
+    .business-headerText {
+        font-size: 12px;
+    }
+
+    .business-headerGroupRight {
+        margin-top: 5em;
+        margin-left: 10em;
+    }
+
+    .business-headerContainer {
+        height: 400px;
+    }
+
+    .business-ivory-logo {
+        margin-left: 1em;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .business-navigationButtons {
+        font-size: 7px;
+        display: flex;
+        font-family: Averta-bold;
+        justify-content: space-evenly;
+        margin-top: -5.5em;
+        margin-left: 20em;
+        margin-right: 5em;
+    }
+    
+    .business-navigationButtons-contact {
+        font-size: 7px;
+        font-family: Averta-bold;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -5.5em;
+        
+    }
+    .business-ivory-logo {
+        height: 70px;
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .business-headerTitle {
+        font-size: 30px;
+    }
+    .business-headerGroupRight{
+        margin-left: 10em;
+    }
+
+    .business-headerText {
+        font-size: 11px;
+    }
+    
+}
+    

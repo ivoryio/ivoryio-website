@@ -4,7 +4,7 @@ import Presentation from '../components/homeComponents/ivoryPresentation'
 import LaunchingSoon from '../components/homeComponents/launchingSoon'
 import Footer from '../components/homeComponents/footer'
 import 'bootstrap/dist/css/bootstrap.css'
-import '../customStyles/homeStyle/custom.styles.css'
+// import '../customStyles/homeStyle/custom.styles.css'
 import '../customStyles/homeStyle/presentation.css'
 import '../customStyles/homeStyle/launchingSoonCSS.css'
 

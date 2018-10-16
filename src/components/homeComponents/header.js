@@ -8,6 +8,7 @@ import {
   Grid,
   Row
 } from 'react-bootstrap'
+
 import '../../customStyles/homeStyle/custom.styles.css'
 import '../../customStyles/fonts.css'
 

@@ -13,7 +13,7 @@ render(){
         <p className='d-flex justify-content-center businessText '>
         Our team will build upon Ivory to create a modern and scalable app in just a few weeks. The auxiliary features such as UserLogin, UserManagement and other necessary features come for free. Our focus will be on features that create value for your users.
         </p>
-        <div className='la'>
+        <div className='d-flex justify-content-center'>
         <a href='https://www.thinslices.com/projects/' target='_blank' rel='noopener norefferer'>  <Button className='latestProjects'>Our Latest Projects</Button> </a>
         <a href='https://www.thinslices.com/team/' target='_blank' rel='noopener norefferer'>  <Button className='learnMore'>Learn more about us</Button> </a>
         </div>

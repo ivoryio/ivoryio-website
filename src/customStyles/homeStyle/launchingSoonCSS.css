@@ -1,65 +1,61 @@
 .containerLaunching{
     width:100%;
-    height: 430px;
+    height: 384px;
     background-color: #00adee;
-    margin-top: 3em;
-    font-family: Averta;
     color: #ffffff;
 }
 @keyframes forceColor {
     from {
-      background-color: #394952;
-      border-color:  #394952;
       padding: 8px;
       font-weight: 400;
-      font-size: 12px;
       width: 200px;
     }
     to {
-      background-color: #394952;
-      border-color:  #394952;
       padding: 8px;
       font-weight: 400;
-      font-size: 12px;
       width: 200px;
     }
   }
   #mlb2-1071240.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button  {
-    background: #212529 !important;
     animation: 1s linear infinite forceColor;
   }
-
-.h1Style{
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 80px;
+  @keyframes check {
+    from {
+     text-align: left;
+     padding: 0px;
+    }
+    to {
+        text-align: left;
+        padding: 0px;
+    }
+  }
+  #mlb2-1071240.ml-form-embedContainer .ml-form-align-center {
+    animation: 1s linear infinite check;
+}
+@keyframes alignCheck {
+    from {
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+    to {
+        margin: 0;
+    padding: 0 0 0 0;
+    }
+  }
+#mlb2-1071240.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+    animation: 1s linear infinite alignCheck;
 }
 .h3Style{
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: -1.6px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -2px;
     text-align: center;
-}
-.pStyle{
-    font-size: 14px;
-    font-weight: 100;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
+    margin-top: 121px;
+    font-family: 'Averta-Regular';
 }
 @media (max-width: 767px){
-    .h1Style{
-        font-size: 30px;
-        margin-top: 60px;
-    }
     .h3Style{
         font-size: 15px;   
-    }
-    .pStyle{
-        font-size: 9px;
     }
     @keyframes submit {
         from {

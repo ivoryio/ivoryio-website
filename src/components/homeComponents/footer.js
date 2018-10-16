@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import ivoryLogo from '../images/logo.png'
-import fbLogo from '../images/facebook-logo.svg'
-import twLogo from '../images/twitter-logo-silhouette.svg'
+import ivoryLogo from '../../images/logo.png'
+import fbLogo from '../../images/facebook-logo.svg'
+import twLogo from '../../images/twitter-logo-silhouette.svg'
 import { Image, Grid, Col, Row } from 'react-bootstrap'
 
-import '../customStyles/footer.css'
-
+import '../../customStyles/homeStyle/footer.css'
+import '../../customStyles/fonts.css'
 export default class Footer extends Component {
   render () {
     return (

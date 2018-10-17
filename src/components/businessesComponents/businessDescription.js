@@ -17,42 +17,35 @@ render(){
         <a href='https://www.thinslices.com/projects/' target='_blank' rel='noopener norefferer'>  <Button className='latestProjects'>Our Latest Projects</Button> </a>
         <a href='https://www.thinslices.com/team/' target='_blank' rel='noopener norefferer'>  <Button className='learnMore'>Learn more about us</Button> </a>
         </div>
-        <div className={'businessLine'}>
-        </div>
+        <div className={'businessLine'}></div>
         <h3 style={{marginBottom:14}}className={'businessTtile'}>
         Meet our talented dev team.</h3>
         <p style={{marginBottom:65}} className='d-flex justify-content-center businessText '>
         These heroes implemented more than 100 projects in the last few years,<br/>some of which you may use right now.
         </p>
-       
         <Grid >
-          <Row> 
-              <div className='d-flex justify-content-center'>
-            <Col  sm={4} md={4} >
+          <Row > 
+            <Col sm={12} md={4} >
               <img alt='' className={'teamPhoto'}src={photo}/>
             </Col>
-            <Col  sm={4} md={4} >
+            <Col  sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>
-            <Col  sm={4} md={4} >
+            <Col  sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>  
-            </div>     
           </Row>
           <Row>
-          <div className='d-flex justify-content-center'>
-            <Col  sm={4} md={4} >
+            <Col  sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>
-            <Col sm={4} md={4} >
+            <Col sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
-            <Col  sm={4} md={4} >
+            <Col  sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>
-            </div>
           </Row>
-        
           </Grid>
           <div style={{marginBottom:122}}></div>
         </div>

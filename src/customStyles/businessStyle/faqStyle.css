@@ -1,0 +1,254 @@
+.faq-wrapper {
+    display: inline-flex;
+    margin-top: 8em;
+    margin-left: -2em;
+}
+
+.faq-container {
+    height: 543px;
+}
+
+.faq {
+    font-size: 12px;
+    font-family: Averta-Light;
+    color: #00aeef;
+    margin-bottom: 1em;
+
+}
+
+.faq-subtitle {
+    margin-bottom: 1em;
+    font-size: 12px;
+    font-family: Averta-Semibold;
+    line-height: 19px;
+    width: 195px;
+}
+
+.faq-content {
+    font-size: 12px;
+    font-family: Averta-Light;
+    line-height: 22px;
+    width: 195px;
+    margin-right: 8em;
+}
+
+@media (max-width: 1367px) {
+    .faq-wrapper {
+        margin-left: 0em;
+        width: 100%;
+    }
+    .faq-container {
+        width: 100%;
+    }
+    .faq {
+        font-size: 10px;
+        font-family: Averta-Light;
+        color: #00aeef;
+        margin-bottom: 1em;
+    
+    }
+    
+    .faq-subtitle {
+        margin-bottom: 1em;
+        font-size: 10px;
+        font-family: Averta-Semibold;
+        line-height: 19px;
+        width: 195px;
+    }
+    
+    .faq-content {
+        font-size: 10px;
+        font-family: Averta-Light;
+        line-height: 22px;
+        width: 195px;
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 1235px) {
+    .faq-wrapper {
+        width: 100%;
+    }
+    .faq-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 1em;
+    }
+    .faq {
+        font-size: 10px;
+        font-family: Averta-Light;
+        color: #00aeef;
+        margin-bottom: 1em;
+    
+    }
+    
+    .faq-subtitle {
+        margin-bottom: 1em;
+        font-size: 10px;
+        font-family: Averta-Semibold;
+        line-height: 19px;
+        width: 195px;
+    }
+    
+    .faq-content {
+        font-size: 10px;
+        font-family: Averta-Light;
+        line-height: 22px;
+        width: 195px;
+        
+    }
+}
+
+@media (max-width: 993px) {
+
+    .faq-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 12em;
+        margin-top: 2em;
+    }
+    .faq-container {
+        width: 100%;
+        height: 100%;
+    }
+    .faq {
+        font-size: 16px;
+        font-family: Averta-Light;
+        color: #00aeef;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        
+    }
+    
+    .faq-subtitle {
+        margin-bottom: 1em;
+        font-size: 12px;
+        font-family: Averta-Semibold;
+        line-height: 19px;
+        width: 295px;
+    }
+    
+    .faq-content {
+        font-size: 12px;
+        font-family: Averta-Light;
+        line-height: 22px;
+        width: 295px;
+        margin-bottom: 2em;
+
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .faq-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 8em;
+        margin-top: 2em;
+    }
+    .faq-container {
+        width: 100%;
+        height: 100%;
+    }
+    .faq {
+        font-size: 16px;
+        font-family: Averta-Light;
+        color: #00aeef;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        
+    }
+    
+    .faq-subtitle {
+        margin-bottom: 1em;
+        font-size: 12px;
+        font-family: Averta-Semibold;
+        line-height: 19px;
+        width: 295px;
+    }
+    
+    .faq-content {
+        font-size: 12px;
+        font-family: Averta-Light;
+        line-height: 22px;
+        width: 295px;
+        margin-bottom: 2em;
+
+    }
+}
+
+@media (min-width: 414px) and (max-width: 575px) {
+    .faq-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4em;
+        margin-top: 2em;
+    }
+    .faq-container {
+        width: 100%;
+        height: 100%;
+    }
+    .faq {
+        font-size: 12px;
+        font-family: Averta-Light;
+        color: #00aeef;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        
+    }
+    
+    .faq-subtitle {
+        margin-bottom: 1em;
+        font-size: 10px;
+        font-family: Averta-Semibold;
+        line-height: 19px;
+        width: 295px;
+    }
+    
+    .faq-content {
+        font-size: 10px;
+        font-family: Averta-Light;
+        line-height: 22px;
+        width: 295px;
+        margin-bottom: 2em;
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .faq-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4em;
+        margin-top: 2em;
+    }
+    .faq-container {
+        width: 100%;
+        height: 100%;
+    }
+    .faq {
+        font-size: 12px;
+        font-family: Averta-Light;
+        color: #00aeef;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        
+    }
+    
+    .faq-subtitle {
+        margin-bottom: 1em;
+        font-size: 10px;
+        font-family: Averta-Semibold;
+        line-height: 19px;
+        width: 195px;
+    }
+    
+    .faq-content {
+        font-size: 10px;
+        font-family: Averta-Light;
+        line-height: 22px;
+        width: 195px;
+        margin-bottom: 2em;
+
+    }
+}

@@ -27,10 +27,12 @@
     background-color: #ffffff;
     color: #00adee;
     font-family: Averta-Regular;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin: none;
-    border-radius: 0 !important;
+    border-radius: 2px !important;
+    width: 134px;
+    height: 50px;
 }
 
 .business-headerGroupRight {
@@ -234,8 +236,6 @@
     .business-navigationButtons {
         margin-right: -5em;
     }
-
-
 }
 
 @media (max-width: 575px) {

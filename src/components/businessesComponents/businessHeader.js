@@ -16,7 +16,7 @@ export default class BusinessHeader extends Component {
 
   scrollBottom = () => {
    
-    window.scrollTo({top: 3500, behavior: "smooth"})
+    window.scrollTo({top: document.body.scrollHeight / 2, behavior: "smooth"})
   }
 
   render () {

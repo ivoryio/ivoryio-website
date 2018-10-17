@@ -713,13 +713,33 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-10T07:05:50.962Z",
+      "buildTime": "2018-10-17T07:22:11.159Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a25d8629462eb433fea3abbf3989f049",
+        "contentDigest": "803539fb7e52653addbfaf6421d60313",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /businessPage/": {
+      "jsonName": "business-page-286",
+      "internalComponentName": "ComponentBusinessPage",
+      "path": "/businessPage/",
+      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/businessPage.js",
+      "componentChunkName": "component---src-pages-business-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/businessPage.js",
+      "id": "SitePage /businessPage/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "584eabb5aed1595c819953c2d96f46ce",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -755,18 +775,26 @@
     "connections": {}
   },
   "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856
+    "for-business-11d": "944/path---for-business-11-d-5e6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "home-page-e36": "804/path---home-page-e-36-630-NZuapzHg3X9TaN1iIixfv1W23E",
+    "business-page-286": "391/path---business-page-286-f9a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-js-600": "126/path---index-js-600-e9e-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js"
+    },
+    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/businessPage.js": {
+      "query": "",
+      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/businessPage.js"
     },
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js": {
       "query": "",

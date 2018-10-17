@@ -1,0 +1,107 @@
+.bigTitle {
+    font-family: 'Averta-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: 115px;
+    margin-right: 15em;
+    margin-left: 15em;
+    color: #394952;
+  }
+  .wrapperPresentation{
+      margin-right: 10em;
+      margin-left: 10em;
+  }
+  .textFromTitle {
+    font-family: 'Averta-Light';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #394952;
+    margin-bottom: 56px;
+}
+.image {
+    width: 65px;
+    height: 75px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.title {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: 'Averta-Regular';
+  width: 200px;
+  color: #394952;
+}
+.text {
+    font-family: 'Averta-Thin';
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+    width: 200px;
+}
+.gridAlign{
+    padding-left: 60px;
+}
+@media (max-width: 767px){
+    .title{
+        text-align: center;
+        width: 100%;
+    }
+    .image {
+        display:block;
+        margin:0 auto;
+        width: 4.3em;
+        height:5em;
+    }
+    .text {
+        text-align: center;
+        width: 100%;
+    }
+    .bigTitle{
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+    .wrapperPresentation {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    .gridAlign{
+        padding-left: 0px;
+    }
+    } 
+ @media (min-width: 768px){
+    .bigTitle{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .wrapperPresentation {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    .gridAlign{
+        padding-left: 0em;
+    }
+} 
+@media (min-width: 992px){
+    .gridAlign{
+        padding-left: 8em;
+    }
+} 
+
+

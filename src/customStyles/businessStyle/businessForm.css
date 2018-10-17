@@ -71,7 +71,6 @@ to {
 #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
     animation: 1s linear infinite getInTouch;
 }
-
 @keyframes first {
     from {
        height: 100px;
@@ -82,4 +81,94 @@ to {
     }
 .ml-field-group .ml-field-company{
     animation: 1s linear infinite first;
+}
+
+ @media(min-width: 300px) and (max-width:410px) {
+    .labels { display: none; }
+    @keyframes pf {
+        from {
+            width: 50%;
+        }
+        to {
+            width: 50%;
+        }
+        }
+    .ml-form-embedContainer .ml-subscribe-form .ml-subscribe-form-1074244{
+        animation: 1s linear infinite pf;
+    }
+      @keyframes smallSize {
+        from {
+            width: -3px;
+        }
+        to {
+            width: -3px;
+        }
+        }
+        .ml-form-embedBody.ml-form-embedBodyDefault.row-form{
+            animation: 1s linear infinite smallSize;
+        }  
+    @keyframes input {
+        from {
+            width: 200px;
+          margin-left: 5em;    
+        }
+        to {
+            width: 200px;
+            margin-left: 5em;
+        }
+      }
+      #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+        animation: 1s linear infinite input;
+      }
+      @keyframes getInTouch {
+        from {
+            width: 100px;
+            border-radius: 2px ;
+            background-color: #394952 ;
+            margin-left: 5em;
+        }
+        to {
+            width: 100px;
+            border-radius: 2px ;
+            background-color: #394952 ;
+            margin-left: 5em;
+        }
+        }
+        #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+            animation: 1s linear infinite getInTouch;
+        }
+} 
+
+@media(min-width: 411px) and (max-width: 767px)  {
+    .labels { display: none; }
+    @keyframes input {
+        from {
+            width: 300px;
+          margin-left: 2.5em;
+        }
+        to {
+            width: 300px;
+            margin-left: 2.5em;
+        }
+      }
+      #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+        animation: 1s linear infinite input;
+      }
+      @keyframes getInTouch {
+        from {
+            width: 134px;
+            border-radius: 2px ;
+            background-color: #394952 ;
+            margin-left: 12em;
+        }
+        to {
+            width: 134px;
+            border-radius: 2px ;
+            background-color: #394952 ;
+            margin-left: 12em;
+        }
+        }
+        #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+            animation: 1s linear infinite getInTouch;
+        }
 }

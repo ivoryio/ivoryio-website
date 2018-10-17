@@ -72,81 +72,72 @@
     margin-bottom: 28px;
 }
 
- /* @media (max-width: 449px){
+ @media (max-width: 767px){
     .teamPhoto{
-      width: 7em;
-      height: 7em;
+      width: 20em;
+      height: 20em;
       margin-bottom: 28px;
     }
     .businessWrapper{
       margin-right: 1em;
       margin-left: 1em;
   } 
-  
+  .latestProjects {
+    font-size: 14px;
+    width: 138px;
 }
-@media (min-width: 450px){
+.learnMore {
+    font-size: 14px;
+    width: 120px;
+}
+.col-md-4.col-sm-12{
+display: flex;
+justify-content: center
+}
+}
+@media(min-width: 768px) and (max-width: 999px)  {
     .teamPhoto{
-      width: 10em;
-      height: 10em;
+      width: 12em;
+      height: 12em;
       margin-bottom: 28px;
     }
     .businessWrapper{
       margin-right: 1em;
       margin-left: 1em;
   } 
-  .container {
-      padding-left:50px;
-  }
+  .col-md-4.col-sm-12{
+    display: flex;
+    justify-content: center
+    }
    }  
- @media (min-width: 412px){
-  .teamPhoto{
-    width: 30em;
-    height: 30em;
-    margin-bottom: 28px;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-  }
-  .businessWrapper{
-    margin-right: 2em;
-    margin-left: 2em;
-}
-      
- }  
-  @media (max-width: 1200px){ 
-     .businessWrapper {
-        margin-right: 0px;
-        margin-left: 0em;
-     }  
-      
- }  
- @media (max-width: 1100px){
-    .businessWrapper {
-     margin-right: 10px;
-     margin-left: 10px;
-    }
-    .businessLine{
-        width: 683px;
-        margin-left: 4em;
-    }
+   @media(min-width: 1000px) and (max-width: 1100px)  {
     .teamPhoto{
-        width: 230px;
-        height: 230px;
+        width: 12em;
+        height: 12em;
         margin-bottom: 28px;
-        margin-left:2em;
-    }
-    .businessDescriptionWrapper{
-        margin-left:2em;
-        margin-right:6em;
-    }
-    .businessTtile{
-        margin-left:2em;
-        margin-right:6em;
+      }
+      .businessWrapper{
+        margin-right: 200px;
+    margin-left: 200px;
     } 
- }   
-  @media (min-width: 1500px){
-    .businessWrapper {
-        margin-right: 240px;
-        margin-left: 240px;
-    }
-      
- }   */
+    .col-md-4.col-sm-12{
+      display: flex;
+      justify-content: center
+      }
+   }
+   @media(min-width: 1101px) and (max-width: 1400px)  {
+    .teamPhoto{
+        width: 15em;
+        height: 15em;
+        margin-bottom: 28px;
+      }
+      .businessWrapper{
+        margin-right: 200px;
+    margin-left: 200px;
+    } 
+    .col-md-4.col-sm-12{
+      display: flex;
+      justify-content: center
+      }
+   }
+ 

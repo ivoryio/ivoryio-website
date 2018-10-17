@@ -24,8 +24,8 @@ render(){
         These heroes implemented more than 100 projects in the last few years,<br/>some of which you may use right now.
         </p>
         <Grid >
-          <Row > 
-            <Col sm={12} md={4} >
+          <Row> 
+            <Col  sm={12} md={4} >
               <img alt='' className={'teamPhoto'}src={photo}/>
             </Col>
             <Col  sm={12} md={4} >

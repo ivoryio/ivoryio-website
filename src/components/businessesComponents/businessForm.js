@@ -31,8 +31,7 @@ export default class BusinessForm extends Component {
                 </p>
               </Col>
             </Row>
-              <Row className="d-flex justify-content-center">
-              {/* <Col sm={6} md={6}> */}
+              <Row className='d-flex justify-content-center'>
               <div className={'labels'} >
                   <p>My project is about</p>
                   <p>I'm</p>
@@ -40,16 +39,12 @@ export default class BusinessForm extends Component {
                   <p>Or on my phone</p>
                   <p>My budget is around</p>
                   </div>
-                {/* </Col> */}
-                {/* <Col sm={6} md={6}> */}
                   <div
                     class="ml-form-embed"
                     data-account="1292624:y2g6q7x8c8"
                     data-form="1074244:g8g4x8"
                   />        
-                {/* </Col> */}
                 </Row>
-                
           </Grid>
         </div>
         </div>

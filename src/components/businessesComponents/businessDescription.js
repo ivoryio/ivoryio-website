@@ -25,24 +25,24 @@ render(){
         </p>
         <Grid >
           <Row> 
-            <Col  sm={12} md={4} >
+            <Col id='gr1d' sm={12} md={4} >
               <img alt='' className={'teamPhoto'}src={photo}/>
             </Col>
-            <Col  sm={12} md={4} >
+            <Col  id='gr1d'sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>
-            <Col  sm={12} md={4} >
+            <Col  id='gr1d'sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>  
           </Row>
           <Row>
-            <Col  sm={12} md={4} >
+            <Col id='gr1d' sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>
-            <Col sm={12} md={4} >
+            <Col id='gr1d' sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
-            <Col  sm={12} md={4} >
+            <Col  id='gr1d' sm={12} md={4} >
               <img alt='' className={'teamPhoto'} src={photo}/>
             </Col>
           </Row>

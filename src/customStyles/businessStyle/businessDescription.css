@@ -90,11 +90,12 @@
     font-size: 14px;
     width: 120px;
 }
-.col-md-4.col-sm-12{
+#gr1d.col-md-4.col-sm-12{
 display: flex;
 justify-content: center
 }
 }
+
 @media(min-width: 768px) and (max-width: 999px)  {
     .teamPhoto{
       width: 12em;
@@ -105,7 +106,7 @@ justify-content: center
       margin-right: 1em;
       margin-left: 1em;
   } 
-  .col-md-4.col-sm-12{
+  #gr1d.col-md-4.col-sm-12{
     display: flex;
     justify-content: center
     }
@@ -120,7 +121,7 @@ justify-content: center
         margin-right: 200px;
     margin-left: 200px;
     } 
-    .col-md-4.col-sm-12{
+    #gr1d.col-md-4.col-sm-12{
       display: flex;
       justify-content: center
       }
@@ -135,7 +136,7 @@ justify-content: center
         margin-right: 200px;
     margin-left: 200px;
     } 
-    .col-md-4.col-sm-12{
+    #gr1d.col-md-4.col-sm-12{
       display: flex;
       justify-content: center
       }

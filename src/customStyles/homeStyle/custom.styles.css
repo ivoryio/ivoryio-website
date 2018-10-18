@@ -1,5 +1,5 @@
 .headerContainer {
-    background-image: url('../../images/headerSmall.png');
+    background-image: url('../../images/header_homepage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,7 +67,11 @@
 .menuLinks:hover {
     text-decoration: none;
 }
-
+@media (min-width: 1430px){
+    .headerContainer{
+        height: 1000px;
+    }
+}
 @media (min-width: 1366px){
     .headerTitle {
         margin-top: 3em;
@@ -84,7 +88,6 @@
         display: inline-flex;
         margin-left: 33em;
     }
-
     .navigationButtons {
         
         font-size: 16px;
@@ -266,7 +269,7 @@
 
     .navigation-wrapper{
         display: inline-flex;
-        margin-left: 0.5em;
+        margin-left: 1em;
     }
     .navigationButtons {
         font-size: 7px;
@@ -285,6 +288,7 @@
     .ivory-logo {
         height: 70px;
         width: 100px;
+        margin-left: -0.75
 }
 
 @media (max-width: 320px) {

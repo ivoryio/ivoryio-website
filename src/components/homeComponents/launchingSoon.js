@@ -19,7 +19,7 @@ export default class LaunchingSoon extends Component {
   }
   render() {
     return (
-      <div className={"containerLaunching"}>
+      <div id='f0rm' className={"containerLaunching"}>
         <Grid>
           <Row>
             <Col sm={12} md={12}>
@@ -28,7 +28,7 @@ export default class LaunchingSoon extends Component {
           </Row>
           <div className="d-flex justify-content-center">
             <Row>
-              <Col sm={12} md={12}>
+              <Col id='subs' sm={12} md={12}>
                 <div
                   className="ml-form-embed"
                   data-account="1292624:y2g6q7x8c8"

@@ -77,6 +77,10 @@
       .ml-mobileButton-horizontal button {
         animation: 1s linear infinite submit;
     }
+   
 }
- 
-  
+ @media (max-width: 600px ){
+    .h3Style{
+        margin-top: 70px;  
+    }
+ }

@@ -85,7 +85,7 @@ to {
 
  @media(min-width: 300px) and (max-width:410px) {
     .labels { display: none; }
-    @keyframes pf {
+    /* @keyframes pf {
         from {
             width: 50%;
         }
@@ -96,6 +96,10 @@ to {
     .ml-form-embedContainer .ml-subscribe-form .ml-subscribe-form-1074244{
         animation: 1s linear infinite pf;
     }
+     */
+     /* #mlb2-5526781 .subscribe-form {
+        padding: 60px!important;
+      } */
       @keyframes smallSize {
         from {
             width: -3px;

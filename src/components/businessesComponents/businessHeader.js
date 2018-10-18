@@ -11,14 +11,22 @@ import {
 
 import '../../customStyles/businessStyle/businessHeader.css'
 import '../../customStyles/fonts.css'
+import $ from 'jquery'
 
 export default class BusinessHeader extends Component {
-
-  scrollBottom = () => {
-   
-    window.scrollTo({top: document.body.scrollHeight / 2, behavior: "smooth"})
+ function(){
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      } 
+    })
   }
-
   render () {
     return (
       <div class='business-headerContainer'>
@@ -83,9 +91,7 @@ export default class BusinessHeader extends Component {
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-                <Button className='business-headerButton' onClick={this.scrollBottom}>
-                  Get in touch
-                </Button>
+              <a href='#f0rm'> <Button className='business-headerButton' >Get in touch </Button> </a>
               </Col>
             </Row>
           </div>

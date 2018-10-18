@@ -205,6 +205,15 @@
 }
 
 @media (max-width: 768px) {
+
+    .business-headerButton {
+        width: 90px;
+        height: 35px;
+        font-size: 10px;
+
+
+    }
+
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 2em;

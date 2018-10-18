@@ -14,6 +14,7 @@
     text-align: center;
     font-family: 'Averta-Light';
 }
+
 .h3Style{
     font-family: 'Averta-Semibold';
     font-size: 30px;
@@ -33,7 +34,7 @@
     width: 385px !important;
 }
   #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
-    height: 44px !important
+    height: 44px !important;
   }
 
   @keyframes getInTouch {
@@ -53,20 +54,26 @@ to {
 #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
     animation: 1s linear infinite getInTouch;
 }
- @media(min-width: 300px) and (max-width:410px) {
 
-    #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent, #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow{
-        width: 250px !important;
+ @media(min-width: 300px) and (max-width:410px) {
+    .fromContainer {
+        height: 600px;
+    }
+    .pStyle {
+        font-size: 12px;
+    }
+    .h3Style {
+        font-size: 20px !important;
     }
     .labels { display: none; }
     @keyframes input {
         from {
-            width: 300px;
-          margin-left: 0.5em;    
+            width: 400px;
+          margin-left: 4em;    
         }
         to {
-            width: 300px;
-            margin-left: 0.5em;
+            width: 400px;
+            margin-left: 4em;
         }
       }
       #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
@@ -77,25 +84,49 @@ to {
             width: 100px;
             border-radius: 2px ;
             background-color: #394952 ;
-            margin-left: 11em;
+            margin-left: 5em;
         }
         to {
             width: 100px;
             border-radius: 2px ;
             background-color: #394952 ;
-            margin-left: 11em;
+            margin-left: 5em;
         }
         }
         #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
             animation: 1s linear infinite getInTouch;
         }
+        #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent, #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+            margin-left: -7em !important;
+            padding: 5em !important;
+            margin-top: -7em !important;
+
+        }
+        #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+            margin-top: -5em !important;
+            margin-left: 2em !important;
+        }
+
 } 
 
 @media(min-width: 411px) and (max-width: 767px)  {
+
+    .h3Style {
+        font-size: 25px !important;
+    }
     .labels { display: none; }
-      #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
-        width: 300px !important;
-        margin-left: 2.5em !important;
+    @keyframes input {
+        from {
+            width: 300px;
+          margin-left: 2.5em;
+        }
+        to {
+            width: 300px;
+            margin-left: 2.5em;
+        }
+      }
+      #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+        animation: 1s linear infinite input;
       }
       @keyframes getInTouch {
         from {
@@ -114,5 +145,4 @@ to {
         #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
             animation: 1s linear infinite getInTouch;
         }
-        
 }

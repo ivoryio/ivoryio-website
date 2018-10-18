@@ -717,12 +717,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-18T11:15:09.169Z",
+      "buildTime": "2018-10-18T13:44:17.928Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b4208b0e2cf5ca8545e022718b5c0323",
+        "contentDigest": "663cd0923b83879083c779dcc5f86cbf",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -778,16 +778,8 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856,
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "for-business-11d": "944/path---for-business-11-d-5e6-NZuapzHg3X9TaN1iIixfv1W23E",
-    "home-page-e36": "804/path---home-page-e-36-630-NZuapzHg3X9TaN1iIixfv1W23E",
     "business-page-286": "391/path---business-page-286-f9a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index-js-600": "126/path---index-js-600-e9e-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js": {

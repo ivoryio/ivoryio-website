@@ -1,5 +1,5 @@
 .headerContainer {
-    background-image: url('../../images/headerSmall.png');
+    background-image: url('../../images/header_homepage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,18 +67,18 @@
 .menuLinks:hover {
     text-decoration: none;
 }
-
+@media (min-width: 1430px){
+    .headerContainer{
+        height: 1000px;
+    }
+}
 @media (min-width: 1366px){
     .headerTitle {
         margin-top: 3em;
     }
-    .headerContainer {
-        height: 1000px;
-    }
     .ivory-logo{
         margin-left: -9em;
     }
-
     .navigationButtons {
         font-size: 16px;
         display: flex;

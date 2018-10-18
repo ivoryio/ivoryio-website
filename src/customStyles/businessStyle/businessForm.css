@@ -14,7 +14,6 @@
     text-align: center;
     font-family: 'Averta-Light';
 }
-
 .h3Style{
     font-family: 'Averta-Semibold';
     font-size: 30px;
@@ -30,28 +29,11 @@
     margin-top: 70px;
     line-height: 2.5;
 }
-@keyframes inputWidth {
-    from {
-        width: 385px;
-    }
-    to {
-        width: 385px;
-    }
-  }
   #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent, #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
-    animation: 1s linear infinite inputWidth;
+    width: 385px !important;
 }
-
-@keyframes input {
-    from {
-        height: 44px;
-    }
-    to {
-        height: 44px;
-    }
-  }
   #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
-    animation: 1s linear infinite input;
+    height: 44px !important
   }
 
   @keyframes getInTouch {
@@ -71,54 +53,20 @@ to {
 #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
     animation: 1s linear infinite getInTouch;
 }
-@keyframes first {
-    from {
-       height: 100px;
-    }
-    to {
-       height: 100px;
-    }
-    }
-.ml-field-group .ml-field-company{
-    animation: 1s linear infinite first;
-}
-
  @media(min-width: 300px) and (max-width:410px) {
-    .labels { display: none; }
-    /* @keyframes pf {
-        from {
-            width: 50%;
-        }
-        to {
-            width: 50%;
-        }
-        }
-    .ml-form-embedContainer .ml-subscribe-form .ml-subscribe-form-1074244{
-        animation: 1s linear infinite pf;
+
+    #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent, #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow{
+        width: 250px !important;
     }
-     */
-     /* #mlb2-5526781 .subscribe-form {
-        padding: 60px!important;
-      } */
-      @keyframes smallSize {
-        from {
-            width: -3px;
-        }
-        to {
-            width: -3px;
-        }
-        }
-        .ml-form-embedBody.ml-form-embedBodyDefault.row-form{
-            animation: 1s linear infinite smallSize;
-        }  
+    .labels { display: none; }
     @keyframes input {
         from {
-            width: 200px;
-          margin-left: 5em;    
+            width: 300px;
+          margin-left: 0.5em;    
         }
         to {
-            width: 200px;
-            margin-left: 5em;
+            width: 300px;
+            margin-left: 0.5em;
         }
       }
       #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
@@ -129,13 +77,13 @@ to {
             width: 100px;
             border-radius: 2px ;
             background-color: #394952 ;
-            margin-left: 5em;
+            margin-left: 11em;
         }
         to {
             width: 100px;
             border-radius: 2px ;
             background-color: #394952 ;
-            margin-left: 5em;
+            margin-left: 11em;
         }
         }
         #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
@@ -145,18 +93,9 @@ to {
 
 @media(min-width: 411px) and (max-width: 767px)  {
     .labels { display: none; }
-    @keyframes input {
-        from {
-            width: 300px;
-          margin-left: 2.5em;
-        }
-        to {
-            width: 300px;
-            margin-left: 2.5em;
-        }
-      }
-      #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
-        animation: 1s linear infinite input;
+      #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+        width: 300px !important;
+        margin-left: 2.5em !important;
       }
       @keyframes getInTouch {
         from {
@@ -175,4 +114,5 @@ to {
         #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
             animation: 1s linear infinite getInTouch;
         }
+        
 }

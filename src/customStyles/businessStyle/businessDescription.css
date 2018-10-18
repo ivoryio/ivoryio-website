@@ -84,11 +84,11 @@
   } 
   .latestProjects {
     font-size: 14px;
-    width: 138px;
-}
+    width: 150px;
+  }
 .learnMore {
     font-size: 14px;
-    width: 120px;
+    width: -15px;
 }
 #gr1d.col-md-4.col-sm-12{
 display: flex;

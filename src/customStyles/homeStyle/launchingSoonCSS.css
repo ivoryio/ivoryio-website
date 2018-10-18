@@ -19,31 +19,13 @@
   #mlb2-1071240.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button  {
     animation: 1s linear infinite forceColor;
   }
-  @keyframes check {
-    from {
-     text-align: left;
-     padding: 0px;
-    }
-    to {
-        text-align: left;
-        padding: 0px;
-    }
-  }
   #mlb2-1071240.ml-form-embedContainer .ml-form-align-center {
-    animation: 1s linear infinite check;
+    text-align: left !important;
+     padding: 0px !important;
 }
-@keyframes alignCheck {
-    from {
-        margin: 0;
-        padding: 0 0 0 0;
-    }
-    to {
-        margin: 0;
-    padding: 0 0 0 0;
-    }
-  }
 #mlb2-1071240.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
-    animation: 1s linear infinite alignCheck;
+    margin: 0 !important;
+        padding: 0 0 0 0 !important;
 }
 .h3Style{
     font-size: 30px;
@@ -55,32 +37,17 @@
 }
 @media (max-width: 767px){
     .h3Style{
-        font-size: 15px;   
+        font-size: 24px;   
     }
-    @keyframes submit {
-        from {
-          background-color: #394952;
-          border-color:  #394952;
-          width: 50%;
-          font-weight: 400;
-          font-size: 12px;
-       
-        }
-        to {
-          background-color: #394952;
-          border-color:  #394952;
-          width: 50%;
-          font-weight: 400;
-          font-size: 12px;
-        }
-      }
-      .ml-mobileButton-horizontal button {
-        animation: 1s linear infinite submit;
-    }
-   
+      .ml-mobileButton-horizontal {
+        background-color: #394952 !important;
+          border-color:  #394952 !important;
+          width: 50% !important;
+          font-size: 8px !important;
+    } 
 }
  @media (max-width: 600px ){
     .h3Style{
-        margin-top: 70px;  
+        margin-top: 65px;  
     }
  }

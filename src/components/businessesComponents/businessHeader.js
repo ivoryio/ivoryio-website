@@ -18,7 +18,6 @@ export default class BusinessHeader extends Component {
    
     window.scrollTo({top: document.body.scrollHeight / 2, behavior: "smooth"})
   }
-
   render () {
     return (
       <div class='business-headerContainer'>

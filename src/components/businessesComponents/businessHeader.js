@@ -32,25 +32,39 @@ export default class BusinessHeader extends Component {
       <div class='business-headerContainer'>
         <Grid>
           <Row>
-            <Col xs={7} sm={7} md={7} lg={7}>
+            <Col >
               <Link to='/'>
                 <Image className='business-ivory-logo' src={ivoryLogo} onClick='history.go(0)' responsive />
               </Link>
             </Col>
-
-            <Col xs={3} sm={3} md={3} lg={3}>
+            
+            <div class='business-navigation-wrapper'>
+             <Col >
               <div class='business-navigationButtons'>
-              <Link className='business-menuLinks' to='/businessPage'>
-                For Business
-              </Link>
-          
-              <Link className='business-menuLinks' to='/'>
-                For Developers
+              <Link className='business-menuLinks' to='/' onClick='history.go(0)'>
+                Home
               </Link>
               </div>
             </Col>
 
-            <Col xs={2} sm={2} md={2} lg={2}>
+            <Col >
+              <div class='business-navigationButtons'>
+              <Link className='business-menuLinks' to='/businessPage'>
+                For Business
+              </Link>
+              </div>
+            </Col>
+
+             <Col >
+             <div class='business-navigationButtons'>
+              <Link className='business-menuLinks' to='/'>
+                For Developers
+              </Link>
+              </div>
+             </Col>
+            </div>
+
+            <Col>
               <div class='business-navigationButtons-contact'>
               <Link className='business-menuLinks' to='/'>
                 Contact

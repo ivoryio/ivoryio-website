@@ -32,25 +32,39 @@ export default class Header extends Component {
       <div class='headerContainer'>
         <Grid>
           <Row>
-            <Col xs={7} sm={7} md={7} lg={7}>
+            <Col>
               <Link to='/'>
                 <Image className='ivory-logo' src={ivoryLogo} onClick='history.go(0)' responsive />
               </Link>
             </Col>
+            
+            <div class='navigation-wrapper'>
+             <Col >
+              <div class='navigationButtons'>
+              <Link className='menuLinks' to='/'>
+                Home
+              </Link>
+              </div>
+            </Col>
 
-            <Col xs={3} sm={3} md={3} lg={3}>
+            <Col>
               <div class='navigationButtons'>
               <Link className='menuLinks' to='/businessPage'>
                 For Business
               </Link>
-          
+              </div>
+            </Col>
+
+            <Col>
+            <div class='navigationButtons'>
               <Link className='menuLinks' to='/'>
                 For Developers
               </Link>
               </div>
             </Col>
+            </div>
 
-            <Col xs={2} sm={2} md={2} lg={2}>
+            <Col>
               <div class='navigationButtons-contact'>
               <Link className='menuLinks' to='/'>
                 Contact

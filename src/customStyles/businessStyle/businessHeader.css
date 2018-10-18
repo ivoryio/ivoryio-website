@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
+    width: 100%;
 }
 
 .business-headerTitle {
@@ -84,8 +85,17 @@
 }
 @media (min-width: 1366px){
 
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 33em;
+    }
+
     .business-headerTitle{
         margin-top: 3em;
+    }
+    .business-headerContainer {
+        height: 1000px;
+        width: 100%;
     }
     .business-ivory-logo{
         margin-left: -9em;
@@ -93,22 +103,25 @@
    
     .business-navigationButtons {
         font-size: 16px;
-        display: flex;
-        justify-content: space-between;
         margin-top: 3.5em;
-        margin-left: 4.5em;
-        margin-right: -4em;
+        margin-left: 4em;
     }
     
     .business-navigationButtons-contact {
         font-size: 16px;
         display: flex;
         margin-top: 3.5em;
-        margin-left: 10em;
+        margin-left: 4em;
     }
 }
 
 @media (min-width: 1201px) and (max-width: 1366px) {
+    
+
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 28.5em;
+    }
 
     .business-headerTitle{
         font-size: 42px;
@@ -122,21 +135,24 @@
 
     .business-navigationButtons {
         font-size: 12px;
-        display: flex;
-        justify-content: space-around;
         margin-top: 3.5em;
-        margin-left: 5em;
+        margin-left: 3em;
     }
     
     .business-navigationButtons-contact {
         font-size: 12px;
         display: flex;
         margin-top: 3.5em;
-        margin-left: 5em;
+        margin-left: 10em;
     }
 }
 
 @media  (max-width: 1200px) {
+
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 21em;
+    }
     .business-headerContainer{
         height: 800px;
     }
@@ -152,8 +168,6 @@
 
     .business-navigationButtons {
         font-size: 12px;
-        display: flex;
-        justify-content: space-between;
         margin-top: 3.5em;
         margin-right: -2em;
         margin-left: 5em;
@@ -172,19 +186,22 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 10em;
+    }
+
     .business-navigationButtons {
         font-size: 12px;
-        display: flex;
-        justify-content: space-evenly;
         margin-top: 3.5em;
-        margin-left: 5em;
-        margin-right: -8em;
+        margin-left: 3.25em;
     }
     
     .business-navigationButtons-contact {
         font-size: 12px;
         margin-top: 3.5em;
-        margin-left: 6em;
+        margin-left: 8em;
     }
     
     .business-headerTitle {
@@ -193,7 +210,11 @@
 }
 
 @media (max-width: 768px) {
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 2em;
 
+    }
     .business-ivory-logo{
         margin-left: -2em;
         width: 150px;
@@ -219,21 +240,24 @@
 
     .business-navigationButtons {
         font-size: 10px;
-        display: flex;
-        justify-content: space-between;
         margin-top: 4.75em;
-        margin-left: 2em;
-        margin-right: -2.5em;
+        margin-left: 3em;
+        margin-right: 0em;
     }
     
     .business-navigationButtons-contact {
         font-size: 10px;
         margin-top: 4.75em;
-        margin-left: 4em;
+        margin-left: 3em;
     }
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+
     .business-headerTitle{
         margin-left: -1.5em;
     }
@@ -242,11 +266,17 @@
     }
 
     .business-navigationButtons {
-        margin-right: -5em;
+        margin-right: 0.5em;
     }
 }
 
 @media (max-width: 575px) {
+
+    .business-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+
     .business-headerTitle {
         font-size: 32px;
         margin-left: -0.10em;
@@ -274,25 +304,28 @@
 
 
 @media (min-width: 320px) and (max-width: 576px) {
+
+    .business-navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1.25em;
+    }
+
     .business-navigationButtons {
         font-size: 7px;
         display: flex;
         font-family: Averta-bold;
         justify-content: space-evenly;
-        margin-top: -5.5em;
-        margin-left: 20em;
-        margin-right: 5em;
+
     }
     
     .business-navigationButtons-contact {
         font-size: 7px;
         font-family: Averta-bold;
-        display: flex;
-        justify-content: flex-end;
-        margin-top: -5.5em;
+        margin-top: 4.75em;
         
     }
     .business-ivory-logo {
+        margin-left: 0.5em;
         height: 70px;
         width: 100px;
     }
@@ -300,6 +333,21 @@
 }
 
 @media (max-width: 320px) {
+    .business-navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1em;
+    }
+
+    .business-navigationButtons {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
+    .business-navigationButtons-contact {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
     .business-headerTitle {
         font-size: 30px;
     }

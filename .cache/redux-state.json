@@ -568,6 +568,10 @@
             "version": "^3.0.0"
           },
           {
+            "name": "jquery",
+            "version": "^3.3.1"
+          },
+          {
             "name": "react",
             "version": "^16.5.2"
           },
@@ -713,12 +717,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-18T08:15:50.407Z",
+      "buildTime": "2018-10-18T08:55:20.782Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a31f1d789732f026da86c71b567c08e8",
+        "contentDigest": "5062b91726a1164fbee58da81c431f88",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -766,12 +770,10 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "86ee8942df8c149e6904e6fa0be88350"
+    "PLUGINS_HASH": "cfcde4eab7f53fca6ab389f98e03ac32"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": []
-    },
+    "nodes": {},
     "connections": {}
   },
   "jsonDataPaths": {

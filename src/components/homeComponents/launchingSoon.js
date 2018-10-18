@@ -19,7 +19,7 @@ export default class LaunchingSoon extends Component {
   }
   render() {
     return (
-      <div className={"containerLaunching"}>
+      <div id='f0rm' className={"containerLaunching"}>
         <Grid>
           <Row>
             <Col sm={12} md={12}>

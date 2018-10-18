@@ -89,13 +89,8 @@
         display: inline-flex;
         margin-left: 33em;
     }
-
     .business-headerTitle{
         margin-top: 3em;
-    }
-    .business-headerContainer {
-        height: 1000px;
-        width: 100%;
     }
     .business-ivory-logo{
         margin-left: -9em;

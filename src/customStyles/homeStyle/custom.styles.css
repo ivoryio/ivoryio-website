@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
+    width: 100%;
 }
 
 .headerTitle {
@@ -56,7 +57,6 @@
 .navigationButtons-contact {
     font-family: Averta-Regular;
     color: white;
-    display: flex;
     margin-top: 2.5em;
     margin-left: 3em;
 }
@@ -74,25 +74,32 @@
     }
     .headerContainer {
         height: 1000px;
+        width: 100%;
     }
     .ivory-logo{
-        margin-left: -9em;
+        margin-left: -8em;
+    }
+
+    .navigation-wrapper {
+        display: inline-flex;
+        margin-left: 33em;
     }
 
     .navigationButtons {
+        
         font-size: 16px;
-        display: flex;
-        justify-content: space-between;
         margin-top: 3.5em;
-        margin-left: 4.5em;
-        margin-right: -4em;
+        margin-left: 4em;
+       
     }
     
     .navigationButtons-contact {
         font-size: 16px;
-        display: flex;
         margin-top: 3.5em;
-        margin-left: 10em;
+        margin-left: 3em;
+    
+        
+        
     }
 }
 
@@ -101,19 +108,22 @@
         margin-left: 0.5em;
     }
 
+    .navigation-wrapper {
+        display: inline-flex;
+        margin-left: 28.5em;
+    }
+
     .navigationButtons {
         font-size: 12px;
-        display: flex;
-        justify-content: space-around;
         margin-top: 3.5em;
-        margin-left: 5em;
+        margin-left: 3em;
     }
     
     .navigationButtons-contact {
         font-size: 12px;
         display: flex;
         margin-top: 3.5em;
-        margin-left: 5em;
+        margin-left: 10em;
     }
 }
 
@@ -131,10 +141,13 @@
         font-size: 18px;
     }
 
+    .navigation-wrapper {
+        display: inline-flex;
+        margin-left: 21em;
+    }
+
     .navigationButtons {
         font-size: 12px;
-        display: flex;
-        justify-content: space-between;
         margin-top: 3.5em;
         margin-right: -2em;
         margin-left: 5em;
@@ -148,24 +161,30 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .navigation-wrapper {
+        display: inline-flex;
+        margin-left: 10em;
+    }
     .navigationButtons {
         font-size: 12px;
-        display: flex;
-        justify-content: space-evenly;
         margin-top: 3.5em;
-        margin-left: 5em;
-        margin-right: -8em;
+        margin-left: 3.25em;
     }
     
     .navigationButtons-contact {
         font-size: 12px;
         margin-top: 3.5em;
-        margin-left: 6em;
+        margin-left: 8em;
     }
 }
 
 @media (max-width: 768px) {
+    .navigation-wrapper {
+        display: inline-flex;
+        margin-left: 2em;
 
+    }
     .ivory-logo{
         margin-left: -2em;
         width: 150px;
@@ -186,22 +205,26 @@
 
     .navigationButtons {
         font-size: 10px;
-        display: flex;
-        justify-content: space-between;
         margin-top: 4.75em;
-        margin-left: 2em;
-        margin-right: -5.5em;
+        margin-left: 3em;
+        margin-right: 0em;
     }
     
     .navigationButtons-contact {
         font-size: 10px;
         margin-top: 4.75em;
-        margin-left: 4em;
+        margin-left: 3em;
     }
 }
 
 
 @media (max-width: 600px) {
+    
+    .navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+    
     .headerTitle {
         font-size: 32px;
         margin-left: -0.10em;
@@ -228,6 +251,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+
     .headerTitle{
         margin-left: -2.5em;
     }
@@ -239,22 +263,23 @@
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
+
+    .navigation-wrapper{
+        display: inline-flex;
+        margin-left: 0.5em;
+    }
     .navigationButtons {
         font-size: 7px;
         display: flex;
         font-family: Averta-bold;
         justify-content: space-evenly;
-        margin-top: -5.5em;
-        margin-left: 20em;
-        margin-right: 5em;
     }
     
     .navigationButtons-contact {
         font-size: 7px;
         font-family: Averta-bold;
-        display: flex;
-        justify-content: flex-end;
-        margin-top: -5.5em;
+        margin-left: 3em;
+
         
     }
     .ivory-logo {
@@ -263,6 +288,21 @@
 }
 
 @media (max-width: 320px) {
+    }
+
+    .navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1em;
+    }
+
+    .navigationButtons {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
+    .navigationButtons-contact {
+        font-size: 6px;
+        margin-top: 5.5em;
     }
     .headerTitle {
         font-size: 30px;

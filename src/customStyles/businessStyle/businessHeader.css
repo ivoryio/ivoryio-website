@@ -79,6 +79,13 @@
 }
 
 @media (min-width: 1366px){
+
+    .business-headerTitle{
+        margin-top: 3em;
+    }
+    .business-headerContainer {
+        height: 1000px;
+    }
     .business-ivory-logo{
         margin-left: -9em;
     }

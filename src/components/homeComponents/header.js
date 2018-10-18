@@ -42,7 +42,7 @@ export default class Header extends Component {
              <Col >
               <div class='navigationButtons'>
               <Link className='menuLinks' to='/'>
-                Go Home
+                Home
               </Link>
               </div>
             </Col>

@@ -717,12 +717,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-18T10:12:59.497Z",
+      "buildTime": "2018-10-18T10:26:41.658Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a647885a58f5d7c02f0c478731ca9cc1",
+        "contentDigest": "d83645fc72da98d17157544bd432b9ae",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

@@ -42,7 +42,7 @@ export default class BusinessHeader extends Component {
              <Col >
               <div class='business-navigationButtons'>
               <Link className='business-menuLinks' to='/' onClick='history.go(0)'>
-                Go Home
+                Home
               </Link>
               </div>
             </Col>

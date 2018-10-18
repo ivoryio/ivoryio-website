@@ -84,6 +84,19 @@ to {
 }
 
  @media(min-width: 300px) and (max-width:410px) {
+
+    .fromContainer {
+        height: 600px;
+    }
+
+    .pStyle {
+        font-size: 12px;
+    }
+
+    .h3Style {
+        font-size: 20px !important;
+    }
+
     .labels { display: none; }
     /* @keyframes pf {
         from {
@@ -141,9 +154,24 @@ to {
         #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
             animation: 1s linear infinite getInTouch;
         }
+        #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent, #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+            margin-left: -7em !important;
+            padding: 5em !important;
+            margin-top: -7em !important;
+
+        }
+        #mlb2-1074244.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+            margin-top: -5em !important;
+            margin-left: 2em !important;
+        }
+
 } 
 
 @media(min-width: 411px) and (max-width: 767px)  {
+
+    .h3Style {
+        font-size: 25px !important;
+    }
     .labels { display: none; }
     @keyframes input {
         from {

@@ -179,6 +179,12 @@
 }
 
 @media (max-width: 768px) {
+
+    .headerButton {
+        width: 85px;
+        height: 35px;
+        font-size: 10px;
+    }
     .navigation-wrapper {
         display: inline-flex;
         margin-left: 2em;

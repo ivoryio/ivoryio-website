@@ -717,12 +717,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-18T13:44:17.928Z",
+      "buildTime": "2018-10-18T14:01:28.607Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "663cd0923b83879083c779dcc5f86cbf",
+        "contentDigest": "cb4b121679f60a29468e85f8b906ecb4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -743,6 +743,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "29e623d277b6868d10fb6c5925084eed",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /developerPage/": {
+      "jsonName": "developer-page-cd2",
+      "internalComponentName": "ComponentDeveloperPage",
+      "path": "/developerPage/",
+      "component": "/Users/Oana/Desktop/ivoryio-website/src/pages/developerPage.js",
+      "componentChunkName": "component---src-pages-developer-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/developerPage.js",
+      "id": "SitePage /developerPage/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c3afe00ea31ebebd12d1f93d76cc554c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -779,7 +799,8 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "business-page-286": "391/path---business-page-286-f9a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "developer-page-cd2": "172/path---developer-page-cd-2-0d4-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/Oana/Desktop/ivoryio-website/.cache/dev-404-page.js": {
@@ -793,6 +814,10 @@
     "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/index.js"
+    },
+    "/Users/Oana/Desktop/ivoryio-website/src/pages/developerPage.js": {
+      "query": "",
+      "componentPath": "/Users/Oana/Desktop/ivoryio-website/src/pages/developerPage.js"
     }
   },
   "staticQueryComponents": {}

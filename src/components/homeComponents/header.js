@@ -57,7 +57,7 @@ export default class Header extends Component {
 
             <Col>
             <div class='navigationButtons'>
-              <Link className='menuLinks' to='/'>
+              <Link className='menuLinks' to='/developerPage'>
                 For Developers
               </Link>
               </div>

@@ -1,10 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-import DevelopersHeader from '../components/developersComponents/developersHeader'
-import DevProj from '../components/developersComponents/developersProj'
-import DeveloperDescription from '../components/developersComponents/developersDescription'
-import Footer from '../components/homeComponents/footer'
 
 class DevelopersPage extends React.Component {
   componentDidMount() {
@@ -19,10 +15,7 @@ class DevelopersPage extends React.Component {
   render(){
     return(
       <div>
-      <DevelopersHeader />
-      <DeveloperDescription />
-      <DevProj />
-      <Footer />
+          Status: Under Construction..
     </div>
     )
   }

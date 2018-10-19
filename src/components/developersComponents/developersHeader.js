@@ -66,7 +66,7 @@ export default class DevelopersHeader extends Component {
 
             <Col>
               <div class='dev-navigationButtons-contact'>
-              <Link className='dev-menuLinks' to='/'>
+              <Link className='dev-menuLinks' to='/contact'>
                 Contact
               </Link>
               </div>
@@ -91,7 +91,7 @@ export default class DevelopersHeader extends Component {
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-              <a href='#f0rm'> <Button className='dev-headerButton' >Get in touch </Button> </a>
+              <Link to='/contact'> <Button className='dev-headerButton' >Get in touch </Button> </Link>
               </Col>
             </Row>
           </div>

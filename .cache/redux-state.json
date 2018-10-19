@@ -717,12 +717,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-19T07:40:05.497Z",
+      "buildTime": "2018-10-19T11:48:33.312Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7a3f4a09dd6017dd2cdbb906cb7172e7",
+        "contentDigest": "3a969f943efc90765c346ff6ab5d5299",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -786,6 +786,26 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b890c23d1be8b99882c593543f2fd0e7",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -800,7 +820,8 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "business-page-286": "391/path---business-page-286-f9a-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "developer-page-cd2": "172/path---developer-page-cd-2-0d4-NZuapzHg3X9TaN1iIixfv1W23E"
+    "developer-page-cd2": "172/path---developer-page-cd-2-0d4-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js": {
@@ -818,6 +839,10 @@
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js"
+    },
+    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/contact.js"
     }
   },
   "staticQueryComponents": {}

@@ -1,9 +1,10 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
+import DeveloperDescription from '../components/developersComponents/developersDescription'
 import Footer from '../components/homeComponents/footer'
 
-class ForDevelopers extends React.Component {
+class DevelopersPage extends React.Component {
   componentDidMount() {
     var newS = document.createElement('link');
     newS.setAttribute('rel', 'icon');
@@ -16,10 +17,11 @@ class ForDevelopers extends React.Component {
   render(){
     return(
       <div>
+        <DeveloperDescription />
       <Footer />
     </div>
     )
   }
 }
 
-  export default ForDevelopers
+  export default DevelopersPage

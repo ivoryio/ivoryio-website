@@ -1,4 +1,31 @@
-let CONSTANTS = {
-    
+let DCONSTANTS = {
+    DEVELOPER_OPEN_SOURCE:'Ivory is open and free for commercial use. We believe that by providing a good product which addresses the needs of product developers today with a world class architecture and advanced ready built functionalities we will be able to convince them to contribute to this project.',
+    DEVELOPER_PODS_TITLE:'Pods',
+    DEVELOPER_PODS_TEXT1:'Our vision is to ultimately offer tens of ready made pods that developers can assemble. In our marketplace pods like user management, multi-language localisation, transaction emails will be offered for free and for pay. Developers can choose how they would like to make their pods available. All pods have web & mobile UI built with React and Native React and most pods have admin interfaces.',
+    DEVELOPER_PODS_TEXT2:'A full list of Pods will be available on the ivory.io/pods web page. Here is just a short list we envision at this point:',
+    DEVELOPER_PODS_TEXT3:'User Authentication Pod: Email + password, Google, Facebook, 2 factor with SMS, Web & mobile; CRUD Pod; Payment (Stripe, billing, refunds, etc.); Notifications; Chat; Transactional email (Admin based functionality & some); APIsAnalytics; Globalisation/ Translations; Analytics; Emails, etc.',
+    DEVELOPER_DATABASE_TITLE: 'Serverless Solution',
+    DEVELOPER_DATABASE_TEXT1:'We’ve invested, and are going to invest some more in building a cutting edge architecture which simplifies implementation of complex functionalities for developers.',
+    DEVELOPER_DATABASE_TEXT2:'The backend of the application architecture is based on microservices which are integrated through an event bus.',
+    DEVELOPER_SPEED_TITLE: 'Performance Focused',
+    DEVELOPER_SPEED_TEXT1:'Ivory aims at “google fast” speeds of production by default. Due to the use of DynamoDB with DAX enabled by default and Appsync (GraphQL) most requests are handled with single digit milliseconds response time. ',
+    DEVELOPER_SPEED_TEXT2:'The web application, a single page React app, is served via CloudFront to reduce network latency and makes extensive use of server-side rendering, embedding fonts, scripts and resources so that when loading it the “time to first screen” is instantaneous.',
+    DEVELOPER_SECURE_TITLE:'Security and Privacy',
+    DEVELOPER_SECURE_TEXT1:'Absolutely all data stored and manipulated by Ivory is fully encrypted in transit and at rest. AWS KMS is used for encryption, decryption and key management.',
+    DEVELOPER_SECURE_TEXT2:'A full list of Pods will be available on the ivory.io/pods web page. Here is just a short list we envision at this point:',
+    DEVELOPER_SECURE_TEXT3:'User Authentication Pod: Email + password, Google, Facebook, 2 factor with SMS, Web & mobile; CRUD Pod; Payment (Stripe, billing, refunds, etc.); Notifications; Chat; Transactional email (Admin based functionality & some); APIsAnalytics; Globalisation/ Translations; Analytics; Emails, etc.',
+    DEVELOPER_MACHINE_LEARNING_TITLE:'Machine Learning and AI',
+    DEVELOPER_MACHINE_LEARNING_TEXT1:'In order to ensure that every application built with Ivory is future roof and ML/AI ready the platform employs a sophisticated microservices based architecture with an event bus (Kinesis) and event log (Dynamo). Essentially this means that every message going through the system (eg. "Product viewed", "Product added to cart", "Order placed", "Bill issued") is saved.',
+    DEVELOPER_MACHINE_LEARNING_TEXT2:' Since data collection is a foundational step in a big data and AI strategy the core Ivory architecture allows for data to be collected to be used at some later time to train ML models. ',
+    DEVELOPER_BLOCKCHAIN_TITLE:'Blockchain',
+    DEVELOPER_BLOCKCHAIN_TEXT1:'Ivory aims to accelerate the development of a typical Blockchain MVP by a factor of 10x. Ivory has native support for Blockchain and significantly accelerates Blockchain development in 3 areas:',
+    DEVELOPER_BLOCKCHAIN_TEXT2:'1) Devops - setting up the necessary infrastructure to run the EVM (Ethereum Virtual Machine) and create a private Ethereum chain is as simple as adding the Blockchain Pod;',
+    DEVELOPER_BLOCKCHAIN_TEXT3:'2) Solidity contract development - a started kit and template of not only creating and deploying the first Solidity contracts but also on how to integrate these into the application Pods;',
+    DEVELOPER_BLOCKCHAIN_TEXT4:'3) Monitoring - the necessary instrumentation to monitor and manage the Blockchain infrastructure and code from the Admin section of the application.',
+    DEVELOPER_DEVOPS_TITLE:'Continuous Delivery & Zero DevOps',
+    DEVELOPER_DEVOPS_TEXT1:'With Ivory, using a single command - ivory setup, a complete and complex environment is setup for you. All you need to do to get new code in production after this point is to simply git push to the git repo that Ivory has setup on AWS CodeCommit for you.',
+    DEVELOPER_DEVOPS_TEXT2:' Apart from the actual cloud execution environment for your app (Lambdas, Kinesis streams, etc) Ivory also setups a complete build pipeline with all the ingredients required for continuous deployment.',
+    DEVELOPER_QUALITY_TITLE:'Quality',
+    DEVELOPER_QUALITY_TEXT:'On a UX level all our pods are designed to support the top 4 major browsers, 2-3 version back, and be completely responsive on the web. Because of our extensive use of a UX design system and styled components all our pods have an integrated and consistent look & feel which can be easily adopted by developers in their own pods.'
 }
-export default CONSTANTS
+export default DCONSTANTS

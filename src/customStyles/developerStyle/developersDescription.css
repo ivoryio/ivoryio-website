@@ -1,3 +1,125 @@
-.wrapp{
-    font-family: 'Averta';
+.developerWrapper{
+    margin-right: 264px;
+    margin-left: 270px;
+    margin-top: 115px;
+    margin-bottom: 200px;
 }
+.developerTitle {
+    font-family: 'Averta-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #394952;
+    width:100%;
+  }
+.imageD {
+    display:block;
+    margin:0 auto;
+    width: 78px;
+    height:75px;
+}
+.titleD {
+    display:block;
+    margin:0 auto;
+    font-family: 'Averta-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #394952;
+    margin-top:30px;
+}
+.teamPhoto{
+    width: 230px;
+  height: 230px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.textD{
+    font-family: 'Averta-Light';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+    margin-top: 93px;
+    margin-left: 70px;
+}
+.textSpace{
+    font-family: 'Averta-Light';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+.textSpaceReverse{
+    font-family: 'Averta-Light';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+    margin-top: 15px;
+}
+.textDReverse{
+    font-family: 'Averta-Light';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+    margin-top: 93px;
+}
+.lineD{
+    height: 3px;
+    border: solid 1px #dedede;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+/* @media (max-width:767px){
+    .developerWrapper{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .developerTitle {
+        font-size: 18px;
+      }
+      .textD{
+          width: 200px;
+      }
+     .textDReverse{
+        width: 200px;
+     }
+     .textSpaceReverse{
+        width: 200px;
+     }
+     .textSpace{
+        width: 200px;
+     }
+      .lineD{
+          width: 220px;}
+    .titleD{
+        width: 200px;;
+    }
+} */

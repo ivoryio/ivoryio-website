@@ -97,29 +97,61 @@
     margin-bottom: 150px;
     margin-top: 150px;
 }
-/* @media (max-width:767px){
-    .developerWrapper{
-        margin-right: 5px;
-        margin-left: 5px;
+@media (max-width: 575px){
+    .developerWrapper {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .developerTitle {
         font-size: 18px;
+        width: 300px;
+        display:block;
+        margin:0 auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
       }
       .textD{
-          width: 200px;
+        display:block;
+        margin:0 auto;
+          margin-top: 30px;
+          text-align: center;
       }
      .textDReverse{
-        width: 200px;
+        display:block;
+        margin:0 auto;
+        margin-top: 30px;
+        text-align: center;
      }
      .textSpaceReverse{
-        width: 200px;
+        display:block;
+        margin:0 auto;
+        text-align: center;
      }
      .textSpace{
-        width: 200px;
+        display:block;
+        margin:0 auto;
+        text-align: center;
      }
       .lineD{
-          width: 220px;}
+        display:block;
+        margin:0 auto;
+        margin-top:30px;
+    margin-bottom: 30px;}
     .titleD{
-        width: 200px;;
+        width: 300px;
+        font-size: 18px;
+        text-align: center;
     }
-} */
+    .teamPhoto{
+        display:block;
+        margin:0 auto;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 576px){
+    .developerWrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}

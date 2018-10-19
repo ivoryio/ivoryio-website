@@ -51,7 +51,7 @@ render(){
               <h3 className={'titleD'} > {DCONSTANTS.DEVELOPER_PODS_TITLE}</h3>
             </Col>
             </Row>
-            <Row className='d-flex justify-content-between '>
+            <Row >
             <Col  sm={6} md={6} >
               <p className={'textDReverse'}> {DCONSTANTS.DEVELOPER_PODS_TEXT1}</p>
               <p className={'textSpaceReverse'}> {DCONSTANTS.DEVELOPER_PODS_TEXT2}</p>
@@ -59,7 +59,7 @@ render(){
             </Col>
             <Col  sm={3} md={3} />
             <Col  sm={3} md={3} >
-              <img alt='' style={{marginTop:150,marginLeft:-50}} className={'teamPhoto'} src={photo} />
+              <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
             </Row>
             <div className={'lineD'}/>
@@ -89,14 +89,14 @@ render(){
               <h3 className={'titleD'} > {DCONSTANTS.DEVELOPER_SPEED_TITLE}</h3>
             </Col>
             </Row>
-            <Row className='d-flex justify-content-between '>
+            <Row >
             <Col  sm={6} md={6} >
               <p className={'textDReverse'}> {DCONSTANTS.DEVELOPER_SPEED_TEXT1}</p>
               <p className={'textSpaceReverse'}> {DCONSTANTS.DEVELOPER_SPEED_TEXT2}</p>
             </Col>
             <Col  sm={3} md={3} />
             <Col  sm={3} md={3} >
-              <img alt='' style={{marginTop:90,marginLeft:-50}} className={'teamPhoto'} src={photo} />
+              <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
             </Row>
             <div className={'lineD'}/>
@@ -110,7 +110,7 @@ render(){
             </Row>
             <Row>
             <Col  sm={3} md={3} >
-              <img alt='' style={{marginTop:120}} className={'teamPhoto'} src={photo} />
+              <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
             <Col  sm={9} md={9} >
               <p className={'textD'}> {DCONSTANTS.DEVELOPER_SECURE_TEXT1}</p>
@@ -127,14 +127,14 @@ render(){
               <h3 className={'titleD'} > {DCONSTANTS.DEVELOPER_MACHINE_LEARNING_TITLE}</h3>
             </Col>
             </Row>
-            <Row className='d-flex justify-content-between '>
+            <Row >
             <Col  sm={6} md={6} >
               <p className={'textDReverse'}> {DCONSTANTS.DEVELOPER_MACHINE_LEARNING_TEXT1}</p>
               <p className={'textSpaceReverse'}> {DCONSTANTS.DEVELOPER_MACHINE_LEARNING_TEXT2}</p>
             </Col>
             <Col  sm={3} md={3} />
             <Col  sm={3} md={3} >
-              <img alt='' style={{marginTop:100,marginLeft:-50}} className={'teamPhoto'} src={photo} />
+              <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
             </Row>
             <div className={'lineD'}/>
@@ -148,7 +148,7 @@ render(){
             </Row>
             <Row>
             <Col  sm={3} md={3} >
-              <img alt='' style={{marginTop:130}} className={'teamPhoto'} src={photo} />
+              <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
             <Col  sm={9} md={9} >
               <p className={'textD'}> {DCONSTANTS.DEVELOPER_BLOCKCHAIN_TEXT1}</p>
@@ -166,14 +166,14 @@ render(){
               <h3 className={'titleD'} > {DCONSTANTS.DEVELOPER_DEVOPS_TITLE}</h3>
             </Col>
             </Row>
-            <Row className='d-flex justify-content-between '>
+            <Row >
             <Col  sm={6} md={6} >
               <p className={'textDReverse'}> {DCONSTANTS.DEVELOPER_DEVOPS_TEXT1}</p>
               <p className={'textSpaceReverse'}> {DCONSTANTS.DEVELOPER_DEVOPS_TEXT2}</p>
             </Col>
             <Col  sm={3} md={3} />
             <Col  sm={3} md={3} >
-              <img alt='' style={{marginTop:90,marginLeft:-50}} className={'teamPhoto'} src={photo} />
+              <img alt='' className={'teamPhoto'} src={photo} />
             </Col>
             </Row>
             <div className={'lineD'}/>

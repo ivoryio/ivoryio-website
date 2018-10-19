@@ -1,0 +1,126 @@
+.proj-container {
+    height: 433px;
+    width: 100%;
+    background-color: #00aeef;
+}
+
+.proj-wrapper {
+    display: inline-flex;
+    margin-top: 5em;
+}
+
+.proj-title {
+    font-family: Averta-Semibold;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: -2px;
+    height: 37px;
+}
+
+.proj-text1 {
+    font-size: 18px;
+    font-family: Averta-Light;
+    width: 504px;
+    color: white;
+    text-align: left;
+    line-height: -1px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.proj-text2 {
+    font-size: 18px;
+    font-family: Averta-Light;
+    width: 504px;
+    color: white;
+    text-align: left;
+    line-height: -1px;
+}
+
+@media (min-width: 1366px) {
+    .proj-photo {
+        margin-left: 20em;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .proj-wrapper {
+        margin-left: 5em;
+    }
+
+    .proj-photo {
+        margin-left: 15em;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .proj-wrapper {
+        margin-left: 2em;
+    }
+    .proj-photo {
+        margin-left: 5.5em;
+    }
+
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .proj-container {
+        height: 100%;
+    }
+    .proj-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proj-photo {
+        margin-bottom: 1.5em;
+        margin-left: 9em;
+        margin-top: 1.5em;
+    }
+
+    .proj-title {
+        text-align: center;
+    }
+    
+    .proj-text1 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .proj-container {
+        height: 100%;
+        width: 100%;
+    }
+    .proj-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+
+    .proj-photo {
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+        margin-left: -0.5em;
+    }
+
+    .proj-title {
+        font-size: 22px;
+        margin-left: -0.5em;
+    }
+
+    .proj-text1 {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .proj-text2 {
+        width: 100%;
+        font-size: 12px;
+    }
+}

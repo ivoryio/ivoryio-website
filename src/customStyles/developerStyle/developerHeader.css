@@ -1,0 +1,421 @@
+.dev-headerContainer {
+    background-image: url('../../images/header-developersSized.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+.dev-headerTitle {
+    color: white;
+    font-family: Averta-regular;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 488px;
+    
+}
+
+.dev-headerText {
+    color: white;
+    font-family: Averta-regular;
+    font-size: 24px;
+    
+}
+
+.dev-headerButton {
+    background-color: #ffffff;
+    color: #00adee;
+    font-family: Averta-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    margin: none;
+    border-radius: 2px !important;
+    width: 134px;
+    height: 50px;
+}
+
+.dev-headerGroupRight {
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
+.dev-ivory-logo {
+    width: 155px;
+    height: 105px;
+    
+}
+
+.dev-navigationButtons {
+    text-decoration: none;
+    font-family: Averta-Regular;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5em;
+    margin-left: -1em;
+}
+
+.dev-navigationButtons-contact {
+    font-family: Averta-Regular;
+    color: white;
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: 3em;
+}
+.dev-menuLinks {
+    color: white;
+}
+
+.dev-menuLinks:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 1500px) {
+    .dev-headerTitle {
+        margin-left: -2.5em;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1500px) {
+    .dev-headerTitle {
+        font-size: 42px;
+        width: 100%;
+        margin-left: -3em;
+    }
+}
+@media (min-width: 1430px){
+    .dev-headerContainer {
+        height: 1000px;
+    }
+}
+@media (min-width: 1366px){
+
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 33em;
+    }
+    .dev-headerTitle{
+        margin-top: 3em;
+        width: 600px;
+    }
+    .dev-headerText {
+        margin-left: -5.25em;
+    }
+    .dev-headerButton {
+        margin-left: -8em;
+    }
+    .dev-ivory-logo{
+        margin-left: -9em;
+    }
+   
+    .dev-navigationButtons {
+        font-size: 16px;
+        margin-top: 3.5em;
+        margin-left: 4em;
+    }
+    
+    .dev-navigationButtons-contact {
+        font-size: 16px;
+        display: flex;
+        margin-top: 3.5em;
+        margin-left: 4em;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+    
+
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 28.5em;
+    }
+
+    .dev-headerTitle {
+        font-size: 42px;
+        width: 500px;
+        margin-left: -2em;
+        
+    }
+    .dev-headerText {
+        margin-left: -3.25em;
+    }
+
+    .dev-headerButton{
+        margin-left: -5em;
+    }
+    .dev-ivory-logo {
+        margin-left: 0.5em;
+    }
+
+    .dev-navigationButtons {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 3em;
+    }
+    
+    .dev-navigationButtons-contact {
+        font-size: 12px;
+        display: flex;
+        margin-top: 3.5em;
+        margin-left: 10em;
+    }
+}
+
+@media  (max-width: 1200px) {
+
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 21em;
+    }
+    .dev-headerContainer{
+        height: 800px;
+    }
+    
+    .dev-headerGroupRight {
+        margin-top: 10em;
+        margin-left: 10em;
+    }
+
+    .dev-headerText {
+        font-size: 18px;
+        margin-left: -4.25em;
+    }
+
+    .dev-navigationButtons {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-right: -2em;
+        margin-left: 5em;
+    }
+    
+    .dev-navigationButtons-contact {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 7em;
+    }
+    .dev-headerButton {
+        margin-left: -4.75em;
+    }
+    .dev-headerTitle {
+        font-size: 27px;
+        width: 100%;
+        margin-left: -3em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 10em;
+    }
+
+    .dev-navigationButtons {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 3.25em;
+    }
+    
+    .dev-navigationButtons-contact {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 8em;
+    }
+    
+    .dev-headerTitle {
+        font-size: 42px;
+        margin-left: -2.25em;
+    }
+    
+    .dev-headerText {
+        margin-left: -5em;
+    }
+
+    .dev-headerButton {
+        margin-left: -5.5em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .dev-headerButton {
+        width: 90px;
+        height: 35px;
+        font-size: 10px;
+
+
+    }
+
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 2em;
+
+    }
+    .dev-ivory-logo{
+        margin-left: -2em;
+        width: 150px;
+        height: 100px;
+    }
+    .dev-headerTitle{
+        font-size: 42px;
+        width: 100%;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .dev-headerText{
+        font-size: 16px;
+    }
+
+    .dev-headerGroupRight {
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+
+    .dev-navigationButtons {
+        font-size: 10px;
+        margin-top: 4.75em;
+        margin-left: 3em;
+        margin-right: 0em;
+    }
+    
+    .dev-navigationButtons-contact {
+        font-size: 10px;
+        margin-top: 4.75em;
+        margin-left: 3em;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+
+    .dev-headerTitle {
+        margin-left: -1.5em;
+    }
+    .dev-headerGroupRight {
+        margin-left: -7em;
+    }
+
+    .dev-navigationButtons {
+        margin-right: 0.5em;
+    }
+
+    .dev-headerText {
+        margin-left: -1.5em;
+    }
+
+    .dev-headerButton {
+        margin-left: -2em;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .dev-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+
+    .dev-headerTitle {
+        font-size: 32px;
+        margin-left: -0.10em;
+        
+    }
+
+    .dev-headerText {
+        font-size: 12px;
+    }
+
+    .dev-headerGroupRight {
+        margin-top: 5em;
+        margin-left: 10em;
+    }
+
+    .dev-headerContainer {
+        height: 400px;
+    }
+
+    .dev-ivory-logo {
+        margin-left: 1em;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+
+    .dev-navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1.25em;
+    }
+
+    .dev-navigationButtons {
+        font-size: 7px;
+        display: flex;
+        font-family: Averta-bold;
+        justify-content: space-evenly;
+
+    }
+
+    .dev-headerButton {
+        margin-left: 0em;
+    }
+
+    .dev-headerText {
+        margin-left: 0em;
+    }
+    
+    .dev-navigationButtons-contact {
+        font-size: 7px;
+        font-family: Averta-bold;
+        margin-top: 4.75em;
+        
+    }
+    .dev-ivory-logo {
+        margin-left: 0.5em;
+        height: 70px;
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .dev-navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1em;
+    }
+
+    .dev-navigationButtons {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
+    .dev-navigationButtons-contact {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
+    .dev-headerTitle {
+        font-size: 30px;
+    }
+    .dev-headerGroupRight{
+        margin-left: 10em;
+    }
+
+    .dev-headerText {
+        font-size: 11px;
+        margin-left: -1.5em;
+    }
+    .dev-headerButton {
+        margin-left: -2em;
+    }
+    
+}
+    

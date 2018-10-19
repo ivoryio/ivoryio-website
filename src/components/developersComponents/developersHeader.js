@@ -9,11 +9,11 @@ import {
   Row
 } from 'react-bootstrap'
 
-import '../../customStyles/businessStyle/businessHeader.css'
+import '../../customStyles/developerStyle/developerHeader.css'
 import '../../customStyles/fonts.css'
 import $ from 'jquery'
 
-export default class BusinessHeader extends Component {
+export default class DevelopersHeader extends Component {
  function(){
     $("a").on('click', function(event) {
       if (this.hash !== "") {
@@ -29,35 +29,35 @@ export default class BusinessHeader extends Component {
   }
   render () {
     return (
-      <div class='business-headerContainer'>
+      <div class='dev-headerContainer'>
         <Grid>
           <Row>
             <Col >
               <Link to='/'>
-                <Image className='business-ivory-logo' src={ivoryLogo} onClick='history.go(0)' responsive />
+                <Image className='dev-ivory-logo' src={ivoryLogo} onClick='history.go(0)' responsive />
               </Link>
             </Col>
             
-            <div class='business-navigation-wrapper'>
+            <div class='dev-navigation-wrapper'>
              <Col >
-              <div class='business-navigationButtons'>
-              <Link className='business-menuLinks' to='/' onClick='history.go(0)'>
+              <div class='dev-navigationButtons'>
+              <Link className='dev-menuLinks' to='/' onClick='history.go(0)'>
                 Home
               </Link>
               </div>
             </Col>
 
             <Col >
-              <div class='business-navigationButtons'>
-              <Link className='business-menuLinks' to='/businessPage'>
+              <div class='dev-navigationButtons'>
+              <Link className='dev-menuLinks' to='/businessPage'>
                 For Business
               </Link>
               </div>
             </Col>
 
              <Col >
-             <div class='business-navigationButtons'>
-              <Link className='business-menuLinks' to='/developerPage'>
+             <div class='dev-navigationButtons'>
+              <Link className='dev-menuLinks' to='/developerPage'>
                 For Developers
               </Link>
               </div>
@@ -65,33 +65,33 @@ export default class BusinessHeader extends Component {
             </div>
 
             <Col>
-              <div class='business-navigationButtons-contact'>
-              <Link className='business-menuLinks' to='/'>
+              <div class='dev-navigationButtons-contact'>
+              <Link className='dev-menuLinks' to='/'>
                 Contact
               </Link>
               </div>
             </Col>
 
           </Row>
-          <div class='business-headerGroupRight'>
+          <div class='dev-headerGroupRight'>
             <Row>
               <Col xs={10} sm={10} md={7} lg={7} />
               <Col xs={2} sm={2} md={5} lg={5}>
-                <h1 class='business-headerTitle'>Ivory For Business</h1>
+                <h1 class='dev-headerTitle'>Ivory For Developers</h1>
               </Col>
             </Row>
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-                <p class='business-headerText'>
-                Build fast scalable apps <br />with our team
+                <p class='dev-headerText'>
+                Build, Contribute and Enjoy <br /> the Ivory Community
                 </p>
               </Col>
             </Row>
             <Row>
               <Col xs={8} sm={8} md={7} lg={7} />
               <Col xs={4} sm={4} md={5} lg={5}>
-              <a href='#f0rm'> <Button className='business-headerButton' >Get in touch </Button> </a>
+              <a href='#f0rm'> <Button className='dev-headerButton' >Get in touch </Button> </a>
               </Col>
             </Row>
           </div>

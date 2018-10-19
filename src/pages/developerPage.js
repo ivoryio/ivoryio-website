@@ -1,6 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
+import DevelopersHeader from '../components/developersComponents/developersHeader'
+import DevProj from '../components/developersComponents/developersProj'
 import Footer from '../components/homeComponents/footer'
 
 class ForDevelopers extends React.Component {
@@ -16,6 +18,8 @@ class ForDevelopers extends React.Component {
   render(){
     return(
       <div>
+      <DevelopersHeader />
+      <DevProj />
       <Footer />
     </div>
     )

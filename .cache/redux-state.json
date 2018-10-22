@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "82e5ed1f61ec77ae800ec1e63dd81cbb",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -713,17 +704,35 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-22T10:12:13.860Z",
+      "buildTime": "2018-10-22T10:42:46.713Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "39a53a84302b07cf0fc05154de3ce404",
+        "contentDigest": "7e9254ac3e3d725e9f86f70e6c076387",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8b8536810b474109bec8c624eb5a34c3",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -821,13 +830,10 @@
     "business-page-286": "391/path---business-page-286-f9a-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "developer-page-cd2": "172/path---developer-page-cd-2-0d4-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/.cache/dev-404-page.js"
-    },
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/businessPage.js": {
       "query": "",
       "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/businessPage.js"
@@ -843,6 +849,10 @@
     "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/src/pages/index.js"
+    },
+    "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {}

@@ -4,7 +4,7 @@ import fbLogo from '../../images/facebook-logo.svg'
 import twLogo from '../../images/twitter-logo-silhouette.svg'
 import { Image, Grid, Col, Row } from 'react-bootstrap'
 
-import '../../customStyles/contactStyle/ContactFooter.css'
+import '../../customStyles/contactStyle/contactFooter.css'
 import '../../customStyles/fonts.css'
 export default class ContactFooter extends Component {
   render () {

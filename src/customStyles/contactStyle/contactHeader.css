@@ -1,0 +1,448 @@
+.contact-headerContainer {
+    background-image: url('../../images/header_homepage-smallSized.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+.contact-headerTitle {
+    color: white;
+    font-family: Averta-regular;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 488px;
+    
+}
+
+.contact-headerText {
+    color: white;
+    font-family: Averta-regular;
+    font-size: 24px;
+    
+}
+
+.contact-headerGroupRight {
+    margin-top: 8em;
+    margin-left: 38em;
+}
+
+.contact-ivory-logo {
+    width: 155px;
+    height: 105px;
+    
+}
+
+.contact-navigationButtons {
+    text-decoration: none;
+    font-family: Averta-Regular;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5em;
+    margin-left: -1em;
+}
+
+.contact-navigationButtons-contact {
+    font-family: Averta-Regular;
+    color: white;
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: 3em;
+}
+.contact-menuLinks {
+    color: white;
+}
+
+.contact-menuLinks:hover {
+    text-decoration: none;
+}
+
+.contact-form-wrap {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.label-wrap {
+    margin-top: 6em;
+    margin-bottom: -3.75em;
+    margin-right: 3em;
+    font-family: Averta-Light;
+    color: white;
+    font-size: 14px;
+
+}
+
+#mlb2-1087000.ml-form-embedContainer .ml-form-align-center {
+    width: 335px !important;
+}
+
+#mlb2-1087000.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+    width: 134px !important;
+    height: 50px !important;
+    margin-left: 10em !important;
+}
+
+@media (min-width: 1366px) and (max-width: 1500px) {
+    .contact-headerTitle {
+        font-size: 42px;
+        width: 100%;
+    }
+}
+@media (min-width: 1430px){
+    .contact-headerContainer {
+        height: 1000px;
+    }
+}
+@media (min-width: 1366px){
+
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 33em;
+    }
+    .contact-ivory-logo{
+        margin-left: -9em;
+    }
+   
+    .contact-navigationButtons {
+        font-size: 16px;
+        margin-top: 3.5em;
+        margin-left: 4em;
+    }
+    
+    .contact-navigationButtons-contact {
+        font-size: 16px;
+        display: flex;
+        margin-top: 3.5em;
+        margin-left: 4em;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+    
+    .contact-headerGroupRight {
+        margin-left: 40em;
+    }
+
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 28.5em;
+    }
+
+    .contact-headerTitle{
+        font-size: 42px;
+        width: 100%;
+        
+        
+    }
+    .contact-ivory-logo {
+        margin-left: 0.5em;
+    }
+
+    .contact-navigationButtons {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 3em;
+    }
+    
+    .contact-navigationButtons-contact {
+        font-size: 12px;
+        display: flex;
+        margin-top: 3.5em;
+        margin-left: 10em;
+    }
+}
+
+@media  (max-width: 1200px) {
+
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 21em;
+    }
+    .contact-headerContainer{
+        height: 800px;
+    }
+    
+    .contact-headerGroupRight {
+        margin-top: 3em;
+        margin-left: 24em;
+    }
+
+    .contact-headerText {
+        font-size: 18px;
+    }
+
+    .contact-navigationButtons {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-right: -2em;
+        margin-left: 5em;
+    }
+    
+    .contact-navigationButtons-contact {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 7em;
+    }
+
+    .contact-headerTitle {
+        font-size: 32px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 10em;
+    }
+
+    .contact-navigationButtons {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 3.25em;
+    }
+    
+    .contact-navigationButtons-contact {
+        font-size: 12px;
+        margin-top: 3.5em;
+        margin-left: 8em;
+    }
+    
+    .contact-headerTitle {
+        font-size: 42px;
+    }
+
+    .contact-headerGroupRight {
+        margin-left: 15em;
+    }
+
+    .label-wrap {
+        margin-top: 6em;
+        margin-bottom: -3.25em;
+        margin-right: 3em;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contact-headerButton {
+        width: 90px;
+        height: 35px;
+        font-size: 10px;
+
+
+    }
+
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 2em;
+
+    }
+    .contact-ivory-logo{
+        margin-left: -2em;
+        width: 150px;
+        height: 100px;
+    }
+    .contact-headerTitle{
+        font-size: 42px;
+        width: 100%;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .contact-headerText{
+        font-size: 16px;
+    }
+
+    .contact-headerGroupRight {
+        margin-top: 7em;
+        margin-left: 11em;
+    }
+
+    .contact-navigationButtons {
+        font-size: 10px;
+        margin-top: 4.75em;
+        margin-left: 3em;
+        margin-right: 0em;
+    }
+    
+    .contact-navigationButtons-contact {
+        font-size: 10px;
+        margin-top: 4.75em;
+        margin-left: 3em;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+
+    .contact-headerTitle{
+        margin-left: 1.75em;
+    }
+    .contact-headerGroupRight {
+        margin-left: -7em;
+    }
+
+    .contact-navigationButtons {
+        margin-right: 0.5em;
+    }
+
+    .contact-headerGroupRight {
+        margin-left: 6em;
+    }
+
+    .label-wrap {
+        font-size: 12px;
+        margin-left: -3em;
+        margin-bottom: -3.5em;
+        margin-top: 6.5em;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .label-wrap {
+        display: none;
+    }
+
+    .contact-navigation-wrapper {
+        display: inline-flex;
+        margin-left: 1em;
+    }
+
+    .contact-headerTitle {
+        font-size: 32px;
+        margin-bottom: 0.5em;
+        margin-top: 3em;
+        margin-left: 2em;
+
+        
+    }
+
+    .contact-form-wrap {
+        margin-top: -4em;
+    }
+
+    .contact-headerText {
+        font-size: 12px;
+    }
+
+    .contact-headerGroupRight {
+        margin-top: -6em;
+        margin-left: 7em;
+    }
+
+    .contact-headerContainer {
+        height: 400px;
+    }
+
+    .contact-ivory-logo {
+        margin-left: 1em;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .contact-headerContainer {
+        height: 100%;
+    }
+
+    .contact-navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1.25em;
+    }
+
+    .contact-navigationButtons {
+        font-size: 7px;
+        display: flex;
+        font-family: Averta-bold;
+        justify-content: space-evenly;
+
+    }
+
+    .contact-headerGroupRight {
+        width: 100%;
+        margin-top: -6em;
+        margin-left: -3em;
+        margin-right: 2em;
+    }
+    
+    .contact-navigationButtons-contact {
+        font-size: 7px;
+        font-family: Averta-bold;
+        margin-top: 4.75em;
+        
+    }
+    .contact-ivory-logo {
+        margin-left: 0.5em;
+        height: 70px;
+        width: 100px;
+    }
+
+    .contact-headerTitle {
+        margin-left:  3.5em;
+    }
+
+    #mlb2-1087000.ml-form-embedContainer .ml-form-align-center {
+        width: 335px !important;
+        margin-left: 4em;
+    }
+
+    #mlb2-1087000.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+        width: 134px !important;
+        height: 50px !important;
+        margin-left: 10em !important;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .contact-navigation-wrapper{
+        display: inline-flex;
+        margin-left: -1em;
+    }
+
+    .contact-navigationButtons {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
+    .contact-navigationButtons-contact {
+        font-size: 6px;
+        margin-top: 5.5em;
+    }
+
+    .contact-headerTitle {
+        font-size: 30px;
+    }
+    .contact-headerGroupRight{
+        margin-left: -3em;
+    }
+
+    .contact-headerText {
+        font-size: 11px;
+    }
+    
+    #mlb2-1087000.ml-form-embedContainer .ml-form-align-center {
+        width: 300px !important;
+        margin-left: 4em;
+    }
+
+    #mlb2-1087000.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+        width: 134px !important;
+        height: 50px !important;
+        margin-left: 8em !important;
+    }
+}
+    

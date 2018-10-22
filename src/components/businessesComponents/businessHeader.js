@@ -66,7 +66,7 @@ export default class BusinessHeader extends Component {
 
             <Col>
               <div class='business-navigationButtons-contact'>
-              <Link className='business-menuLinks' to='/'>
+              <Link className='business-menuLinks' to='/contact'>
                 Contact
               </Link>
               </div>

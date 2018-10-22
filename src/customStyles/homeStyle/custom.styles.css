@@ -5,6 +5,11 @@
     background-repeat: no-repeat;
     height: 800px;
     width: 100%;
+    overflow: auto;
+}
+
+.navbar-mobile {
+    display: none;
 }
 
 .headerTitle {
@@ -224,6 +229,7 @@
 
 
 @media (max-width: 600px) {
+
     
     .navigation-wrapper {
         display: inline-flex;
@@ -265,17 +271,30 @@
     }
 
 
+    
+
+
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
 
+    .navbar-mobile {
+        display: inline-block;
+        overflow: hidden;
+        height: 86px;
+        background-color: #00adee;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+
     .navigation-wrapper{
-        display: inline-flex;
+        display: none;
         margin-left: 1em;
     }
     .navigationButtons {
         font-size: 7px;
-        display: flex;
+        display: none;
         font-family: Averta-bold;
         justify-content: space-evenly;
     }
@@ -284,17 +303,17 @@
         font-size: 7px;
         font-family: Averta-bold;
         margin-left: 3em;
-
-        
+        display: none;
     }
-    .ivory-logo {
-        height: 70px;
-        width: 100px;
-        margin-left: -0.75
+    .mobile-ivory-logo {
+        width: 135px;
+        height: 87px;
+        margin-left: 2em;
+    }
 }
 
 @media (max-width: 320px) {
-    }
+    
 
     .navigation-wrapper{
         display: inline-flex;

@@ -66,7 +66,7 @@ export default class Header extends Component {
 
             <Col>
               <div class='navigationButtons-contact'>
-              <Link className='menuLinks' to='/'>
+              <Link className='menuLinks' to='/contact'>
                 Contact
               </Link>
               </div>

@@ -88,7 +88,7 @@ export default class ContactHeader extends Component {
 
             <Col>
               <div class='contact-navigationButtons-contact'>
-                <Link className='contact-menuLinks' to='/'>
+                <Link className='contact-menuLinks' to='/contact'>
                   Contact
                 </Link>
               </div>

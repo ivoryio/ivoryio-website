@@ -58,24 +58,33 @@
 .gridAlign{
     padding-left: 60px;
 }
+.marginBot{
+    margin-bottom: 150px;
+}
 @media (max-width: 767px){
     .title{
         text-align: center;
         width: 100%;
+        margin-bottom: 18px;
     }
     .image {
         display:block;
         margin:0 auto;
         width: 4.3em;
         height:5em;
+        margin-top: 60px;
+        margin-bottom: 15px;
     }
     .text {
         text-align: center;
         width: 100%;
     }
     .bigTitle{
-        margin-right: 0.5em;
-        margin-left: 0.5em;
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-top: 85px;
+        font-size: 20px;
+        margin-bottom: 55px;
     }
     .wrapperPresentation {
         margin-right: 2em;
@@ -83,6 +92,14 @@
     }
     .gridAlign{
         padding-left: 0px;
+    }
+    .textFromTitle{
+        margin-bottom: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .marginBot{
+        margin-bottom: 85px
     }
     } 
  @media (min-width: 768px){

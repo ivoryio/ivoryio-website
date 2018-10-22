@@ -66,7 +66,7 @@ Ivory aims to provide developers build-ready "Pods" or modules, filled with feat
               <p className={'text'}>{constants.DEVOPS_TEXT}</p>
             </Col>
           </Row>
-          <Row style={{marginBottom:150}}>
+          <Row className={'marginBot'}>
             <Col  sm={12} md={4}>
               <img alt='' className={'image'} src={quality} />
               <h3 className={'title'}> {constants.QUALITY_TITLE}</h3>

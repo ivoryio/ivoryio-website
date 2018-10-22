@@ -41,6 +41,9 @@
   margin-top: 50px;
   margin-left: 30px;
 }
+.col-md-3 {
+align-self:center;
+}
 .textD {
   font-family: "Averta-Light";
   font-size: 18px;

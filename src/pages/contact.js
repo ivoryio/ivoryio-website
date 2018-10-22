@@ -1,4 +1,6 @@
 import React from 'react'
+import ContactFooter from '../components/contactComponents/contactFooter'
+import ContactHeader from '../components/contactComponents/contactHeader'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
@@ -15,7 +17,8 @@ class DevelopersPage extends React.Component {
   render(){
     return(
       <div>
-          Status: Under Construction..
+          <ContactHeader />
+          <ContactFooter />
     </div>
     )
   }

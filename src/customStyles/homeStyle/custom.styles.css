@@ -228,7 +228,7 @@
 }
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
     
     .navigation-wrapper {
@@ -259,7 +259,7 @@
         margin-left: 1em;
     }
 
-}
+} */
 
 @media (min-width: 576px) and (max-width: 767px) {
 
@@ -269,11 +269,6 @@
     .headerGroupRight {
         margin-left: -6em;
     }
-
-
-    
-
-
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -281,7 +276,7 @@
     .navbar-mobile {
         display: inline-block;
         overflow: hidden;
-        height: 86px;
+        height: 70px;
         background-color: #00adee;
         width: 100%;
         position: fixed;
@@ -306,9 +301,9 @@
         display: none;
     }
     .mobile-ivory-logo {
-        width: 135px;
-        height: 87px;
-        margin-left: 2em;
+        width: 100px;
+        height: 74px;
+        margin-left: 1em;
     }
 }
 

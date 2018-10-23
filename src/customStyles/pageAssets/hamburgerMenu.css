@@ -3,11 +3,11 @@
   
     /* Our sidebar item styling */
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: white;
     transition: color 0.2s;
-    font-family: Averta-Light;
-    font-size: 20px;
+    font-family: 'Averta-Light';
+    font-size: 16px;
   }
   
   /* Change color on hover */
@@ -39,18 +39,28 @@
   .bm-cross-button {
     height: 24px;
     width: 24px;
+    right: 280px !important;
+    margin-top: 10px;
   }
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: white;
+    background:#394952;
   }
   
   /* General sidebar styles */
   .bm-menu {
     background: #373a47;
     padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+    padding-top: 90px;
+    height: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    color: #ffffff;
   }
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
@@ -68,3 +78,8 @@
 
     background: rgba(0, 0, 0, 0.3);
   }
+  .bm-menu-wrap{
+top:0 !important;
+width: 270px !important;
+  }
+

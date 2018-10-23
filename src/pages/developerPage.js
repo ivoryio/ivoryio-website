@@ -5,6 +5,12 @@ import DevelopersHeader from '../components/developersComponents/developersHeade
 import DevProj from '../components/developersComponents/developersProj'
 import DeveloperDescription from '../components/developersComponents/developersDescription'
 import Footer from '../components/homeComponents/footer'
+import {Link} from 'gatsby'
+import {Image} from 'react-bootstrap'
+import Sidebar from '../components/pageAssets/hamburgerMenu/hamburgerMenu'
+import ivoryLogo from '../images/logo.png'
+
+
 
 class DevelopersPage extends React.Component {
   componentDidMount() {
@@ -19,6 +25,20 @@ class DevelopersPage extends React.Component {
   render(){
     return(
       <div>
+
+        <div class='navbar-mobile'>
+          <Link to='/'>
+            <Image
+              className='mobile-ivory-logo'
+              src={ivoryLogo}
+              onClick='history.go(0)'
+              responsive width='116' height='44'
+            />
+          </Link>
+          <Sidebar/>
+
+        </div>
+
       <DevelopersHeader />
       <DeveloperDescription />
       <DevProj />

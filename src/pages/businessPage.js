@@ -6,6 +6,10 @@ import BusinessDescription from '../components/businessesComponents/businessDesc
 import BusinessForm from '../components/businessesComponents/businessForm'
 import FAQ from '../components/businessesComponents/FAQ'
 import Footer from '../components/homeComponents/footer'
+import {Link} from 'gatsby'
+import {Image} from 'react-bootstrap'
+import Sidebar from '../components/pageAssets/hamburgerMenu/hamburgerMenu'
+import ivoryLogo from '../images/logo.png'
 
 class ForBusiness extends React.Component {
   componentDidMount() {
@@ -20,6 +24,19 @@ class ForBusiness extends React.Component {
   render(){
     return(
       <div>
+
+        <div class='navbar-mobile'>
+          <Link to='/'>
+            <Image
+              className='mobile-ivory-logo'
+              src={ivoryLogo}
+              onClick='history.go(0)'
+              responsive width='116' height='44'
+            />
+          </Link>
+          <Sidebar/>
+
+        </div>
       <BusinessHeader />
       <BusinessDescription />
       <BusinessForm />

@@ -2,10 +2,11 @@ import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import '../../../customStyles/pageAssets/hamburgerMenu.css'
 
+
 export default props => {
   return (
     <Menu {...props} right>
-      <a className="menu-item" href="/index">
+      <a className="menu-item" href="/">
         HOME
       </a>
 

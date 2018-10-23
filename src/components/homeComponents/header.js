@@ -5,7 +5,6 @@ import { Image, Button, Col, Grid, Row } from 'react-bootstrap'
 
 import '../../customStyles/homeStyle/custom.styles.css'
 import '../../customStyles/fonts.css'
-// import Sidebar from '../pageAssets/hamburgerMenu/hamburgerMenu'
 import $ from 'jquery'
 
 export default class Header extends Component {

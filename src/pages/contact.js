@@ -1,7 +1,12 @@
 import React from 'react'
 import ContactFooter from '../components/contactComponents/contactFooter'
 import ContactHeader from '../components/contactComponents/contactHeader'
+import {Link} from 'gatsby'
+import {Image} from 'react-bootstrap'
+import Sidebar from '../components/pageAssets/hamburgerMenu/hamburgerMenu'
+import ivoryLogo from '../images/logo.png'
 import 'bootstrap/dist/css/bootstrap.css'
+
 
 
 class DevelopersPage extends React.Component {
@@ -17,6 +22,18 @@ class DevelopersPage extends React.Component {
   render(){
     return(
       <div>
+        <div class='navbar-mobile'>
+          <Link to='/'>
+            <Image
+              className='mobile-ivory-logo'
+              src={ivoryLogo}
+              onClick='history.go(0)'
+              responsive width='116' height='44'
+            />
+          </Link>
+          <Sidebar/>
+
+        </div>
           <ContactHeader />
           <ContactFooter />
     </div>

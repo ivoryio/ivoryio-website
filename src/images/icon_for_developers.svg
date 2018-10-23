@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="30px" viewBox="0 0 26 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>coding (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ivory_web_&amp;_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile_opened_burger" transform="translate(-154.000000, -252.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="menu_section" transform="translate(117.000000, 0.000000)">
+                <g id="for_developers" transform="translate(37.000000, 252.000000)">
+                    <g id="coding-(1)">
+                        <path d="M12.8572561,29.5852535 L0,22.1887144 L0,7.39631336 L12.8572561,0 L25.7142857,7.39631336 L25.7142857,22.1887144 L12.8572561,29.5852535 Z M1.74129446,21.1874312 L12.8572561,27.58201 L23.9729912,21.1874312 L23.9729912,8.39782221 L12.8572561,2.00324346 L1.74129446,8.39782221 L1.74129446,21.1874312 Z" id="Shape"></path>
+                        <polygon id="Shape" points="6.5368313 18.5253456 3.04147465 14.9309896 6.5368313 11.3364055 7.74193548 12.5756421 5.45123971 14.9309896 7.74193548 17.286337"></polygon>
+                        <polygon id="Shape" points="18.900735 18.5253456 17.6958525 17.286337 19.9863266 14.9309896 17.6958525 12.5756421 18.900735 11.3364055 22.3963134 14.9309896"></polygon>
+                        <polygon id="Shape" points="14.4381907 10.2304147 16.0368664 11.02182 11.8293231 19.3548387 10.2304147 18.5632031"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

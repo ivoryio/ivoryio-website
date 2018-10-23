@@ -19,20 +19,23 @@
   /* The rest copied directly from react-burger-menu docs */
   
   /* Position and sizing of burger button */
+
   .bm-burger-button {
-    position: fixed;
-    width: 29px;
-    height: 20px;
-    margin-top: -3em;
-    margin-left: 29em;
+    
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    top: 30px;
+    right: 2em;
+    
   }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: white;
-    width: 29.1px;
-    height: 2.9px;
-    /* border: solid 2px #ffffff; */
+    width: 30px;
+    height: 2.6px;
+    border: solid 3px #ffffff; 
   }
   
   /* Position and sizing of clickable cross button */
@@ -48,9 +51,11 @@
   
   /* General sidebar styles */
   .bm-menu {
+    
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+  
   }
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
@@ -65,6 +70,10 @@
   
   /* Styling of overlay */
   .bm-overlay {
-
+    top: 0px;
     background: rgba(0, 0, 0, 0.3);
+  }
+
+  .bm-menu-wrap {
+    top: 0px;
   }

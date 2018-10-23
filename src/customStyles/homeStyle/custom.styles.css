@@ -289,7 +289,17 @@
         position: fixed;
         z-index: 1;
     }
-    
+    .headerButton {
+        display: inline-block;
+        width: 148px;
+        height: 57px;
+        font-size: 18px;
+        margin-left: 2.5em;
+    }
+
+    .navigation-wrapper {
+        display: none;
+    }
     .headerTitle {
         position: relative;
         font-size: 64px;
@@ -305,38 +315,15 @@
         font-size: 27px;
         width: 100%; 
     }
-
-    .headerButton {
-        display: flex;
-        justify-content: center;
-        /* position: relative; */
-        width: 148px;
-        height: 57px;
-        font-size: 18px;
-        /* margin-left: 4em;
-        margin-top: 1em; */
-        
-    }
-    .navigation-wrapper{
-        display: none;
-        margin-left: 1em;
-    }
-    .navigationButtons {
-        font-size: 7px;
-        display: none;
-        font-family: Averta-bold;
-        justify-content: space-evenly;
-    }
-    
-    .navigationButtons-contact {
-        font-size: 7px;
-        font-family: Averta-bold;
-        margin-left: 3em;
-        display: none;
-    }
     .mobile-ivory-logo {
         width: 100px;
         height: 74px;
+        margin-left: 1em;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 413px) {
+    .headerButton {
         margin-left: 1em;
     }
 }
@@ -364,26 +351,24 @@
         margin-left: 1em;
     }
 
-    .navigation-wrapper{
-        display: inline-flex;
-        margin-left: -1em;
-    }
-
-    .navigationButtons {
-        font-size: 6px;
-        margin-top: 5.5em;
-    }
-
-    .navigationButtons-contact {
-        font-size: 6px;
-        margin-top: 5.5em;
-    }
     .headerTitle {
-        font-size: 30px;
+        position: relative;
+        font-size: 64px;
+        text-align: center;
+        margin-left: -1.25em;
+        margin-bottom: 0.5em;
     }
-    .headerGroupRight{
-        margin-left: 10em;
+    .headerText {
+        position: relative;
+        text-align: center;
+        margin-left: -1.5em;
+        margin-bottom: 1.5em;
+        font-size: 22px;
+        width: 100%; 
     }
 
+    .headerButton {
+        margin-left: -0.5em;
+    }
     
 }

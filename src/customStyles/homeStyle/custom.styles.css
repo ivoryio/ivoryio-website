@@ -227,42 +227,7 @@
     }
 }
 
-
-/* @media (max-width: 600px) {
-
-    
-    .navigation-wrapper {
-        display: inline-flex;
-        margin-left: 1em;
-    }
-    
-    .headerTitle {
-        font-size: 32px;
-        margin-left: -0.10em;
-        
-    }
-
-    .headerText {
-        font-size: 12px;
-    }
-
-    .headerGroupRight {
-        margin-top: 5em;
-        margin-left: 13em;
-    }
-
-    .headerContainer {
-        height: 400px;
-    }
-
-    .ivory-logo {
-        margin-left: 1em;
-    }
-
-} */
-
 @media (min-width: 576px) and (max-width: 767px) {
-
     .headerTitle{
         margin-left: -2.5em;
     }

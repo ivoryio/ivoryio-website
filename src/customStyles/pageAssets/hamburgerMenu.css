@@ -1,11 +1,11 @@
 .bm-item {
   display: inline-block;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: white;
   transition: color 0.2s;
   font-family: "Averta-Light";
-  font-size: 16px;
+  font-size: 18px;
 }
 .bm-item:hover {
   text-decoration: none;

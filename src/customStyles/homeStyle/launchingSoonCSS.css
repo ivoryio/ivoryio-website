@@ -44,6 +44,7 @@
           border-color:  #394952 !important;
           width: 50% !important;
           font-size: 8px !important;
+          margin-left: 8em;
     } 
 }
  @media (max-width: 600px ){

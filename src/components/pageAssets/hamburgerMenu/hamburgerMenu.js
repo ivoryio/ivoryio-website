@@ -11,22 +11,22 @@ export default props => {
   return (
     <Menu {...props} right>
       <a className="menu-item" href="/">
-      <img alt='' style={{width:26,height:22, marginRight:16,marginLeft:5}} src={icon_home} />
+      <img alt='' className={'menu_icons'} src={icon_home} />
         HOME
       </a>
 
       <a className="menu-item" href="/businessPage">
-      <img alt='' style={{width:26,height:22,marginRight:16,marginLeft:5}} src={icon_for_businesses} />
+      <img alt='' className={'menu_icons'}  src={icon_for_businesses} />
         FOR BUSINESS
       </a>
 
       <a className="menu-item" href="/developerPage">
-      <img alt='' style={{width:26,height:22,marginRight:16,marginLeft:5}} src={icon_for_developers} />
+      <img alt='' className={'menu_icons'}  src={icon_for_developers} />
         FOR DEVELOPERS
       </a>
 
       <a className="menu-item" href="/contact">
-      <img alt='' style={{width:26,height:22,marginRight:16,marginLeft:5}} src={icon_contact} />
+      <img alt='' className={'menu_icons'}  src={icon_contact} />
         CONTACT
       </a>
     </Menu>

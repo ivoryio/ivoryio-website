@@ -269,11 +269,6 @@
     .headerGroupRight {
         margin-left: -6em;
     }
-
-
-    
-
-
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -288,7 +283,7 @@
     .navbar-mobile {
         display: inline-block;
         overflow: hidden;
-        height: 86px;
+        height: 70px;
         background-color: #00adee;
         width: 100%;
         position: fixed;
@@ -312,12 +307,14 @@
     }
 
     .headerButton {
-        position: relative;
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
         width: 148px;
         height: 57px;
         font-size: 18px;
-        left: 4em;
-        top: 1em;
+        /* margin-left: 4em;
+        margin-top: 1em; */
         
     }
     .navigation-wrapper{
@@ -338,8 +335,8 @@
         display: none;
     }
     .mobile-ivory-logo {
-        width: 135px;
-        height: 90px;
+        width: 100px;
+        height: 74px;
         margin-left: 1em;
     }
 }

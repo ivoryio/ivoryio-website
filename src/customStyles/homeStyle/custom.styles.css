@@ -7,10 +7,10 @@
     width: 100%;
     overflow: auto;
 }
-
+/* 
 .navbar-mobile {
     display: none;
-}
+} */
 
 .headerTitle {
     color: white;
@@ -244,7 +244,7 @@
         width: 100%;
         overflow: auto;
     }
-
+/* 
     .navbar-mobile {
         display: inline-block;
         overflow: hidden;
@@ -253,7 +253,7 @@
         width: 100%;
         position: fixed;
         z-index: 1;
-    }
+    } */
     .headerButton {
         display: inline-block;
         width: 148px;
@@ -280,10 +280,16 @@
         font-size: 27px;
         width: 100%; 
     }
-    .mobile-ivory-logo {
+    .navigationButtons-contact{
+        display: none;
+    }
+    /* .mobile-ivory-logo {
         width: 100px;
         height: 74px;
         margin-left: 1em;
+    } */
+    .ivory-logo{
+        display: none;
     }
 }
 

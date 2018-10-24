@@ -234,23 +234,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
-    
     .headerContainer {
         background-image: url('../../images/header_image_mobile_home-2.png');
         background-size: cover;
         width: 100%;
         overflow: auto;
     }
-
-    /* .navbar-mobile {
-        display: inline-block;
-        overflow: hidden;
-        height: 70px;
-        background-color: #00adee;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-    } */
     .headerButton {
         display: inline-block;
         width: 148px;
@@ -280,11 +269,6 @@
     .navigationButtons-contact{
         display: none;
     }
-    /* .mobile-ivory-logo {
-        width: 100px;
-        height: 74px;
-        margin-left: 1em;
-    } */
     .ivory-logo{
         display: none;
     }

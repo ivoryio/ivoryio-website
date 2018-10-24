@@ -8,9 +8,9 @@
     overflow: auto;
 }
 
-.navbar-mobile {
+/* .navbar-mobile {
     display: none;
-}
+} */
 
 .headerTitle {
     color: white;
@@ -18,14 +18,11 @@
     font-size: 52px;
     font-weight: bold;
 }
-
 .headerText {
     color: white;
     font-family: Averta-regular;
-    font-size: 24px;
-    
+    font-size: 24px;  
 }
-
 .headerButton {
     background-color: #ffffff;
     color: #00adee;
@@ -237,23 +234,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
-    
     .headerContainer {
         background-image: url('../../images/header_image_mobile_home-2.png');
         background-size: cover;
         width: 100%;
         header: 700px;
         overflow: auto;
-    }
-
-    .navbar-mobile {
-        display: inline-block;
-        overflow: hidden;
-        height: 70px;
-        background-color: #00adee;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
     }
     .headerButton {
         display: inline-block;
@@ -293,10 +279,11 @@
         font-size: 27px;
         width: 100%; 
     }
-    .mobile-ivory-logo {
-        width: 100px;
-        height: 74px;
-        margin-left: 1em;
+    .navigationButtons-contact{
+        display: none;
+    }
+    .ivory-logo{
+        display: none;
     }
 }
 

@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../customStyles/homeStyle/custom.styles.css'
 import '../customStyles/homeStyle/presentation.css'
 import '../customStyles/homeStyle/launchingSoonCSS.css'
+import '../customStyles/pageAssets/hamburgerMenu.css'
 
   class IndexPage extends React.Component {
     componentDidMount() {
@@ -25,7 +26,7 @@ import '../customStyles/homeStyle/launchingSoonCSS.css'
     }
     render(){
       return(
-        <div>
+        <div id='outer-container'>
           <div class='navbar-mobile'>
           <Link to='/'>
             <Image
@@ -38,7 +39,6 @@ import '../customStyles/homeStyle/launchingSoonCSS.css'
           <Sidebar/>
 
         </div>
-
         <Header />
         <Presentation />
         <LaunchingSoon />

@@ -66,3 +66,16 @@
   margin-right: 16px;
   margin-left: 5px;
 }
+.navbar-mobile {
+  /* display: inline-block; */
+  height: 70px;
+  background-color: #00adee;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.mobile-ivory-logo {
+  width: 100px;
+  height: 74px;
+  margin-left: 1em;
+}

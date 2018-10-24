@@ -242,6 +242,7 @@
         background-image: url('../../images/header_image_mobile_home-2.png');
         background-size: cover;
         width: 100%;
+        header: 700px;
         overflow: auto;
     }
 
@@ -263,6 +264,18 @@
     }
 
     .navigation-wrapper {
+        display: none;
+    }
+
+    .navigationButtons {
+        display: none;
+    }
+
+    .navigationButtons-contact {
+        display: none;
+    }
+
+    .ivory-logo {
         display: none;
     }
     .headerTitle {

@@ -317,6 +317,7 @@
 }
 
 @media (max-width: 575px) {
+    
 
     .dev-navigation-wrapper {
         display: inline-flex;
@@ -348,8 +349,15 @@
 
 }
 
-
 @media (min-width: 320px) and (max-width: 576px) {
+
+    .dev-headerContainer {
+        background-image: url('../../images/header_img_developers_mobileS.png');
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        overflow: auto;
+    }
 
     .dev-navigation-wrapper{
         display: inline-flex;
@@ -386,6 +394,7 @@
 
 }
 
+
 @media (max-width: 320px) {
     .dev-navigation-wrapper{
         display: inline-flex;
@@ -416,6 +425,7 @@
     .dev-headerButton {
         margin-left: -2em;
     }
+    
     
 }
     

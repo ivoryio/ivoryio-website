@@ -355,7 +355,12 @@
 
 @media (min-width: 320px) and (max-width: 576px) {
     .contact-headerContainer {
-        height: 100%;
+        background-image: url('../../images/header_image_mobile_home-2.png');
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        overflow: auto;
+
     }
 
     .contact-navigation-wrapper{

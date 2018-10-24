@@ -26,7 +26,7 @@ import '../customStyles/pageAssets/hamburgerMenu.css'
     }
     render(){
       return(
-        <div>
+        <div id='outer-container'>
           <div class='navbar-mobile'>
           <Link to='/'>
             <Image
@@ -39,11 +39,12 @@ import '../customStyles/pageAssets/hamburgerMenu.css'
           <Sidebar/>
 
         </div>
-
+        <main id='page-wrap'>
         <Header />
         <Presentation />
         <LaunchingSoon />
         <Footer />
+        </main>
       </div>
       )
     }

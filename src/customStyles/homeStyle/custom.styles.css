@@ -7,10 +7,10 @@
     width: 100%;
     overflow: auto;
 }
-/* 
+
 .navbar-mobile {
     display: none;
-} */
+}
 
 .headerTitle {
     color: white;
@@ -18,14 +18,11 @@
     font-size: 52px;
     font-weight: bold;
 }
-
 .headerText {
     color: white;
     font-family: Averta-regular;
-    font-size: 24px;
-    
+    font-size: 24px;  
 }
-
 .headerButton {
     background-color: #ffffff;
     color: #00adee;
@@ -291,6 +288,21 @@
     .ivory-logo{
         display: none;
     }
+
+   .mobile-ivory-logo {
+    width: 100px;
+    height: 74px;
+    margin-left: 1em;
+} 
+.navbar-mobile {
+  display: inline-block;
+  overflow: hidden;
+  height: 70px;
+  background-color: #00adee;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+} 
 }
 
 @media (min-width: 360px) and (max-width: 413px) {

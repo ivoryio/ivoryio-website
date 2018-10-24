@@ -66,18 +66,3 @@
   margin-right: 16px;
   margin-left: 5px;
 }
-@media (min-width: 320px) and (max-width: 567px){
-   .mobile-ivory-logo {
-        width: 100px;
-        height: 74px;
-        margin-left: 1em;
-    } 
-    .navbar-mobile {
-      display: inline-block;
-      overflow: hidden;
-      height: 70px;
-      background-color: #00adee;
-      width: 100%;
-      position: fixed;
-      z-index: 1;
-  } }

@@ -348,34 +348,29 @@
     }
 
     .dev-navigation-wrapper{
-        display: inline-flex;
-        margin-left: -1.25em;
+        display: none;
     }
 
     .dev-navigationButtons {
-        font-size: 7px;
-        display: flex;
-        font-family: Averta-bold;
-        justify-content: space-evenly;
-
+        display: none;
     }
 
     .dev-headerTitle {
         position: relative;
-        font-size: 64px;
+        font-size: 46px;
         text-align: center;
-        margin-left: -1.25em;
+        margin-left: -1.65em;
         margin-bottom: 0.5em;
-        margin-top: 0em;
+        margin-top: 2em;
     }
 
     .dev-headerText {
         position: relative;
         text-align: center;
-        margin-left: -3.25em;
+        margin-left: -5.75em;
         margin-bottom: 1.5em;
-        font-size: 22px;
-        width: 100%; 
+        font-size: 18px;
+        width: 250px; 
     }
     .dev-headerButton {
         margin-left: -3.25em;

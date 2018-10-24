@@ -39,12 +39,10 @@ import '../customStyles/pageAssets/hamburgerMenu.css'
           <Sidebar/>
 
         </div>
-        <main id='page-wrap'>
         <Header />
         <Presentation />
         <LaunchingSoon />
         <Footer />
-        </main>
       </div>
       )
     }

@@ -79,7 +79,7 @@
         width: 100%;
         overflow: auto;
     }
-    .navbar-mobile {
+    /* .navbar-mobile {
         display: inline-block;
         overflow: hidden;
         height: 70px;
@@ -87,7 +87,7 @@
         width: 100%;
         position: fixed;
         z-index: 1;
-    }
+    } */
     .business-headerButton {
         display: inline-block;
         width: 148px;
@@ -117,11 +117,11 @@
         font-size: 27px;
         width: 100%; 
     }
-    .mobile-ivory-logo {
+    /* .mobile-ivory-logo {
         width: 100px;
         height: 74px;
         margin-left: 1em;
-    }
+    } */
 
 }
 @media (min-width: 1366px) and (max-width: 1500px) {

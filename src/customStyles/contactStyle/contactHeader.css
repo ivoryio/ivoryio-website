@@ -369,10 +369,7 @@
     }
 
     .contact-navigationButtons {
-        font-size: 7px;
-        display: flex;
-        font-family: Averta-bold;
-        justify-content: space-evenly;
+        display:none;
 
     }
 
@@ -384,9 +381,7 @@
     }
     
     .contact-navigationButtons-contact {
-        font-size: 7px;
-        font-family: Averta-bold;
-        margin-top: 4.75em;
+        display:none;
         
     }
     .contact-ivory-logo {
@@ -396,6 +391,7 @@
     }
 
     .contact-headerTitle {
+        margin-top: 5em;
         margin-left:  3.5em;
     }
 
@@ -414,18 +410,15 @@
 
 @media (max-width: 320px) {
     .contact-navigation-wrapper{
-        display: inline-flex;
-        margin-left: -1em;
+        display: none;
     }
 
     .contact-navigationButtons {
-        font-size: 6px;
-        margin-top: 5.5em;
+        display: none;
     }
 
     .contact-navigationButtons-contact {
-        font-size: 6px;
-        margin-top: 5.5em;
+        display: none;
     }
 
     .contact-headerTitle {

@@ -318,20 +318,8 @@
 
 @media (max-width: 575px) {
     
-
     .dev-navigation-wrapper {
-        display: inline-flex;
-        margin-left: 1em;
-    }
-
-    .dev-headerTitle {
-        font-size: 32px;
-        margin-left: -0.10em;
-        
-    }
-
-    .dev-headerText {
-        font-size: 12px;
+        display: none;
     }
 
     .dev-headerGroupRight {
@@ -344,7 +332,7 @@
     }
 
     .dev-ivory-logo {
-        margin-left: 1em;
+        display: none;
     }
 
 }
@@ -372,24 +360,37 @@
 
     }
 
-    .dev-headerButton {
-        margin-left: 0em;
+    .dev-headerTitle {
+        position: relative;
+        font-size: 64px;
+        text-align: center;
+        margin-left: -1.25em;
+        margin-bottom: 0.5em;
+        margin-top: 0em;
     }
 
     .dev-headerText {
-        margin-left: 0em;
+        position: relative;
+        text-align: center;
+        margin-left: -3.25em;
+        margin-bottom: 1.5em;
+        font-size: 22px;
+        width: 100%; 
     }
+    .dev-headerButton {
+        margin-left: -3.25em;
+        width: 148px;
+        height: 57px;
+        font-size: 18px;
+    }
+
     
     .dev-navigationButtons-contact {
-        font-size: 7px;
-        font-family: Averta-bold;
-        margin-top: 4.75em;
+        display: none;
         
     }
     .dev-ivory-logo {
-        margin-left: 0.5em;
-        height: 70px;
-        width: 100px;
+        display: none;
     }
 
 }
@@ -397,33 +398,47 @@
 
 @media (max-width: 320px) {
     .dev-navigation-wrapper{
-        display: inline-flex;
-        margin-left: -1em;
+        display: none;
     }
 
     .dev-navigationButtons {
-        font-size: 6px;
-        margin-top: 5.5em;
+   display: none;
     }
 
     .dev-navigationButtons-contact {
-        font-size: 6px;
-        margin-top: 5.5em;
+        display: none;
     }
 
-    .dev-headerTitle {
-        font-size: 30px;
-    }
     .dev-headerGroupRight{
         margin-left: 10em;
     }
 
-    .dev-headerText {
-        font-size: 11px;
-        margin-left: -1.5em;
-    }
     .dev-headerButton {
         margin-left: -2em;
+    }
+
+    .dev-headerTitle {
+        position: relative;
+        font-size: 42px;
+        text-align: center;
+        margin-left: -2em;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+    }
+
+    .dev-headerText {
+        position: relative;
+        text-align: center;
+        margin-left: -7em;
+        margin-bottom: 1.5em;
+        font-size: 22px;
+        width: 300px; 
+    }
+    .dev-headerButton {
+        margin-left: -4.75em;
+        width: 148px;
+        height: 57px;
+        font-size: 18px;
     }
     
     

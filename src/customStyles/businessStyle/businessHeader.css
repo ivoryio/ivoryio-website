@@ -71,65 +71,8 @@
 .business-menuLinks:hover {
     text-decoration: none;
 }
-@media (min-width: 320px) and (max-width: 576px) {
 
-    .business-headerContainer {
-        background-image: url('../../images/header_img_business_mobileS.png');
-        background-size: cover;
-        width: 100%;
-        height: 700px;
-        overflow: auto;
-    }
-    /* .navbar-mobile {
-        display: inline-block;
-        overflow: hidden;
-        height: 70px;
-        background-color: #00adee;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-    } */
-    .business-headerButton {
-        display: inline-block;
-        width: 148px;
-        height: 57px;
-        font-size: 18px;
-        margin-left: 2.5em;
-    }
-    .business-navigation-wrapper {
-        display: none;
-    }
-    .business-navigationButtons {
-        display: none;
-    }
-    .business-navigationButtons-contact{
-        display: none;
-    }
-    .ivory-logo {
-        display: none;
-    }
-    .business-headerTitle {
-        position: relative;
-        font-size: 64px;
-        text-align: center;
-        margin-left: -1.25em;
-        margin-bottom: 0.5em;
-    }
-    .business-headerText {
-        position: relative;
-        text-align: center;
-        margin-left: -1.5em;
-        margin-bottom: 1.5em;
-        font-size: 27px;
-        width: 100%; 
-    }
-    /* .mobile-ivory-logo {
-        width: 100px;
-        height: 74px;
-        margin-left: 1em;
-    } */
 
-}
 @media (min-width: 1366px) and (max-width: 1500px) {
     .business-headerTitle {
         font-size: 42px;
@@ -190,7 +133,7 @@
         margin-left: 10em;
     }
 }
-@media  (max-width: 1200px) {
+@media (min-width: 576px) and (max-width: 1200px) {
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 21em;
@@ -242,7 +185,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media  (min-width: 575px) and (max-width: 768px) {
     .business-headerButton {
         width: 90px;
         height: 35px;
@@ -263,6 +206,7 @@
         letter-spacing: 1px;
         display: flex;
         justify-content: center; 
+        margin-left: 0em;
     }
     .business-headerText{
         font-size: 16px;
@@ -270,7 +214,7 @@
 
     .business-headerGroupRight {
         margin-top: 10em;
-        margin-left: 5em;
+        margin-left: -5em;
     }
 
     .business-navigationButtons {
@@ -304,6 +248,56 @@
         margin-right: 0.5em;
     }
 }
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .business-headerContainer {
+        background-image: url('../../images/header_img_business_mobileS.png');
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        overflow: auto;
+    }
+    .business-headerButton {
+        display: inline-block;
+        width: 148px;
+        height: 57px;
+        font-size: 18px;
+        margin-left: -5em;
+    }
+    .business-navigation-wrapper {
+        display: none;
+    }
+    .business-navigationButtons {
+        display: none;
+    }
+    .business-navigationButtons-contact{
+        display: none;
+    }
+    .business-ivory-logo {
+        display: none;
+    }
+    .business-headerTitle {
+        position: relative;
+        font-size: 46px;
+        text-align: center;
+        margin-left: -3em;
+        margin-bottom: 0.5em;
+        margin-top: 0em;
+        width: 250px;
+    }
+    .business-headerText {
+        position: relative;
+        text-align: center;
+        margin-left: -6.5em;
+        margin-bottom: 1.5em;
+        font-size: 18px;
+        width: 200px; 
+    }
+    .business-headerGroupRight {
+        margin-left: 12em;
+    }
+}
+
 @media (max-width: 320px) {
     .business-navigation-wrapper{
         display: inline-flex;
@@ -318,20 +312,12 @@
         display: none;
     }
 
-    .ivory-logo {
+    .business-ivory-logo {
         display: none;
-    }
-
-    .business-headerTitle {
-        font-size: 30px;
     }
 
     .business-headerGroupRight{
         margin-left: 10em;
-    }
-
-    .business-headerText {
-        font-size: 11px;
     }
     
 }

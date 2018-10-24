@@ -59,10 +59,20 @@
 .bm-menu-wrap {
   top: 0 !important;
   width: 270px !important;
+  
 }
 .menu_icons {
   width: 26px;
   height: 22px;
   margin-right: 16px;
   margin-left: 5px;
+  
 }
+ .navbar-mobile {
+        background-color: #00adee;
+    }
+      .mobile-ivory-logo {
+        width: 100px;
+        height: 74px;
+        margin-left: 1em;
+    }

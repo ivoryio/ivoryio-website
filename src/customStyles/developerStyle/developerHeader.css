@@ -392,12 +392,25 @@
 
 
 @media (max-width: 320px) {
+
+    .dev-headerContainer {
+        background-image: url('../../images/header_img_developers_mobileS.png');
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        overflow: auto;
+    }
+
     .dev-navigation-wrapper{
         display: none;
     }
 
+    .dev-ivory-logo {
+        display: none;
+    }
+
     .dev-navigationButtons {
-   display: none;
+        display: none;
     }
 
     .dev-navigationButtons-contact {
@@ -405,18 +418,14 @@
     }
 
     .dev-headerGroupRight{
-        margin-left: 10em;
-    }
-
-    .dev-headerButton {
-        margin-left: -2em;
+        margin-left: 1em;
     }
 
     .dev-headerTitle {
         position: relative;
         font-size: 42px;
         text-align: center;
-        margin-left: -2em;
+        margin-left: 0em;
         margin-bottom: 0.5em;
         margin-top: 1em;
     }
@@ -424,13 +433,13 @@
     .dev-headerText {
         position: relative;
         text-align: center;
-        margin-left: -7em;
+        margin-left: 0em;
         margin-bottom: 1.5em;
-        font-size: 22px;
-        width: 300px; 
+        font-size: 16px;
+        width: 250px; 
     }
     .dev-headerButton {
-        margin-left: -4.75em;
+        margin-left: 3em;
         width: 148px;
         height: 57px;
         font-size: 18px;

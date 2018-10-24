@@ -71,7 +71,59 @@
 .business-menuLinks:hover {
     text-decoration: none;
 }
+@media (min-width: 320px) and (max-width: 576px) {
 
+    .business-headerContainer {
+        background-image: url('../../images//header_image_mobile_home-2.png');
+        background-size: cover;
+        width: 100%;
+        overflow: auto;
+    }
+    .navbar-mobile {
+        display: inline-block;
+        overflow: hidden;
+        height: 70px;
+        background-color: #00adee;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    .business-headerButton {
+        display: inline-block;
+        width: 148px;
+        height: 57px;
+        font-size: 18px;
+        margin-left: 2.5em;
+    }
+    .business-navigation-wrapper {
+        display: none;
+    }
+    .business-navigationButtons {
+        display: none;
+
+    }
+    .business-headerTitle {
+        position: relative;
+        font-size: 64px;
+        text-align: center;
+        margin-left: -1.25em;
+        margin-bottom: 0.5em;
+    }
+    .business-headerText {
+        position: relative;
+        text-align: center;
+        margin-left: -1.5em;
+        margin-bottom: 1.5em;
+        font-size: 27px;
+        width: 100%; 
+    }
+    .mobile-ivory-logo {
+        width: 100px;
+        height: 74px;
+        margin-left: 1em;
+    }
+
+}
 @media (min-width: 1366px) and (max-width: 1500px) {
     .business-headerTitle {
         font-size: 42px;
@@ -84,7 +136,6 @@
     }
 }
 @media (min-width: 1366px){
-
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 33em;
@@ -100,8 +151,7 @@
         font-size: 16px;
         margin-top: 3.5em;
         margin-left: 4em;
-    }
-    
+    } 
     .business-navigationButtons-contact {
         font-size: 16px;
         display: flex;
@@ -111,29 +161,22 @@
 }
 
 @media (min-width: 1201px) and (max-width: 1366px) {
-    
-
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 28.5em;
     }
-
     .business-headerTitle{
         font-size: 42px;
-        width: 100%;
-        
-        
+        width: 100%;    
     }
     .business-ivory-logo {
         margin-left: 0.5em;
     }
-
     .business-navigationButtons {
         font-size: 12px;
         margin-top: 3.5em;
         margin-left: 3em;
     }
-    
     .business-navigationButtons-contact {
         font-size: 12px;
         display: flex;
@@ -141,9 +184,7 @@
         margin-left: 10em;
     }
 }
-
 @media  (max-width: 1200px) {
-
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 21em;
@@ -151,29 +192,24 @@
     .business-headerContainer{
         height: 800px;
     }
-    
     .business-headerGroupRight {
         margin-top: 10em;
         margin-left: 10em;
     }
-
     .business-headerText {
         font-size: 18px;
     }
-
     .business-navigationButtons {
         font-size: 12px;
         margin-top: 3.5em;
         margin-right: -2em;
         margin-left: 5em;
     }
-    
     .business-navigationButtons-contact {
         font-size: 12px;
         margin-top: 3.5em;
         margin-left: 7em;
     }
-
     .business-headerTitle {
         font-size: 32px;
         width: 100%;
@@ -181,43 +217,34 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 10em;
     }
-
     .business-navigationButtons {
         font-size: 12px;
         margin-top: 3.5em;
         margin-left: 3.25em;
     }
-    
     .business-navigationButtons-contact {
         font-size: 12px;
         margin-top: 3.5em;
         margin-left: 8em;
     }
-    
     .business-headerTitle {
         font-size: 42px;
     }
 }
 
 @media (max-width: 768px) {
-
     .business-headerButton {
         width: 90px;
         height: 35px;
         font-size: 10px;
-
-
     }
-
     .business-navigation-wrapper {
         display: inline-flex;
         margin-left: 2em;
-
     }
     .business-ivory-logo{
         margin-left: -2em;
@@ -229,10 +256,8 @@
         width: 100%;
         letter-spacing: 1px;
         display: flex;
-        justify-content: center;
-        
+        justify-content: center; 
     }
-
     .business-headerText{
         font-size: 16px;
     }
@@ -273,69 +298,6 @@
         margin-right: 0.5em;
     }
 }
-
-@media (max-width: 575px) {
-
-    .business-navigation-wrapper {
-        display: inline-flex;
-        margin-left: 1em;
-    }
-
-    .business-headerTitle {
-        font-size: 32px;
-        margin-left: -0.10em;
-        
-    }
-
-    .business-headerText {
-        font-size: 12px;
-    }
-
-    .business-headerGroupRight {
-        margin-top: 5em;
-        margin-left: 10em;
-    }
-
-    .business-headerContainer {
-        height: 400px;
-    }
-
-    .business-ivory-logo {
-        margin-left: 1em;
-    }
-
-}
-
-
-@media (min-width: 320px) and (max-width: 576px) {
-
-    .business-navigation-wrapper{
-        display: inline-flex;
-        margin-left: -1.25em;
-    }
-
-    .business-navigationButtons {
-        font-size: 7px;
-        display: flex;
-        font-family: Averta-bold;
-        justify-content: space-evenly;
-
-    }
-    
-    .business-navigationButtons-contact {
-        font-size: 7px;
-        font-family: Averta-bold;
-        margin-top: 4.75em;
-        
-    }
-    .business-ivory-logo {
-        margin-left: 0.5em;
-        height: 70px;
-        width: 100px;
-    }
-
-}
-
 @media (max-width: 320px) {
     .business-navigation-wrapper{
         display: inline-flex;

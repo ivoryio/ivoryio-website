@@ -19,13 +19,13 @@ export default class Presentation extends Component {
   render () {
     return (
       <div>
-        <h3 className={'bigTitle'}>
-        Ivory Accelerates the development of complex Blockchain<br /> and AI products by a factor of 10x(at least).</h3>
+        <h1 className={'bigTitle'}>
+        Ivory is a open source and mobile app development platform <br />that accelerates the development of complex Blockchain and AI products.</h1>
         <div className={'wrapperPresentation'}>
-        <p className='d-flex justify-content-center textFromTitle '>
+        <h2 className='d-flex justify-content-center textFromTitle '>
         Built by developers with over 100 B2B products, Ivory aims to significantly reduce costs and time to market <br /> for digital products.
 Ivory aims to provide developers build-ready "Pods" or modules, filled with features that  <br /> are required, but don't bring value, allowing developers to focus on value-creating features.
-        </p>
+        </h2>
         <div className={'gridAlign'}>
         <Grid >
           <Row  > 

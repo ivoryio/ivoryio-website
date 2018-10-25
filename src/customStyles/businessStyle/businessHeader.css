@@ -1,5 +1,5 @@
 .business-headerContainer {
-    background-image: url('../../images/header_for_businesses-2.png');
+    background-image: url('../../images/digital_experiences_for_corporate_innovation_groups_and_startups.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@
 @media (min-width: 320px) and (max-width: 575px) {
 
     .business-headerContainer {
-        background-image: url('../../images/header_img_business_mobileS.png');
+        background-image: url('../../images/digital_experiences_for_corporate_innovation_groups_and_startups_mobile.jpg');
         background-size: cover;
         width: 100%;
         height: 700px;

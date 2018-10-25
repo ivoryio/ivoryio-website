@@ -1,5 +1,5 @@
 .headerContainer {
-    background-image: url('../../images/header_homepage-smallSized.png');
+    background-image: url('../../images/Open_Source_and_Mobile_App_Development_Platform.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,11 +7,6 @@
     width: 100%;
     overflow: auto;
 }
-
-/* .navbar-mobile {
-    display: none;
-} */
-
 .headerTitle {
     color: white;
     font-family: Averta-regular;
@@ -235,10 +230,10 @@
 
 @media (min-width: 320px) and (max-width: 576px) {
     .headerContainer {
-        background-image: url('../../images/header_image_mobile_home-2.png');
+        background-image: url('../../images/Open_Source_and_Mobile_App_Development_Platform_Mobile.jpg');
         background-size: cover;
         width: 100%;
-        header: 700px;
+        height: 700px;
         overflow: auto;
     }
     .headerButton {
@@ -295,7 +290,7 @@
 
 @media (max-width: 320px) {
     .headerContainer {
-        background-image: url('../../images/header_image_mobile_home-2.png');
+        background-image: url('../../images/Open_Source_and_Mobile_App_Development_Platform_Mobile.jpg');
         background-size: cover;
         width: 100%;
         overflow: auto;

@@ -30,6 +30,7 @@ export default class DevelopersHeader extends Component {
   render () {
     return (
       <div class='dev-headerContainer' title="Open Source Development Framework">
+      <p>Open Source Development Framework</p>
         <Grid>
           <Row>
             <Col >

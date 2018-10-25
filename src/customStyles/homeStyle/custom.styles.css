@@ -6,6 +6,11 @@
     height: 800px;
     width: 100%;
     overflow: auto;
+    color: black;
+}
+.headerContainer > p {
+position: relative;
+z-index: -1;
 }
 .headerTitle {
     color: white;

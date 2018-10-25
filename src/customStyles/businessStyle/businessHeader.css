@@ -5,8 +5,12 @@
     background-repeat: no-repeat;
     height: 800px;
     width: 100%;
+    color:black;
 }
-
+.business-headerContainer > p {
+    position: relative;
+    z-index: -1;
+    }
 .business-headerTitle {
     color: white;
     font-family: Averta-regular;

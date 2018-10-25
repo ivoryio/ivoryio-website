@@ -717,16 +717,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": 8001,
+      "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-24T12:21:57.831Z",
+      "buildTime": "2018-10-25T07:08:59.757Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "453b05719c4f81f12cdc86092d5b55bd",
+        "contentDigest": "02778b1406317eed4d9213f34319ea3c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

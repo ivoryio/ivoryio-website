@@ -309,51 +309,19 @@
     }
 }
 
-@media (max-width: 575px) {
 
+
+
+@media (min-width: 320px) and (max-width: 575px) {
     .label-wrap {
         display: none;
     }
-
-    .contact-navigation-wrapper {
-        display: inline-flex;
-        margin-left: 1em;
+    .center-contact{
+          display: flex;
+         justify-content:center;
+         margin-left:1em;
     }
-
-    .contact-headerTitle {
-        font-size: 32px;
-        margin-bottom: 0.5em;
-        margin-top: 3em;
-        margin-left: 2em;
-
-        
-    }
-
-    .contact-form-wrap {
-        margin-top: -4em;
-    }
-
-    .contact-headerText {
-        font-size: 12px;
-    }
-
-    .contact-headerGroupRight {
-        margin-top: -6em;
-        margin-left: 7em;
-    }
-
-    .contact-headerContainer {
-        height: 400px;
-    }
-
-    .contact-ivory-logo {
-        margin-left: 1em;
-    }
-
-}
-
-
-@media (min-width: 320px) and (max-width: 576px) {
+   
     .contact-headerContainer {
         background-image: url('../../images/header_image_mobile_home-2.png');
         background-size: cover;
@@ -362,37 +330,30 @@
         overflow: auto;
 
     }
-
     .contact-navigation-wrapper{
         display: inline-flex;
         margin-left: -1.25em;
     }
-
     .contact-navigationButtons {
         display:none;
 
     }
-
     .contact-headerGroupRight {
         width: 100%;
         margin-top: -6em;
         margin-left: -3em;
         margin-right: 2em;
     }
-    
     .contact-navigationButtons-contact {
-        display:none;
-        
+        display:none; 
     }
     .contact-ivory-logo {
         display: none;
     }
-
     .contact-headerTitle {
-        margin-top: 8em;
-        margin-left:  3.5em;
+        margin-top: 6em;
+        margin-left: 0.5em;
     }
-
     #mlb2-1087000.ml-form-embedContainer .ml-form-align-center {
         width: 335px !important;
         margin-left: 4em;
@@ -407,34 +368,33 @@
 }
 
 @media (max-width: 320px) {
+
     .contact-navigation-wrapper{
         display: none;
     }
-
     .contact-navigationButtons {
         display: none;
     }
-
     .contact-navigationButtons-contact {
         display: none;
     }
-
     .contact-headerTitle {
         font-size: 30px;
+        margin-top: 7em;
+        margin-left: 1em;
+        margin-bottom: -0.5em;
+
     }
     .contact-headerGroupRight{
         margin-left: -3em;
     }
-
     .contact-headerText {
         font-size: 11px;
     }
-    
     #mlb2-1087000.ml-form-embedContainer .ml-form-align-center {
         width: 300px !important;
         margin-left: 4em;
     }
-
     #mlb2-1087000.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
         width: 134px !important;
         height: 50px !important;

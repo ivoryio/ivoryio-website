@@ -67,7 +67,7 @@
  
 }
 
-@media (min-width: 568px){
+@media (min-width: 576px){
 .navbar-mobile{
   display: none;
 }
@@ -81,7 +81,7 @@
  display: none;
 }
 }
-@media (max-width: 567px){
+@media (max-width: 575px){
   .navbar-mobile {
     /* display: inline-block; */
     height: 70px;

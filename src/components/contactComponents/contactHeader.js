@@ -94,14 +94,14 @@ export default class ContactHeader extends Component {
               </div>
             </Col>
           </Row>
-          <div class='contact-headerGroupRight'>
-            <Row>
+          <div className='contact-headerGroupRight'>
+            <Row className={'center-contact'}>
               <Col>
                 <h1 class='contact-headerTitle'>Contact</h1>
               </Col>
 
             </Row>
-            <Row>
+            <Row className={'center-contact'}>
               <div class='contact-form-wrap'>
                 <Col>
                   <h6 class='label-wrap'>First & Last Name</h6>

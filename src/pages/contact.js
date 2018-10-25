@@ -1,8 +1,9 @@
 import React from 'react'
 import ContactFooter from '../components/contactComponents/contactFooter'
 import ContactHeader from '../components/contactComponents/contactHeader'
-import {Link} from 'gatsby'
-import {Image} from 'react-bootstrap'
+import { Link } from 'gatsby'
+import { Image } from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
 import Sidebar from '../components/pageAssets/hamburgerMenu/hamburgerMenu'
 import ivoryLogo from '../images/logo.png'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -22,6 +23,12 @@ class DevelopersPage extends React.Component {
   render(){
     return(
       <div>
+         <Helmet>
+            <meta charSet='utf-8'/>
+            <title>Ivory Contact</title>
+            <link rel = 'canonical' href='https://www.ivory.io/contact' />
+        </Helmet>
+
         <div class='navbar-mobile'>
           <Link to='/'>
             <Image

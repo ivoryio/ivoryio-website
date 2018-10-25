@@ -5,8 +5,9 @@ import DevelopersHeader from '../components/developersComponents/developersHeade
 import DevProj from '../components/developersComponents/developersProj'
 import DeveloperDescription from '../components/developersComponents/developersDescription'
 import Footer from '../components/homeComponents/footer'
-import {Link} from 'gatsby'
-import {Image} from 'react-bootstrap'
+import { Link } from 'gatsby'
+import { Image } from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
 import Sidebar from '../components/pageAssets/hamburgerMenu/hamburgerMenu'
 import ivoryLogo from '../images/logo.png'
 
@@ -25,6 +26,11 @@ class DevelopersPage extends React.Component {
   render(){
     return(
       <div>
+        <Helmet>
+            <meta charSet='utf-8'/>
+            <title>Open Source Development Framework</title>
+            <link rel = 'canonical' href='https://www.ivory.io/developerPage' />
+        </Helmet>
 
         <div class='navbar-mobile'>
           <Link to='/'>

@@ -6,8 +6,9 @@ import BusinessDescription from '../components/businessesComponents/businessDesc
 import BusinessForm from '../components/businessesComponents/businessForm'
 import FAQ from '../components/businessesComponents/FAQ'
 import Footer from '../components/homeComponents/footer'
-import {Link} from 'gatsby'
-import {Image} from 'react-bootstrap'
+import { Link } from 'gatsby'
+import { Image } from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
 import Sidebar from '../components/pageAssets/hamburgerMenu/hamburgerMenu'
 import ivoryLogo from '../images/logo.png'
 
@@ -24,6 +25,12 @@ class ForBusiness extends React.Component {
   render(){
     return(
       <div>
+        <Helmet>
+            <meta charSet='utf-8'/>
+            <title>Framework for Quick Development</title>
+            <meta name='description' content='We create digital experiences for corporate innovation groups and startups.' />
+            <link rel = 'canonical' href='https://www.ivory.io/businessPage' />
+        </Helmet>
 
         <div class='navbar-mobile'>
           <Link to='/'>

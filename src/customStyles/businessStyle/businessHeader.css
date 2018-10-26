@@ -42,8 +42,9 @@
 }
 
 .business-ivory-logo {
-    width: 155px;
-    height: 105px;
+    width: 116px;
+    height: 44px;
+    margin-top: 2em;
     
 }
 
@@ -78,6 +79,9 @@
         font-size: 42px;
         width: 100%;
     }
+    .business-headerGroupRight {
+        margin-left: 3em;
+    }
 }
 @media (min-width: 1430px){
     .business-headerContainer {
@@ -93,7 +97,7 @@
         margin-top: 3em;
     }
     .business-ivory-logo{
-        margin-left: -9em;
+        margin-left: -8em;
     }
    
     .business-navigationButtons {
@@ -132,6 +136,9 @@
         margin-top: 3.5em;
         margin-left: 10em;
     }
+    .business-headerGroupRight {
+        margin-left: 0em;
+    }
 }
 @media (min-width: 576px) and (max-width: 1200px) {
     .business-navigation-wrapper {
@@ -143,7 +150,7 @@
     }
     .business-headerGroupRight {
         margin-top: 10em;
-        margin-left: 10em;
+        margin-left: 2em;
     }
     .business-headerText {
         font-size: 18px;
@@ -197,8 +204,9 @@
     }
     .business-ivory-logo{
         margin-left: -2em;
-        width: 150px;
-        height: 100px;
+        width: 116px;
+        height: 44px;
+        margin-top: 1.75em;
     }
     .business-headerTitle{
         font-size: 42px;

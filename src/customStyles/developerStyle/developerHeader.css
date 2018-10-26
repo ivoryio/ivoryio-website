@@ -42,8 +42,9 @@
 }
 
 .dev-ivory-logo {
-    width: 155px;
-    height: 105px;
+    width: 116px;
+    height: 44px;
+    margin-top: 2em;
     
 }
 
@@ -107,7 +108,7 @@
         margin-left: -8em;
     }
     .dev-ivory-logo{
-        margin-left: -9em;
+        margin-left: -8em;
     }
    
     .dev-navigationButtons {
@@ -255,8 +256,9 @@
     }
     .dev-ivory-logo{
         margin-left: -2em;
-        width: 150px;
-        height: 100px;
+        width: 116px;
+        height: 44px;
+        margin-top: 1.75em;
     }
     .dev-headerTitle{
         font-size: 42px;

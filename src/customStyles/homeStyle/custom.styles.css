@@ -41,8 +41,9 @@
 }
 
 .ivory-logo {
-    width: 155px;
-    height: 105px;
+    width: 115px;
+    height: 44px;
+    margin-top: 2em;
     
 }
 
@@ -73,6 +74,10 @@
     .headerContainer{
         height: 1000px;
     }
+
+    .headerGroupRight {
+        margin-left: 2.5em;
+    }
 }
 @media (min-width: 1366px){
     .headerTitle {
@@ -87,20 +92,17 @@
         margin-left: 33em;
     }
     .navigationButtons {
-        
         font-size: 16px;
         margin-top: 3.5em;
         margin-left: 4em;
-       
     }
-    
+    .headerGroupRight {
+        margin-left: 0.5em;
+    }
     .navigationButtons-contact {
         font-size: 16px;
         margin-top: 3.5em;
         margin-left: 3em;
-    
-        
-        
     }
 }
 
@@ -119,7 +121,11 @@
         margin-top: 3.5em;
         margin-left: 3em;
     }
-    
+
+    .headerGroupRight {
+        margin-left: 1em;
+    }
+
     .navigationButtons-contact {
         font-size: 12px;
         display: flex;
@@ -153,7 +159,9 @@
         margin-right: -2em;
         margin-left: 5em;
     }
-    
+    .headerGroupRight {
+        margin-left: 0.5em;
+    }
     .navigationButtons-contact {
         font-size: 12px;
         margin-top: 3.5em;
@@ -172,11 +180,13 @@
         margin-top: 3.5em;
         margin-left: 3.25em;
     }
-    
     .navigationButtons-contact {
         font-size: 12px;
         margin-top: 3.5em;
         margin-left: 8em;
+    }
+    .headerGroupRight {
+        margin-left: 1em;
     }
 }
 
@@ -194,8 +204,9 @@
     }
     .ivory-logo{
         margin-left: -2em;
-        width: 150px;
-        height: 100px;
+        width: 115px;
+        height: 44px;
+        margin-top: 1.5em;
     }
     .headerTitle{
         font-size: 46px;
@@ -229,7 +240,7 @@
         margin-left: -2.5em;
     }
     .headerGroupRight {
-        margin-left: -6em;
+        margin-left: -10em;
     }
 }
 
@@ -282,9 +293,6 @@
     .navigationButtons-contact{
         display: none;
     }
-    .ivory-logo{
-        display: none;
-    }
 }
 
 @media (min-width: 360px) and (max-width: 413px) {
@@ -311,9 +319,10 @@
     }
 
     .mobile-ivory-logo {
-        width: 135px;
-        height: 90px;
+        width: 116px;
+        height: 44px;
         margin-left: 1em;
+        margin-top: 0.75em;
     }
 
     .headerTitle {

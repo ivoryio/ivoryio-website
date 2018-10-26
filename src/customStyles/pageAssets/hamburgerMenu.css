@@ -91,8 +91,9 @@
     z-index: 1;
   }
   .mobile-ivory-logo {
-    width: 100px;
-    height: 74px;
+    width: 116px;
+    height: 44px;
     margin-left: 1em;
+    margin-top: 0.75em;
   }
 }

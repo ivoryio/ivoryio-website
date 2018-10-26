@@ -5,8 +5,8 @@
 }
 
 .ivory-logoFooter {
-    width: 104px;
-    height: 75px;
+    width: 116px;
+    height: 44px;
     margin-left: 1.5em;
     margin-top: -5em;
 }
@@ -42,7 +42,7 @@
     .twitter-logo {
         width: 37.5px;
         height: 32px;
-        margin-top: 4.5em;
+        margin-top: 5.5em;
         margin-left: 3em;
         
     }
@@ -50,16 +50,16 @@
     .facebook-logo{
         width: 33.4px;
         height: 35px;
-        margin-top: 4.5em;
+        margin-top: 5.5em;
         margin-left: 19em;
         
     }
 
     .ivory-logoFooter {
-        width: 100px;
-        height: 70px;
+        width: 116px;
+        height: 44px;
         margin-left: 0em;
-        margin-top: 2em;
+        margin-top: 4em;
     }
 
     .footerCopyright{
@@ -67,7 +67,7 @@
         width: 500px;
         margin-left: 1em;
         line-height: 17px;
-        margin-top: -1em;
+        margin-top: 1em;
         
     }
 }
@@ -88,11 +88,14 @@
     }
 
     .ivory-logoFooter {
-        margin-top: 2em;
+        margin-top: 4em;
         margin-bottom: 1em;
     }
 
-    
+    .footerCopyright {
+        margin-top: 0em;
+        margin-left: 2.5em;
+    }
     
 }
 
@@ -103,6 +106,14 @@
     }
     
     .facebook-logo{
+        margin-top: 6em;
+    }
+
+    .twitter-logo {
+        margin-top: 6em;
+    }
+    
+    .ivory-logoFooter {
         margin-top: 4em;
     }
 }
@@ -196,21 +207,21 @@
     }
     .footerCopyright {
         font-size: 10px;
-        margin-left: 2.5em;
-        margin-top: -3em;
+        margin-left: 1em;
+        margin-top: 0em;
         width: 200px;
     }
 
     .facebook-logo {
        
         margin-left: 16em;
-        margin-top: -29.5em;
+        margin-top: -31.5em;
     }
 
     .twitter-logo {
        
         margin-left: 20em;
-        margin-top: -32.5em;
+        margin-top: -34.5em;
     }
 
     .ivory-logoFooter {

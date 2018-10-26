@@ -29,7 +29,8 @@ export default class BusinessHeader extends Component {
   }
   render () {
     return (
-      <div class='business-headerContainer'>
+      <div class='business-headerContainer' title="digital experiences for corporate innovation groups and startups.">
+         {/* <p>digital experiences for corporate innovation groups and startups.</p> */}
         <Grid>
           <Row>
             <Col >

@@ -8,11 +8,11 @@ export default class BusinessDescription extends Component {
 render(){
     return (
         <div className={'businessWrapper'}>
-        <h3 className={'businessTtile'}>
-        We create digital experiences for corporate innovations and startups.</h3>
-        <p className='d-flex justify-content-center businessText '>
+        <h1 className={'businessTtile'}>
+        We create digital experiences for corporate innovation groups and startups.</h1>
+        <h2 className='d-flex justify-content-center businessText '>
         Our team will build upon Ivory to create a modern and scalable app in just a few weeks. The auxiliary features such as UserLogin, UserManagement and other necessary features come for free. Our focus will be on features that create value for your users.
-        </p>
+        </h2>
         <div className='d-flex justify-content-center'>
         <a href='https://www.thinslices.com/projects/' target='_blank' rel='noopener norefferer'>  <Button className='latestProjects'>Our Latest Projects</Button> </a>
         <a href='https://www.thinslices.com/team/' target='_blank' rel='noopener norefferer'>  <Button className='learnMore'>Learn more about us</Button> </a>

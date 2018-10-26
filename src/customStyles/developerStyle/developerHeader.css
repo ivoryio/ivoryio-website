@@ -1,12 +1,16 @@
 .dev-headerContainer {
-    background-image: url('../../images/header-developersSized.png');
+    background-image: url('../../images/Open_Source_Development_Framework.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
     width: 100%;
+    color: black;
 }
-
+.dev-headerContainer > p {
+    position: relative;
+    z-index: -1;
+    }
 .dev-headerTitle {
     color: white;
     font-family: Averta-regular;
@@ -342,7 +346,7 @@
 @media (min-width: 320px) and (max-width: 576px) {
 
     .dev-headerContainer {
-        background-image: url('../../images/header_img_developers_mobileS.png');
+        background-image: url('../../images/Open_Source_Development_Framework_Mobile.jpg');
         background-size: cover;
         height: 700px;
         width: 100%;
@@ -396,7 +400,7 @@
 @media (max-width: 320px) {
 
     .dev-headerContainer {
-        background-image: url('../../images/header_img_developers_mobileS.png');
+        background-image: url('../../images/Open_Source_Development_Framework_Mobile.jpg');
         background-size: cover;
         height: 700px;
         width: 100%;

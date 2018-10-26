@@ -27,8 +27,8 @@ export default class Header extends Component {
   }
   render () {
     return (
-      <div class='headerContainer' title="Open Source and Mobile App Development Platform">
-      {/* <p>Open Source and Mobile App Development Platform</p> */}
+      <div class='headerContainer'>
+        <span role="img" aria-label="[Open Source and Mobile App Development Platform]"></span>
         <Grid>
           <Row>
             <Col>

@@ -76,38 +76,38 @@ export default class DeveloperDescription extends Component {
 
           <div className={'squareWrapColumn'}>
             <div className='squareWrap'>
-              <div id='white' className={'divAlign'}>
+              <div className='white divAlign' >
                 <p className={'titleOnWhite'}>Open Source Community</p>
                 <p className={'devText'}>{DCONSTANTS.OPEN_SOURCE_TEXT}</p>
               </div>
-              <div id="blue">
+              <div className="blue">
                 <img className={"devImages"} src={devOpenSource} />
               </div>
             </div>
             <div className='squareWrap'>
-              <div id='blue' className={'divAlign'}>
+              <div className='blue divAlign'>
                 <p className={'titleOnWhite whiteDivAlign '}>Pods</p>
                 <p className={'titleOnWhite devText'}>
                   {DCONSTANTS.PODS_BLUE1}
                 </p>
               </div>
-              <div id='white' className={'divAlign'}>
+              <div className='white divAlign' >
                 <p className={'devText'}>{DCONSTANTS.PODS_TEXT1}</p>
                 <p className={'devText'}>{DCONSTANTS.PODS_TEXT2}</p>
               </div>
             </div>
             <div className="squareWrap">
-              <div id="white">
+              <div className="white">
                 <img className={"devImages"} src={pods} />
               </div>
-              <div id='blue' className={'divAlign'}>
+              <div className='blue divAlign'>
                 <p className={'titleOnWhite devText'}>
                   {DCONSTANTS.PODS_BLUE2}
                 </p>
               </div>
             </div>
             <div className='squareWrap'>
-              <div id='blue' className={'divAlign'}>
+              <div className='blue divAlign'>
                 <p className={'titleOnWhite whiteDivAlign '}>
                   Serverless solution
                 </p>
@@ -118,23 +118,23 @@ export default class DeveloperDescription extends Component {
                   {DCONSTANTS.SERVERLESS_TEXT2}
                 </p>
               </div>
-              <div id="white">
+              <div className="white">
               <img className={"devImages"} src={serverless} />
               </div>
             </div>
             <div className="squareWrap">
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
               <p className={"titleOnWhite"}>Speed is a first class citizen</p>
                 <p className={"devText"}>{DCONSTANTS.SPEED_TEXT_WHITE}</p>
               </div>
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.SPEED_TEXT_BLUE}
                 </p>
               </div>
             </div>
             <div className="squareWrap">
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
                 Security and privacy
                 </p>
@@ -142,32 +142,32 @@ export default class DeveloperDescription extends Component {
                   {DCONSTANTS.SECURITY_TEXT_BLUE}
                 </p>
               </div>
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
               <p className={"devText"}>{DCONSTANTS.SECURITY_TEXT_WHITE1}</p>
               </div>
             </div>
             <div className="squareWrap">
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.SECURITY_TEXT_WHITE2}</p>
               </div>
-              <div id="blue" >
+              <div className="blue" >
               <img className={"devImages"} src={security} />
               </div>
             </div>
             <div className="squareWrap">
-              <div id="blue">
+              <div className="blue">
               <img className={"devImages"} src={ai} />
               </div>
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
               <p className={"titleOnWhite"}>Machine Learning and AI</p>
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE1}</p>
               </div>
             </div>
             <div className="squareWrap">
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE2}</p>
               </div>
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
               <p className={"titleOnWhite whiteDivAlign "}>
               Blockchain
                 </p>
@@ -177,25 +177,25 @@ export default class DeveloperDescription extends Component {
               </div>
             </div>
             <div className="squareWrap">
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
               <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.BLOCKCHAIN_TEXT_BLUE2}
                 </p>
               </div>
-              <div id="white">
+              <div className="white">
               <img className={"devImages"} src={blockchain} />
               </div>
             </div>
             <div className="squareWrap">
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.BLOCKCHAIN_TEXT_WHITE3}</p>
               </div>
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
               <p className={"titleOnWhite devText"}>{DCONSTANTS.BLOCKCHAIN_TEXT_BLUE4}</p>
               </div>
             </div>
             <div className="squareWrap">
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
               <p className={"titleOnWhite whiteDivAlign "}>
               Continuous Delivery & Zero DevOps
                 </p>
@@ -203,15 +203,15 @@ export default class DeveloperDescription extends Component {
                   {DCONSTANTS.DEVOPS_TEXT_BLUE}
                 </p>
               </div>
-              <div id="white" className={"divAlign"}>
+              <div className="white divAlign">
               <p className={"devText"}>{DCONSTANTS.DEVOPS_TEXT_WHITE}</p>
               </div>
             </div>
             <div className="squareWrap">
-              <div id="white" >
+              <div className="white" >
               {/* <img className={"devImages"} src={ai} /> */}
               </div>
-              <div id="blue" className={"divAlign"}>
+              <div className="blue divAlign">
               <p className={"titleOnWhite whiteDivAlign "}>
               Quality
                 </p>

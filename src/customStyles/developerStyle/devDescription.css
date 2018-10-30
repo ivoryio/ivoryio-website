@@ -73,12 +73,12 @@
     margin-top: 0.45em;
 }
 
-#white{
+.white{
 width: 100%;
 height: 408px;
 background-color: white;
 }
-#blue{
+.blue{
     width: 100%;
     height: 408px;
     background-color:#00aeef;
@@ -112,6 +112,8 @@ background-color: white;
     letter-spacing: normal;
     text-align: left;
     color: #394952;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .titleOnWhite.whiteDivAlign{
     color: white;
@@ -129,6 +131,8 @@ background-color: white;
     letter-spacing: normal;
     text-align: left;
     color: #394952;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .divAlign{
       display: flex;

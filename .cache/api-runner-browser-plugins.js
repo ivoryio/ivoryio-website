@@ -1,7 +1,7 @@
 module.exports = [{
-      plugin: require('/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/node_modules/gatsby-plugin-offline/gatsby-browser'),
+      plugin: require('/Users/Oana/Desktop/ivoryio-website/node_modules/gatsby-plugin-offline/gatsby-browser'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/popovicisilviu/Documents/Proj-IvoryWebsite/ivoryio-website/gatsby-browser.js'),
+      plugin: require('/Users/Oana/Desktop/ivoryio-website/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

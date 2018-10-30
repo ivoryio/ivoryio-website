@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import DevelopersHeader from '../components/developersComponents/developersHeader'
 import DevProj from '../components/developersComponents/developersProj'
-import DeveloperDescription from '../components/developersComponents/developersDescription'
+import DevDescription from '../components/developersComponents/devDescription'
 import Footer from '../components/homeComponents/footer'
 import { Link } from 'gatsby'
 import { Image } from 'react-bootstrap'
@@ -46,7 +46,8 @@ class DevelopersPage extends React.Component {
         </div>
 
       <DevelopersHeader />
-      <DeveloperDescription />
+      {/* <DeveloperDescription /> */}
+      <DevDescription />
       <DevProj />
       <Footer />
     </div>

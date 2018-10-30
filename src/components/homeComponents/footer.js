@@ -9,7 +9,7 @@ import '../../customStyles/fonts.css'
 export default class Footer extends Component {
   render () {
     return (
-      <div class='footerContainer'>
+      <div id='footerContainer'>
         <Grid>
           <Row>
             <Col xs={6} sm={6} md={6} lg={6}>

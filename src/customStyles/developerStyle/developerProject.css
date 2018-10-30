@@ -1,7 +1,10 @@
 .proj-container {
-    height: 433px;
+    height: 420px;
     width: 100%;
-    background-color: #00aeef;
+    background-image: url('../../images/tell_us_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .proj-wrapper {

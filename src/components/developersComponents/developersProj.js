@@ -27,9 +27,6 @@ export default class DevProject extends Component {
                   4. Be a part of our community, join our slack group. <br />
                 </div>
               </Col>
-              <Col>
-                <img alt='' class='proj-photo' src={photo} width='230' height='230'/>
-              </Col >
             </div>
           </Row>
         </Grid>

@@ -1,0 +1,95 @@
+.developerTitle {
+    font-family: "Averta-Regular";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 115px;
+    margin-top: 115px;
+    color: #394952;
+    width: 100%;
+  }
+.squareWrap{
+    display:flex;
+}
+ .squareWrapColumn{
+     display: flex;
+     flex-direction:column;
+ }
+  #fixOnScroll {
+    background-color:#00adee;
+    color: #FFF;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    width: 550px;
+    height: 900px;
+}
+
+#white{
+width: 438px;
+height: 408px;
+background-color: white;
+}
+#blue{
+    width: 438px;
+    height: 408px;
+    background-color:#00aeef;
+} 
+.sidebarText{
+    font-family: 'Averta-Semibold';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-left:195px;
+  padding-right:195px;
+  padding-top: 86px;
+}
+ .developerWrapper {
+    margin-right: 0px ;
+    margin-left: 0px ;
+    margin-top: 115px;
+  } 
+  .titleOnWhite{
+    font-family: 'Averta-Regular';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+  }
+  .titleOnWhite.whiteDivAlign{
+    color: white;
+}
+.titleOnWhite.devText{
+    color: white;
+}
+  .devText{
+    font-family: 'Averta-Light';
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #394952;
+  }
+  .divAlign{
+      padding-top:90px;
+      padding-left:60px;
+      padding-right:60px;
+      padding-bottom:50px;
+  }
+  

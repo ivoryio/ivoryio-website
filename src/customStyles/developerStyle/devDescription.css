@@ -25,8 +25,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
-    width: 550px;
-    height: 900px;
+    width: 100%;
+    max-height: 1200px;
 }
 
 .scrollLine {
@@ -35,11 +35,13 @@
     border: solid 1px #8de0ff;
 }
 .scrollLinksWrapper {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    margin-top: 7em;
-    margin-left: 5em;
+    justify-content: center;
     width: 100%;
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-right: 3em;
     font-family: Averta-Light;
     font-size: 14px;
 }
@@ -63,6 +65,8 @@
 
 .scrollLink {
     display: inline-flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .linkText {
@@ -70,12 +74,12 @@
 }
 
 #white{
-width: 438px;
+width: 100%;
 height: 408px;
 background-color: white;
 }
 #blue{
-    width: 438px;
+    width: 100%;
     height: 408px;
     background-color:#00aeef;
 } 
@@ -127,9 +131,11 @@ background-color: white;
     color: #394952;
   }
   .divAlign{
-      padding-top:90px;
-      padding-left:60px;
-      padding-right:60px;
-      padding-bottom:50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
   }
-  
+  .devImages{
+    width: 100%;
+    height: 100%;
+  }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Grid, Col, Row } from 'react-bootstrap'
-import photo from '../../images/photo.png'
 
 import '../../customStyles/developerStyle/developerProject.css'
 

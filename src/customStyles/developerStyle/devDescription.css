@@ -54,6 +54,10 @@
     margin-bottom: 0em;
     transition: all .2s cubic-bezier(0.1,0,0.3,0.9);
 }
+.scrollLink:hover {
+    text-decoration: none;
+    color: white;
+}
 
 .scrollLink:hover .scrollOval {
     background-color: white;
@@ -67,6 +71,7 @@
     display: inline-flex;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: white;
 }
 
 .linkText {

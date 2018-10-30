@@ -13,6 +13,12 @@ import blockchain from "../../images/blockchain_img@3x.png";
 import quality from "../../images/quality_img@3x.png";
 
 export default class DeveloperDescription extends Component {
+  componentDidMount(){
+    var newS=document.createElement("style")
+    var newC = document.createTextNode(`html { scroll-behavior: smooth;}`); 
+    newS.appendChild(newC); 
+      document.head.appendChild(newS); 
+  }
   render() {
     return (
       <div className={"developerWrapper"}>
@@ -20,7 +26,7 @@ export default class DeveloperDescription extends Component {
           We're still building, but here's what we're aiming at:
         </h3>
 
-        <div style={{ display: 'flex' }}>
+        <div class="bigContainer">
           <div id='fixOnScroll'>
             <div class='scrollLinksWrapper'>
               <a href='#openSrc' class='scrollLink' >

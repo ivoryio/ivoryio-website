@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-check">
+            <g id="icon-arrow">
+                <rect id="Rectangle-2" x="0" y="0" width="40" height="40"></rect>
+                <path d="M28.258548,14.8791146 L27.5765096,14.1510918 C27.3871619,13.9496361 27.0814039,13.9496361 26.8925392,14.1510918 L18.0815891,23.5494385 C17.8932074,23.7508942 17.5869664,23.7508942 17.3985847,23.5494385 L13.5082611,19.3992448 C13.3189134,19.1972739 13.0131554,19.1972739 12.8247737,19.3992448 L12.1412863,20.1277829 C11.9529046,20.3292386 11.9529046,20.6553804 12.1412863,20.8563209 L17.0450067,26.0869561 C17.4217701,26.488837 18.0328031,26.4893523 18.4100495,26.0869561 L28.258065,15.6081679 C28.4469297,15.4067121 28.4474127,15.0805703 28.258548,14.8791146" id="Imported-Layers-Copy-4" fill="#00AEEF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

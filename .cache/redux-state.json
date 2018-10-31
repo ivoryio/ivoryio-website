@@ -592,6 +592,10 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-visibility-sensor",
+            "version": "^5.0.2"
+          },
+          {
             "name": "styled-components",
             "version": "^3.4.9"
           }
@@ -721,12 +725,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-30T14:28:32.954Z",
+      "buildTime": "2018-10-31T09:17:50.371Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b8b7f01171442ee1515be3b8ec1046ba",
+        "contentDigest": "b7d10099a46a7d1025ceef9bf594dd75",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -814,7 +818,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "445ce587a8962c9223a8c6a4966ddd45"
+    "PLUGINS_HASH": "9ae2647b26a15ee4b8f0917fd5042c2c"
   },
   "componentDataDependencies": {
     "nodes": {},

@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "../../customStyles/fonts.css";
-
+import VisibilitySensor from "react-visibility-sensor";
 import "../../customStyles/developerStyle/devDescription.css";
 import DCONSTANTS from "../../constants/developerConstants";
-
 import devOpenSource from "../../images/community_img@3x.png";
 import pods from "../../images/pods_img@3x.png";
 import serverless from "../../images/serverless_img@3x.png";
@@ -11,85 +10,132 @@ import security from "../../images/security_img@3x.png";
 import ai from "../../images/ai_img@3x.png";
 import blockchain from "../../images/blockchain_img@3x.png";
 import quality from "../../images/quality_img@3x.png";
-
 export default class DeveloperDescription extends Component {
-  componentDidMount(){
-    var newS=document.createElement("style")
-    var newC = document.createTextNode(`html { scroll-behavior: smooth;}`); 
-    newS.appendChild(newC); 
-      document.head.appendChild(newS); 
+  constructor(props) {
+    super(props);
+    this.state = {
+      getElement: null,
+      currentSection: null
+    };
+  }
+  componentDidMount() {
+    var newS = document.createElement("style");
+    var newC = document.createTextNode(`html {scroll-behavior: smooth;}`);
+    newS.appendChild(newC);
+    document.head.appendChild(newS);
   }
   render() {
+    var containmentDOMRect = this.state.getElement
+      ? this.state.getElement
+      : null;
     return (
       <div className={"developerWrapper"}>
         <h3 className={"developerTitle"}>
           We're still building, but here's what we're aiming at:
         </h3>
-
         <div class="bigContainer">
-          <div id='fixOnScroll'>
-            <div class='scrollLinksWrapper'>
-              <a href='#openSrc' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Open source community</div>
+          <div id="fixOnScroll">
+            <div class="scrollLinksWrapper">
+              <a href="#openSrc" class="scrollLink">
+                <div
+                  className={
+                    this.state.currentSection == "openSrc"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
+             
+                <div class="linkText">Open source community</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#pods' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Pods</div>
+              <div class="scrollLine" />
+              <a href="#pods" class="scrollLink">
+              <div
+                  className={
+                    this.state.currentSection == "pods"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
+                   {console.log(this.state.currentSection)}
+                <div class="linkText">Pods</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#serverless' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Serverless Solution</div>
+              <div class="scrollLine" />
+              <a href="#serverless" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Serverless Solution</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#speed' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Speed is a first class citizen</div>
+              <div class="scrollLine" />
+              <a href="#speed" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Speed is a first class citizen</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#security' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Security and privacy</div>
+              <div class="scrollLine" />
+              <a href="#security" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Security and privacy</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#machine' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Machine learning and AI</div>
+              <div class="scrollLine" />
+              <a href="#machine" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Machine learning and AI</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#blockchain' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Blockchain</div>
+              <div class="scrollLine" />
+              <a href="#blockchain" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Blockchain</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#continuous' class='scrollLink' >
-                <div class='scrollOval' />
-                <div class='linkText'>Continuous Delivery & Zero DevOps</div>
+              <div class="scrollLine" />
+              <a href="#continuous" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Continuous Delivery & Zero DevOps</div>
               </a>
-              <div class='scrollLine' />
-              <a href='#quality' class='scrollLink' >
-                <div class='scrollOval' /><div class='linkText'>Quality</div>
+              <div class="scrollLine" />
+              <a href="#quality" class="scrollLink">
+                <div class="scrollOval" />
+                <div class="linkText">Quality</div>
               </a>
-              <div class='scrollLine' />
+              <div class="scrollLine" />
             </div>
           </div>
+          <div className={"squareWrapColumn"}>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "openSrc" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div className="squareWrap">
+                    <div id="openSrc" className={"white divAlign"}>
+                      <p className={"titleOnWhite"}>Open Source Community</p>
+                      <p className={"devText"}>{DCONSTANTS.OPEN_SOURCE_TEXT}</p>
+                    </div>
 
-          <div className={'squareWrapColumn'}>
-            <div className='squareWrap'>
-              <div id="openSrc" className='white divAlign' >
-                <p className={'titleOnWhite'}>Open Source Community</p>
-                <p className={'devText'}>{DCONSTANTS.OPEN_SOURCE_TEXT}</p>
-              </div>
-              <div className="blue">
-                <img className={"devImages"} src={devOpenSource} />
-              </div>
-            </div>
-            <div className='squareWrap'>
-              <div id='pods' className='blue divAlign'>
-                <p className={'titleOnWhite whiteDivAlign '}>Pods</p>
-                <p className={'titleOnWhite devText'}>
+                    <div className="blue">
+                      <img className={"devImages"} src={devOpenSource} />
+                    </div>
+                  </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "pods" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
+            <div className="squareWrap">
+              <div id="pods" className="blue divAlign">
+                <p className={"titleOnWhite whiteDivAlign "}>Pods</p>
+                <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.PODS_BLUE1}
                 </p>
               </div>
@@ -98,6 +144,10 @@ export default class DeveloperDescription extends Component {
                 <p className={"devText"}>{DCONSTANTS.PODS_TEXT2}</p>
               </div>
             </div>
+                 </div>
+             );
+            }}
+          </VisibilitySensor>
             <div className="squareWrap">
               <div className="white">
                 <img className={"devImages"} src={pods} />
@@ -108,9 +158,10 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
             </div>
-            <div className='squareWrap'>
-              <div id='serverless' className='blue divAlign'>
-                <p className={'titleOnWhite whiteDivAlign '}>
+       
+            <div className="squareWrap">
+              <div id="serverless" className="blue divAlign">
+                <p className={"titleOnWhite whiteDivAlign "}>
                   Serverless solution
                 </p>
                 <p className={"titleOnWhite devText"}>
@@ -125,8 +176,8 @@ export default class DeveloperDescription extends Component {
               </div>
             </div>
             <div className="squareWrap">
-              <div id='speed' className="white divAlign">
-              <p className={"titleOnWhite"}>Speed is a first class citizen</p>
+              <div id="speed" className="white divAlign">
+                <p className={"titleOnWhite"}>Speed is a first class citizen</p>
                 <p className={"devText"}>{DCONSTANTS.SPEED_TEXT_WHITE}</p>
               </div>
               <div className="blue divAlign">
@@ -136,7 +187,7 @@ export default class DeveloperDescription extends Component {
               </div>
             </div>
             <div className="squareWrap">
-              <div id='security' className="blue divAlign">
+              <div id="security" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
                   Security and privacy
                 </p>
@@ -160,8 +211,8 @@ export default class DeveloperDescription extends Component {
               <div className="blue">
                 <img className={"devImages"} src={ai} />
               </div>
-              <div id='machine' className="white divAlign">
-              <p className={"titleOnWhite"}>Machine Learning and AI</p>
+              <div id="machine" className="white divAlign">
+                <p className={"titleOnWhite"}>Machine Learning and AI</p>
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE1}</p>
               </div>
             </div>
@@ -169,10 +220,8 @@ export default class DeveloperDescription extends Component {
               <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE2}</p>
               </div>
-              <div id='blockchain' className="blue divAlign">
-              <p className={"titleOnWhite whiteDivAlign "}>
-              Blockchain
-                </p>
+              <div id="blockchain" className="blue divAlign">
+                <p className={"titleOnWhite whiteDivAlign "}>Blockchain</p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.BLOCKCHAIN_TEXT_BLUE1}
                 </p>
@@ -199,9 +248,9 @@ export default class DeveloperDescription extends Component {
               </div>
             </div>
             <div className="squareWrap">
-              <div id='continuous' className="blue divAlign">
-              <p className={"titleOnWhite whiteDivAlign "}>
-              Continuous Delivery & Zero DevOps
+              <div id="continuous" className="blue divAlign">
+                <p className={"titleOnWhite whiteDivAlign "}>
+                  Continuous Delivery & Zero DevOps
                 </p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.DEVOPS_TEXT_BLUE}
@@ -215,10 +264,8 @@ export default class DeveloperDescription extends Component {
               <div className="white">
                 <img className={"devImages"} src={quality} />
               </div>
-              <div id='quality' className="blue divAlign">
-              <p className={"titleOnWhite whiteDivAlign "}>
-              Quality
-                </p>
+              <div id="quality" className="blue divAlign">
+                <p className={"titleOnWhite whiteDivAlign "}>Quality</p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.QUALITY_TEXT}
                 </p>

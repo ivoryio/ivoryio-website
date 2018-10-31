@@ -13,6 +13,14 @@ import blockchain from "../../images/blockchain_img@3x.png";
 import quality from "../../images/quality_img@3x.png";
 
 export default class DeveloperDescription extends Component {
+  componentDidMount(){
+    var newS=document.createElement("style")
+    var newC = document.createTextNode(`html { scroll-behavior: smooth;}`); 
+    newS.appendChild(newC); 
+      document.head.appendChild(newS); 
+  }
+
+
   render() {
     return (
       <div className={"developerWrapper"}>
@@ -23,7 +31,7 @@ export default class DeveloperDescription extends Component {
         <div class="bigContainer">
           <div id='fixOnScroll'>
             <div class='scrollLinksWrapper'>
-              <a href='#openSrc' class='scrollLink' >
+              <a href='#openSrc' class='scrollLink'>
                 <div class='scrollOval' />
                 <div class='linkText'>Open source community</div>
               </a>

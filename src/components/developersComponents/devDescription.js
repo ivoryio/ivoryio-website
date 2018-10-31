@@ -27,6 +27,8 @@ export default class DeveloperDescription extends Component {
     newS.appendChild(newC);
     document.head.appendChild(newS);
   }
+
+
   render() {
     var containmentDOMRect = this.state.getElement
       ? this.state.getElement
@@ -39,6 +41,7 @@ export default class DeveloperDescription extends Component {
         <div class="bigContainer">
           <div id="fixOnScroll">
             <div class="scrollLinksWrapper">
+
               <a href="#openSrc" class="scrollLink">
                 <div
                   className={
@@ -49,7 +52,9 @@ export default class DeveloperDescription extends Component {
                 />
                 <div class="linkText">{DCONSTANTS.OPEN_SOURCE_TITLE}</div>
               </a>
+
               <div class="scrollLine" />
+
               <a href="#pods" class="scrollLink">
                 <div
                   className={
@@ -60,7 +65,9 @@ export default class DeveloperDescription extends Component {
                 />
                 <div class="linkText">{DCONSTANTS.PODS_TITILE}</div>
               </a>
+
               <div class="scrollLine" />
+
               <a href="#serverless" class="scrollLink">
               <div
                   className={
@@ -71,7 +78,9 @@ export default class DeveloperDescription extends Component {
                 />
                 <div class="linkText">{DCONSTANTS.SERVERLESS_TITILE}</div>
               </a>
+
               <div class="scrollLine" />
+
               <a href="#speed" class="scrollLink">
               <div
                   className={
@@ -83,7 +92,9 @@ export default class DeveloperDescription extends Component {
                   {console.log(this.state.currentSection)}
                 <div class="linkText">{DCONSTANTS.SPEED_TITILE}</div>
               </a>
+
               <div class="scrollLine" />
+
               <a href="#security" class="scrollLink">
               <div
                   className={
@@ -94,7 +105,9 @@ export default class DeveloperDescription extends Component {
                 />
                 <div class="linkText">{DCONSTANTS.SECURITY_TITILE}</div>
               </a>
+
               <div class="scrollLine" />
+
               <a href="#machine" class="scrollLink">
               <div
                   className={
@@ -141,6 +154,7 @@ export default class DeveloperDescription extends Component {
               <div class="scrollLine" />
             </div>
           </div>
+
           <div className={"squareWrapColumn"}>
             <VisibilitySensor
               onChange={isVisible => {
@@ -192,6 +206,7 @@ export default class DeveloperDescription extends Component {
                 );
               }}
             </VisibilitySensor>
+
             <VisibilitySensor
               onChange={isVisible => {
                 if (isVisible) {

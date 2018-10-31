@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import "../../customStyles/fonts.css";
 import VisibilitySensor from "react-visibility-sensor";
+
 import "../../customStyles/developerStyle/devDescription.css";
 import DCONSTANTS from "../../constants/developerConstants";
+
 import devOpenSource from "../../images/community_img@3x.png";
 import pods from "../../images/pods_img@3x.png";
 import serverless from "../../images/serverless_img@3x.png";
@@ -10,6 +12,7 @@ import security from "../../images/security_img@3x.png";
 import ai from "../../images/ai_img@3x.png";
 import blockchain from "../../images/blockchain_img@3x.png";
 import quality from "../../images/quality_img@3x.png";
+
 export default class DeveloperDescription extends Component {
   constructor(props) {
     super(props);
@@ -39,59 +42,100 @@ export default class DeveloperDescription extends Component {
               <a href="#openSrc" class="scrollLink">
                 <div
                   className={
-                    this.state.currentSection == "openSrc"
+                    this.state.currentSection === "openSrc"
                       ? "scrollOval changescrollOval"
                       : "scrollOval"
                   }
                 />
-             
                 <div class="linkText">Open source community</div>
               </a>
               <div class="scrollLine" />
               <a href="#pods" class="scrollLink">
-              <div
+                <div
                   className={
-                    this.state.currentSection == "pods"
+                    this.state.currentSection === "pods"
                       ? "scrollOval changescrollOval"
                       : "scrollOval"
                   }
                 />
-                   {console.log(this.state.currentSection)}
                 <div class="linkText">Pods</div>
               </a>
               <div class="scrollLine" />
               <a href="#serverless" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "serverless"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
                 <div class="linkText">Serverless Solution</div>
               </a>
               <div class="scrollLine" />
               <a href="#speed" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "speed"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
+                  {console.log(this.state.currentSection)}
                 <div class="linkText">Speed is a first class citizen</div>
               </a>
               <div class="scrollLine" />
               <a href="#security" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "security"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
                 <div class="linkText">Security and privacy</div>
               </a>
               <div class="scrollLine" />
               <a href="#machine" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "machine"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
                 <div class="linkText">Machine learning and AI</div>
               </a>
               <div class="scrollLine" />
               <a href="#blockchain" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "blockchain"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
                 <div class="linkText">Blockchain</div>
               </a>
               <div class="scrollLine" />
               <a href="#continuous" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "continuous"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
                 <div class="linkText">Continuous Delivery & Zero DevOps</div>
               </a>
               <div class="scrollLine" />
               <a href="#quality" class="scrollLink">
-                <div class="scrollOval" />
+              <div
+                  className={
+                    this.state.currentSection === "quality"
+                      ? "scrollOval changescrollOval"
+                      : "scrollOval"
+                  }
+                />
                 <div class="linkText">Quality</div>
               </a>
               <div class="scrollLine" />
@@ -115,7 +159,34 @@ export default class DeveloperDescription extends Component {
                     </div>
 
                     <div className="blue">
-                      <img className={"devImages"} src={devOpenSource} />
+                      <img alt='Open Source Community'  className={"devImages"} src={devOpenSource} />
+                    </div>
+                  </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "pods" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
+                    <div className="squareWrap">
+                      <div id="pods" className="blue divAlign">
+                        <p className={"titleOnWhite whiteDivAlign "}>Pods</p>
+                        <p className={"titleOnWhite devText"}>
+                          {DCONSTANTS.PODS_BLUE1}
+                        </p>
+                      </div>
+                      <div className="white divAlign">
+                        <p className={"devText"}>{DCONSTANTS.PODS_TEXT1}</p>
+                        <p className={"devText"}>{DCONSTANTS.PODS_TEXT2}</p>
+                      </div>
                     </div>
                   </div>
                 );
@@ -133,24 +204,8 @@ export default class DeveloperDescription extends Component {
                 return (
                   <div>
             <div className="squareWrap">
-              <div id="pods" className="blue divAlign">
-                <p className={"titleOnWhite whiteDivAlign "}>Pods</p>
-                <p className={"titleOnWhite devText"}>
-                  {DCONSTANTS.PODS_BLUE1}
-                </p>
-              </div>
-              <div className="white divAlign">
-                <p className={"devText"}>{DCONSTANTS.PODS_TEXT1}</p>
-                <p className={"devText"}>{DCONSTANTS.PODS_TEXT2}</p>
-              </div>
-            </div>
-                 </div>
-             );
-            }}
-          </VisibilitySensor>
-            <div className="squareWrap">
               <div className="white">
-                <img className={"devImages"} src={pods} />
+                <img alt='Pods' className={"devImages"} src={pods} />
               </div>
               <div className="blue divAlign">
                 <p className={"titleOnWhite devText"}>
@@ -158,7 +213,21 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
             </div>
-       
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "serverless" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div id="serverless" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
@@ -172,9 +241,24 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
               <div className="white">
-                <img className={"devImages"} src={serverless} />
+                <img alt='Serverless solution' className={"devImages"} src={serverless} />
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "speed" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div id="speed" className="white divAlign">
                 <p className={"titleOnWhite"}>Speed is a first class citizen</p>
@@ -186,6 +270,21 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "security" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div id="security" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
@@ -199,23 +298,68 @@ export default class DeveloperDescription extends Component {
                 <p className={"devText"}>{DCONSTANTS.SECURITY_TEXT_WHITE1}</p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "security" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.SECURITY_TEXT_WHITE2}</p>
               </div>
               <div className="blue">
-                <img className={"devImages"} src={security} />
+                <img alt='Security and privacy' className={"devImages"} src={security} />
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "machine" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div className="blue">
-                <img className={"devImages"} src={ai} />
+                <img alt='Machine Learning and AI' className={"devImages"} src={ai} />
               </div>
               <div id="machine" className="white divAlign">
                 <p className={"titleOnWhite"}>Machine Learning and AI</p>
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE1}</p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "blockchain" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE2}</p>
@@ -227,6 +371,21 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "blockchain" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div className="blue divAlign">
                 <p className={"titleOnWhite devText"}>
@@ -234,9 +393,24 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
               <div className="white">
-                <img className={"devImages"} src={blockchain} />
+                <img alt ='Blockchain' className={"devImages"} src={blockchain} />
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "blockchain" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div className="white divAlign">
                 <p className={"devText"}>{DCONSTANTS.BLOCKCHAIN_TEXT_WHITE3}</p>
@@ -247,6 +421,21 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "continuous" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div id="continuous" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
@@ -260,9 +449,24 @@ export default class DeveloperDescription extends Component {
                 <p className={"devText"}>{DCONSTANTS.DEVOPS_TEXT_WHITE}</p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
+            <VisibilitySensor
+              onChange={isVisible => {
+                if (isVisible) {
+                  this.setState({ currentSection: "quality" });
+                }
+              }}
+              containment={containmentDOMRect}
+            >
+              {({ isVisible }) => {
+                return (
+                  <div>
             <div className="squareWrap">
               <div className="white">
-                <img className={"devImages"} src={quality} />
+                <img alt ='quality' className={"devImages"} src={quality} />
               </div>
               <div id="quality" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>Quality</p>
@@ -271,6 +475,10 @@ export default class DeveloperDescription extends Component {
                 </p>
               </div>
             </div>
+            </div>
+                );
+              }}
+            </VisibilitySensor>
           </div>
         </div>
       </div>

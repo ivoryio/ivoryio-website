@@ -19,6 +19,15 @@ let DCONSTANTS = {
     BLOCKCHAIN_TEXT_BLUE4:'3) Monitoring - the necessary instrumentation to monitor and manage the Blockchain infrastructure and code from the Admin section of the application.',
     DEVOPS_TEXT_BLUE:'With Ivory, using a single command - ivory setup, a complete and complex environment is setup for you. All you need to do to get new code in production after this point is to simply git push to the git repo that Ivory has setup on AWS CodeCommit for you. ',
     DEVOPS_TEXT_WHITE:'Apart from the actual cloud execution environment for your app (Lambdas, Kinesis streams, etc) Ivory also setups a complete build pipeline with all the ingredients required for continuous deployment.',
-    QUALITY_TEXT:'On a UX level all our pods are designed to support the top 4 major browsers, 2-3 version back, and be completely responsive on the web. Because of our extensive use of a UX design system and styled components all our pods have an integrated and consistent look & feel which can be easily adopted by developers in their own pods.'
+    QUALITY_TEXT:'On a UX level all our pods are designed to support the top 4 major browsers, 2-3 version back, and be completely responsive on the web. Because of our extensive use of a UX design system and styled components all our pods have an integrated and consistent look & feel which can be easily adopted by developers in their own pods.',
+    OPEN_SOURCE_TITLE:'Open Source Community',
+    PODS_TITILE:'Pods',
+    SERVERLESS_TITILE:'Serverless solution',
+    SPEED_TITILE:'Spees is a first class citizen',
+    SECURITY_TITILE:'Security and privacy',
+    MACHINE_TITILE:'Machine Learning and AI',
+    BLOCKCHAIN_TITLE:'Blockchain',
+    CONTINOUS_TITLE:'Continuous Delivery & Zero DevOps',
+    QUALITY_TITLE:'Quality'
 }
 export default DCONSTANTS

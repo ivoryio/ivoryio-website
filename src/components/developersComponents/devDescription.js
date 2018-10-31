@@ -47,7 +47,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Open source community</div>
+                <div class="linkText">{DCONSTANTS.OPEN_SOURCE_TITLE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#pods" class="scrollLink">
@@ -58,7 +58,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Pods</div>
+                <div class="linkText">{DCONSTANTS.PODS_TITILE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#serverless" class="scrollLink">
@@ -69,7 +69,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Serverless Solution</div>
+                <div class="linkText">{DCONSTANTS.SERVERLESS_TITILE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#speed" class="scrollLink">
@@ -81,7 +81,7 @@ export default class DeveloperDescription extends Component {
                   }
                 />
                   {console.log(this.state.currentSection)}
-                <div class="linkText">Speed is a first class citizen</div>
+                <div class="linkText">{DCONSTANTS.SPEED_TITILE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#security" class="scrollLink">
@@ -92,7 +92,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Security and privacy</div>
+                <div class="linkText">{DCONSTANTS.SECURITY_TITILE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#machine" class="scrollLink">
@@ -103,7 +103,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Machine learning and AI</div>
+                <div class="linkText">{DCONSTANTS.MACHINE_TITILE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#blockchain" class="scrollLink">
@@ -114,7 +114,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Blockchain</div>
+                <div class="linkText">{DCONSTANTS.BLOCKCHAIN_TITLE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#continuous" class="scrollLink">
@@ -125,7 +125,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Continuous Delivery & Zero DevOps</div>
+                <div class="linkText">{DCONSTANTS.CONTINOUS_TITLE}</div>
               </a>
               <div class="scrollLine" />
               <a href="#quality" class="scrollLink">
@@ -136,7 +136,7 @@ export default class DeveloperDescription extends Component {
                       : "scrollOval"
                   }
                 />
-                <div class="linkText">Quality</div>
+                <div class="linkText">{DCONSTANTS.QUALITY_TITLE}</div>
               </a>
               <div class="scrollLine" />
             </div>
@@ -154,7 +154,7 @@ export default class DeveloperDescription extends Component {
                 return (
                   <div className="squareWrap">
                     <div id="openSrc" className={"white divAlign"}>
-                      <p className={"titleOnWhite"}>Open Source Community</p>
+                      <p className={"titleOnWhite"}>{DCONSTANTS.OPEN_SOURCE_TITLE}</p>
                       <p className={"devText"}>{DCONSTANTS.OPEN_SOURCE_TEXT}</p>
                     </div>
 
@@ -178,7 +178,7 @@ export default class DeveloperDescription extends Component {
                   <div>
                     <div className="squareWrap">
                       <div id="pods" className="blue divAlign">
-                        <p className={"titleOnWhite whiteDivAlign "}>Pods</p>
+                        <p className={"titleOnWhite whiteDivAlign "}>{DCONSTANTS.PODS_TITILE}</p>
                         <p className={"titleOnWhite devText"}>
                           {DCONSTANTS.PODS_BLUE1}
                         </p>
@@ -231,7 +231,7 @@ export default class DeveloperDescription extends Component {
             <div className="squareWrap">
               <div id="serverless" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
-                  Serverless solution
+                {DCONSTANTS.SERVERLESS_TITILE}
                 </p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.SERVERLESS_TEXT1}
@@ -261,7 +261,7 @@ export default class DeveloperDescription extends Component {
                   <div>
             <div className="squareWrap">
               <div id="speed" className="white divAlign">
-                <p className={"titleOnWhite"}>Speed is a first class citizen</p>
+                <p className={"titleOnWhite"}>{DCONSTANTS.SPEED_TITILE}</p>
                 <p className={"devText"}>{DCONSTANTS.SPEED_TEXT_WHITE}</p>
               </div>
               <div className="blue divAlign">
@@ -288,7 +288,7 @@ export default class DeveloperDescription extends Component {
             <div className="squareWrap">
               <div id="security" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
-                  Security and privacy
+                 {DCONSTANTS.SECURITY_TITILE}
                 </p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.SECURITY_TEXT_BLUE}
@@ -341,7 +341,7 @@ export default class DeveloperDescription extends Component {
                 <img alt='Machine Learning and AI' className={"devImages"} src={ai} />
               </div>
               <div id="machine" className="white divAlign">
-                <p className={"titleOnWhite"}>Machine Learning and AI</p>
+                <p className={"titleOnWhite"}>{DCONSTANTS.MACHINE_TITILE}</p>
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE1}</p>
               </div>
             </div>
@@ -365,7 +365,7 @@ export default class DeveloperDescription extends Component {
                 <p className={"devText"}>{DCONSTANTS.AI_TEXT_WHITE2}</p>
               </div>
               <div id="blockchain" className="blue divAlign">
-                <p className={"titleOnWhite whiteDivAlign "}>Blockchain</p>
+                <p className={"titleOnWhite whiteDivAlign "}>{DCONSTANTS.BLOCKCHAIN_TITLE}</p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.BLOCKCHAIN_TEXT_BLUE1}
                 </p>
@@ -439,7 +439,7 @@ export default class DeveloperDescription extends Component {
             <div className="squareWrap">
               <div id="continuous" className="blue divAlign">
                 <p className={"titleOnWhite whiteDivAlign "}>
-                  Continuous Delivery & Zero DevOps
+                  {DCONSTANTS.CONTINOUS_TITLE}
                 </p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.DEVOPS_TEXT_BLUE}
@@ -469,7 +469,7 @@ export default class DeveloperDescription extends Component {
                 <img alt ='quality' className={"devImages"} src={quality} />
               </div>
               <div id="quality" className="blue divAlign">
-                <p className={"titleOnWhite whiteDivAlign "}>Quality</p>
+                <p className={"titleOnWhite whiteDivAlign "}>{DCONSTANTS.QUALITY_TITLE}</p>
                 <p className={"titleOnWhite devText"}>
                   {DCONSTANTS.QUALITY_TEXT}
                 </p>

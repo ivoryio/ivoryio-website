@@ -231,4 +231,7 @@
     display: flex;
     justify-content: center;
   }
+  .scrollLine{
+    width: 80%;
+  }
 }

@@ -20,7 +20,7 @@ export default class DeveloperDescription extends Component {
           We're still building, but here's what we're aiming at:
         </h3>
 
-        <div style={{ display: 'flex' }}>
+        <div class="bigContainer">
           <div id='fixOnScroll'>
             <div class='scrollLinksWrapper'>
               <a href='#openSrc' class='scrollLink' >
@@ -66,7 +66,7 @@ export default class DeveloperDescription extends Component {
               <a href='#quality' class='scrollLink' >
                 <div class='scrollOval' /><div class='linkText'>Quality</div>
               </a>
-              <div class='scrollLine' />
+              {/* <div class='scrollLine' /> */}
             </div>
           </div>
 

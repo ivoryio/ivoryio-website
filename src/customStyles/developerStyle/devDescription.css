@@ -67,19 +67,24 @@
     color: white;
 }
 
- .scrollLink:hover .scrollOval {
+.scrollLink:hover .scrollOval{
   background-color: white;
   background-image: url("../../images/icon-check.svg");
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.2s cubic-bezier(0.1, 0, 0.3, 0.9);
 }
-
-.scrollLink:focus .scrollOval {
+.changescrollOval{
   background-color: white;
-  background-image: url("../../images/icon-check.svg");
+ background-image: url("../../images/icon-check.svg");
   background-position: center;
   background-repeat: no-repeat;
+}
+.scrollLink {
+    display: inline-flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
 }
 
 .linkText {

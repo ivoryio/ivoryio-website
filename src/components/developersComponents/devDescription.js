@@ -12,14 +12,12 @@ import security from "../../images/security_img@3x.png";
 import ai from "../../images/ai_img@3x.png";
 import blockchain from "../../images/blockchain_img@3x.png";
 import quality from "../../images/quality_img@3x.png";
-
 export default class DevDescription extends Component {
   constructor(props) {
     super(props);
     this.state = {
       currentSection: null
     };
-    this.visibility = this.visibility.bind(this);
   }
   componentDidMount() {
     var newS = document.createElement("style");
@@ -28,15 +26,13 @@ export default class DevDescription extends Component {
     document.head.appendChild(newS);
   }
   pickClass(id) {
-    if (this.state.currentSection === id) {
-      return "scrollOval changescrollOval";
-    } else {
-      return "scrollOval";
-    }
+    return this.state.currentSection === id
+      ? "scrollOval changescrollOval"
+      : "scrollOval";
   }
-  visibility(key) {
+  visibility = key => {
     this.setState({ currentSection: key });
-  }
+  };
   render() {
     return (
       <div className={"developerWrapper"}>
@@ -93,7 +89,7 @@ export default class DevDescription extends Component {
           </div>
 
           <div className={"squareWrapColumn"}>
-            <VisibilitySensor onChange={this.visibility.bind(this, "openSrc")}>
+            <VisibilitySensor onChange={() => this.visibility("openSrc")}>
               {() => {
                 return (
                   <div className="squareWrap">
@@ -115,7 +111,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "pods")}>
+            <VisibilitySensor onChange={() => this.visibility("pods")}>
               {() => {
                 return (
                   <div>
@@ -137,8 +133,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-
-            <VisibilitySensor onChange={this.visibility.bind(this, "pods")}>
+            <VisibilitySensor onChange={() => this.visibility("pods")}>
               {() => {
                 return (
                   <div>
@@ -156,9 +151,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor
-              onChange={this.visibility.bind(this, "serverless")}
-            >
+            <VisibilitySensor onChange={() => this.visibility("serverless")}>
               {() => {
                 return (
                   <div>
@@ -186,7 +179,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "speed")}>
+            <VisibilitySensor onChange={() => this.visibility("speed")}>
               {() => {
                 return (
                   <div>
@@ -209,7 +202,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "security")}>
+            <VisibilitySensor onChange={() => this.visibility("security")}>
               {() => {
                 return (
                   <div>
@@ -232,7 +225,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "security")}>
+            <VisibilitySensor onChange={() => this.visibility("security")}>
               {() => {
                 return (
                   <div>
@@ -254,7 +247,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "machine")}>
+            <VisibilitySensor onChange={() => this.visibility("machine")}>
               {() => {
                 return (
                   <div>
@@ -277,9 +270,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor
-              onChange={this.visibility.bind(this, "blockchain")}
-            >
+            <VisibilitySensor onChange={() => this.visibility("blockchain")}>
               {() => {
                 return (
                   <div>
@@ -300,9 +291,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor
-              onChange={this.visibility.bind(this, "blockchain")}
-            >
+            <VisibilitySensor onChange={() => this.visibility("blockchain")}>
               {() => {
                 return (
                   <div>
@@ -324,9 +313,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor
-              onChange={this.visibility.bind(this, "blockchain")}
-            >
+            <VisibilitySensor onChange={() => this.visibility("blockchain")}>
               {() => {
                 return (
                   <div>
@@ -346,9 +333,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor
-              onChange={this.visibility.bind(this, "continuous")}
-            >
+            <VisibilitySensor onChange={() => this.visibility("continuous")}>
               {() => {
                 return (
                   <div>
@@ -371,7 +356,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "quality")}>
+            <VisibilitySensor onChange={() => this.visibility("quality")}>
               {() => {
                 return (
                   <div>

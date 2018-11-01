@@ -725,12 +725,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-01T07:52:01.907Z",
+      "buildTime": "2018-11-01T14:03:11.076Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "03993c6f26bebb48f92a3d75a18003b8",
+        "contentDigest": "2bdc8356918bc1fc57b7394a2b451a9b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

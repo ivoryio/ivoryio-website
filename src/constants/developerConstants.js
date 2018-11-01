@@ -1,4 +1,5 @@
 let DCONSTANTS = {
+    DEV_TITLE: " We're still building, but here's what we're aiming at:",
     OPEN_SOURCE_TEXT:'Ivory is open and free for commercial use. We believe that by providing a good product which addresses the needs of product developers today with a world class architecture and advanced ready built functionalities we will be able to convince them to contribute to this project.',
    PODS_BLUE1:'Our vision is to ultimately offer tens of ready made pods that developers can assemble. In our marketplace pods like user management, multi-language localisation, transaction emails will be offered for free and for pay. Developers can choose how they would like to make their pods available.',
    PODS_BLUE2:'User Authentication Pod: Email + password, Google, Facebook, 2 factor with SMS, Web & mobile; CRUD Pod; Payment (Stripe, billing, refunds, etc.); Notifications; Chat; Transactional email (Admin based functionality & some); APIsAnalytics; Globalisation/ Translations; Analytics; Emails, etc.',
@@ -23,7 +24,7 @@ let DCONSTANTS = {
     OPEN_SOURCE_TITLE:'Open Source Community',
     PODS_TITILE:'Pods',
     SERVERLESS_TITILE:'Serverless solution',
-    SPEED_TITILE:'Spees is a first class citizen',
+    SPEED_TITILE:'Speed is a first class citizen',
     SECURITY_TITILE:'Security and privacy',
     MACHINE_TITILE:'Machine Learning and AI',
     BLOCKCHAIN_TITLE:'Blockchain',

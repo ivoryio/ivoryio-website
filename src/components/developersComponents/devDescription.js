@@ -17,9 +17,9 @@ export default class DevDescription extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentSection: null
+      currentSection: null,
+      id: null
     };
-    this.visibility = this.visibility.bind(this);
   }
   componentDidMount() {
     var newS = document.createElement("style");
@@ -27,14 +27,12 @@ export default class DevDescription extends Component {
     newS.appendChild(newC);
     document.head.appendChild(newS);
   }
-  pickClass(id) {
-    if (this.state.currentSection === id) {
-      return "scrollOval changescrollOval";
-    } else {
-      return "scrollOval";
-    }
+  pickClass = (id) => {
+    return this.state.currentSection === id
+      ? "scrollOval changescrollOval"
+      : "scrollOval"; 
   }
-  visibility(key) {
+  visibility = (key) => {
     this.setState({ currentSection: key });
   }
   render() {
@@ -93,7 +91,7 @@ export default class DevDescription extends Component {
           </div>
 
           <div className={"squareWrapColumn"}>
-            <VisibilitySensor onChange={this.visibility.bind(this, "openSrc")}>
+            <VisibilitySensor onChange={() => this.visibility("openSrc")}>
               {() => {
                 return (
                   <div className="squareWrap">
@@ -115,7 +113,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "pods")}>
+            <VisibilitySensor onChange={() => this.visibility("pods")}>
               {() => {
                 return (
                   <div>
@@ -133,15 +131,6 @@ export default class DevDescription extends Component {
                         <p className={"devText"}>{DCONSTANTS.PODS_TEXT2}</p>
                       </div>
                     </div>
-                  </div>
-                );
-              }}
-            </VisibilitySensor>
-
-            <VisibilitySensor onChange={this.visibility.bind(this, "pods")}>
-              {() => {
-                return (
-                  <div>
                     <div className="squareWrap">
                       <div className="white">
                         <img alt="Pods" className={"devImages"} src={pods} />
@@ -157,7 +146,7 @@ export default class DevDescription extends Component {
               }}
             </VisibilitySensor>
             <VisibilitySensor
-              onChange={this.visibility.bind(this, "serverless")}
+              onChange={() => this.visibility("serverless")}
             >
               {() => {
                 return (
@@ -186,7 +175,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "speed")}>
+            <VisibilitySensor onChange={() => this.visibility("speed")}>
               {() => {
                 return (
                   <div>
@@ -209,7 +198,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "security")}>
+            <VisibilitySensor onChange={() => this.visibility("security")}>
               {() => {
                 return (
                   <div>
@@ -228,14 +217,6 @@ export default class DevDescription extends Component {
                         </p>
                       </div>
                     </div>
-                  </div>
-                );
-              }}
-            </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "security")}>
-              {() => {
-                return (
-                  <div>
                     <div className="squareWrap">
                       <div className="white divAlign">
                         <p className={"devText"}>
@@ -254,7 +235,8 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "machine")}>
+        
+            <VisibilitySensor onChange={() => this.visibility("machine")}>
               {() => {
                 return (
                   <div>
@@ -278,7 +260,7 @@ export default class DevDescription extends Component {
               }}
             </VisibilitySensor>
             <VisibilitySensor
-              onChange={this.visibility.bind(this, "blockchain")}
+              onChange={() => this.visibility("blockchain")}
             >
               {() => {
                 return (
@@ -296,16 +278,6 @@ export default class DevDescription extends Component {
                         </p>
                       </div>
                     </div>
-                  </div>
-                );
-              }}
-            </VisibilitySensor>
-            <VisibilitySensor
-              onChange={this.visibility.bind(this, "blockchain")}
-            >
-              {() => {
-                return (
-                  <div>
                     <div className="squareWrap">
                       <div className="blue divAlign">
                         <p className={"titleOnWhite devText"}>
@@ -325,29 +297,29 @@ export default class DevDescription extends Component {
               }}
             </VisibilitySensor>
             <VisibilitySensor
-              onChange={this.visibility.bind(this, "blockchain")}
+              onChange={() => this.visibility("blockchain")}
             >
               {() => {
                 return (
                   <div>
-                    <div className="squareWrap">
-                      <div className="white divAlign">
-                        <p className={"devText"}>
-                          {DCONSTANTS.BLOCKCHAIN_TEXT_WHITE3}
-                        </p>
-                      </div>
-                      <div className="blue divAlign">
-                        <p className={"titleOnWhite devText"}>
-                          {DCONSTANTS.BLOCKCHAIN_TEXT_BLUE4}
-                        </p>
-                      </div>
-                    </div>
+                  <div className="squareWrap">
+                  <div className="white divAlign">
+                    <p className={"devText"}>
+                      {DCONSTANTS.BLOCKCHAIN_TEXT_WHITE3}
+                    </p>
+                  </div>
+                  <div className="blue divAlign">
+                    <p className={"titleOnWhite devText"}>
+                      {DCONSTANTS.BLOCKCHAIN_TEXT_BLUE4}
+                    </p>
+                  </div>
+                </div>
                   </div>
                 );
               }}
             </VisibilitySensor>
             <VisibilitySensor
-              onChange={this.visibility.bind(this, "continuous")}
+              onChange={() => this.visibility("continuous")}
             >
               {() => {
                 return (
@@ -371,7 +343,7 @@ export default class DevDescription extends Component {
                 );
               }}
             </VisibilitySensor>
-            <VisibilitySensor onChange={this.visibility.bind(this, "quality")}>
+            <VisibilitySensor onChange={() => this.visibility("quality")}>
               {() => {
                 return (
                   <div>

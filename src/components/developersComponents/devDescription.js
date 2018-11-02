@@ -26,12 +26,14 @@ export default class DevDescription extends Component {
     document.head.appendChild(newS);
   }
   pickClass(id) {
+    console.log('id',id)
     return this.state.currentSection === id
       ? "scrollOval changescrollOval"
-      : "scrollOval";
+      : "scrollOval"; 
   }
   visibility = key => {
     this.setState({ currentSection: key });
+    console.log('key',key)
   };
   render() {
     return (

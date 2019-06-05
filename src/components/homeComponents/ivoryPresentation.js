@@ -20,7 +20,7 @@ export default class Presentation extends Component {
     return (
       <div>
         <h2 className={"bigTitle"}>
-          Ivory is a open source and mobile app development platform <br />
+          Ivory is an open source and mobile app development platform <br />
           that accelerates the development of complex Blockchain and AI
           products.
         </h2>

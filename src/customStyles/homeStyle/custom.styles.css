@@ -1,348 +1,343 @@
 .headerContainer {
-    background-image: url('../../images/Open_Source_and_Mobile_App_Development_Platform.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 800px;
-    width: 100%;
-    overflow: auto;
-    color: black;
+  background-image: url("../../images/Open_Source_and_Mobile_App_Development_Platform.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  overflow: auto;
+  color: black;
 }
 .headerContainer > p {
-position: relative;
-z-index: -1;
+  position: relative;
+  z-index: -1;
 }
 .headerTitle {
-    color: white;
-    font-family: Averta-regular;
-    font-size: 52px;
-    font-weight: bold;
+  color: white;
+  font-family: Averta-regular;
+  font-size: 52px;
+  font-weight: bold;
 }
 .headerText {
-    color: white;
-    font-family: Averta-regular;
-    font-size: 24px;  
+  color: white;
+  font-family: Averta-regular;
+  font-size: 24px;
 }
 .headerButton {
-    background-color: #ffffff;
-    color: #00adee;
-    font-family: Averta-Regular;
-    font-size: 14px;
-    font-weight: 600;
-    margin: none;
-    border-radius: 2px !important;
-    width: 134px;
-    height: 50px;
+  background-color: #ffffff !important;
+  color: #00adee !important;
+  font-family: Averta-Regular !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin: none !important;
+  border-radius: 2px !important;
+  width: 134px !important;
+  height: 50px !important;
 }
 
 .headerGroupRight {
-    margin-top: 10em;
-    margin-left: 10em;
+  margin-top: 10em;
+  margin-left: 10em;
 }
 
 .ivory-logo {
-    width: 115px;
-    height: 44px;
-    margin-top: 2em;
-    
+  width: 115px;
+  height: 44px;
+  margin-top: 2em;
 }
 
 .navigationButtons {
-    text-decoration: none;
-    font-family: Averta-Regular;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2.5em;
-    margin-left: -1em;
+  text-decoration: none;
+  font-family: Averta-Regular;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5em;
+  margin-left: -1em;
 }
 
 .navigationButtons-contact {
-    font-family: Averta-Regular;
-    color: white;
-    margin-top: 2.5em;
-    margin-left: 3em;
+  font-family: Averta-Regular;
+  color: white;
+  margin-top: 2.5em;
+  margin-left: 3em;
 }
 .menuLinks {
-    color: white;
+  color: white;
 }
 
 .menuLinks:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
-@media (min-width: 1430px){
-    .headerContainer{
-        height: 1000px;
-    }
+@media (min-width: 1430px) {
+  .headerContainer {
+    height: 1000px;
+  }
 
-    .headerGroupRight {
-        margin-left: 2.5em;
-    }
+  .headerGroupRight {
+    margin-left: 2.5em;
+  }
 }
-@media (min-width: 1366px){
-    .headerTitle {
-        margin-top: 3em;
-    }
-    .ivory-logo{
-        margin-left: -8em;
-    }
+@media (min-width: 1366px) {
+  .headerTitle {
+    margin-top: 3em;
+  }
+  .ivory-logo {
+    margin-left: -8em;
+  }
 
-    .navigation-wrapper {
-        display: inline-flex;
-        margin-left: 33em;
-    }
-    .navigationButtons {
-        font-size: 16px;
-        margin-top: 3.5em;
-        margin-left: 4em;
-    }
-    .headerGroupRight {
-        margin-left: 0.5em;
-    }
-    .navigationButtons-contact {
-        font-size: 16px;
-        margin-top: 3.5em;
-        margin-left: 3em;
-    }
+  .navigation-wrapper {
+    display: inline-flex;
+    margin-left: 33em;
+  }
+  .navigationButtons {
+    font-size: 16px;
+    margin-top: 3.5em;
+    margin-left: 4em;
+  }
+  .headerGroupRight {
+    margin-left: 0.5em;
+  }
+  .navigationButtons-contact {
+    font-size: 16px;
+    margin-top: 3.5em;
+    margin-left: 3em;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
-    .ivory-logo {
-        margin-left: 0.5em;
-    }
+  .ivory-logo {
+    margin-left: 0.5em;
+  }
 
-    .navigation-wrapper {
-        display: inline-flex;
-        margin-left: 28.5em;
-    }
+  .navigation-wrapper {
+    display: inline-flex;
+    margin-left: 28.5em;
+  }
 
-    .navigationButtons {
-        font-size: 12px;
-        margin-top: 3.5em;
-        margin-left: 3em;
-    }
+  .navigationButtons {
+    font-size: 12px;
+    margin-top: 3.5em;
+    margin-left: 3em;
+  }
 
-    .headerGroupRight {
-        margin-left: 1em;
-    }
+  .headerGroupRight {
+    margin-left: 1em;
+  }
 
-    .navigationButtons-contact {
-        font-size: 12px;
-        display: flex;
-        margin-top: 3.5em;
-        margin-left: 10em;
-    }
+  .navigationButtons-contact {
+    font-size: 12px;
+    display: flex;
+    margin-top: 3.5em;
+    margin-left: 10em;
+  }
 }
 
 @media (max-width: 1200px) {
-    .headerContainer{
-        height: 800px;
-    }
-    
-    .headerGroupRight {
-        margin-top: 10em;
-        margin-left: 10em;
-    }
+  .headerContainer {
+    height: 800px;
+  }
 
-    .headerText {
-        font-size: 18px;
-    }
+  .headerGroupRight {
+    margin-top: 10em;
+    margin-left: 10em;
+  }
 
-    .navigation-wrapper {
-        display: inline-flex;
-        margin-left: 21em;
-    }
+  .headerText {
+    font-size: 18px;
+  }
 
-    .navigationButtons {
-        font-size: 12px;
-        margin-top: 3.5em;
-        margin-right: -2em;
-        margin-left: 5em;
-    }
-    .headerGroupRight {
-        margin-left: 0.5em;
-    }
-    .navigationButtons-contact {
-        font-size: 12px;
-        margin-top: 3.5em;
-        margin-left: 7em;
-    }
+  .navigation-wrapper {
+    display: inline-flex;
+    margin-left: 21em;
+  }
+
+  .navigationButtons {
+    font-size: 12px;
+    margin-top: 3.5em;
+    margin-right: -2em;
+    margin-left: 5em;
+  }
+  .headerGroupRight {
+    margin-left: 0.5em;
+  }
+  .navigationButtons-contact {
+    font-size: 12px;
+    margin-top: 3.5em;
+    margin-left: 7em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-    .navigation-wrapper {
-        display: inline-flex;
-        margin-left: 10em;
-    }
-    .navigationButtons {
-        font-size: 12px;
-        margin-top: 3.5em;
-        margin-left: 3.25em;
-    }
-    .navigationButtons-contact {
-        font-size: 12px;
-        margin-top: 3.5em;
-        margin-left: 8em;
-    }
-    .headerGroupRight {
-        margin-left: 1em;
-    }
+  .navigation-wrapper {
+    display: inline-flex;
+    margin-left: 10em;
+  }
+  .navigationButtons {
+    font-size: 12px;
+    margin-top: 3.5em;
+    margin-left: 3.25em;
+  }
+  .navigationButtons-contact {
+    font-size: 12px;
+    margin-top: 3.5em;
+    margin-left: 8em;
+  }
+  .headerGroupRight {
+    margin-left: 1em;
+  }
 }
 
 @media (max-width: 768px) {
+  .headerButton {
+    width: 90px;
+    height: 35px;
+    font-size: 10px;
+  }
+  .navigation-wrapper {
+    display: inline-flex;
+    margin-left: 2em;
+  }
+  .ivory-logo {
+    margin-left: -2em;
+    width: 115px;
+    height: 44px;
+    margin-top: 1.5em;
+  }
+  .headerTitle {
+    font-size: 46px;
+  }
 
-    .headerButton {
-        width: 90px;
-        height: 35px;
-        font-size: 10px;
-    }
-    .navigation-wrapper {
-        display: inline-flex;
-        margin-left: 2em;
+  .headerText {
+    font-size: 16px;
+  }
 
-    }
-    .ivory-logo{
-        margin-left: -2em;
-        width: 115px;
-        height: 44px;
-        margin-top: 1.5em;
-    }
-    .headerTitle{
-        font-size: 46px;
-    }
+  .headerGroupRight {
+    margin-top: 10em;
+    margin-left: 5em;
+  }
 
-    .headerText{
-        font-size: 16px;
-    }
+  .navigationButtons {
+    font-size: 10px;
+    margin-top: 4.75em;
+    margin-left: 3em;
+    margin-right: 0em;
+  }
 
-    .headerGroupRight {
-        margin-top: 10em;
-        margin-left: 5em;
-    }
-
-    .navigationButtons {
-        font-size: 10px;
-        margin-top: 4.75em;
-        margin-left: 3em;
-        margin-right: 0em;
-    }
-    
-    .navigationButtons-contact {
-        font-size: 10px;
-        margin-top: 4.75em;
-        margin-left: 3em;
-    }
+  .navigationButtons-contact {
+    font-size: 10px;
+    margin-top: 4.75em;
+    margin-left: 3em;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .headerTitle{
-        margin-left: -2.5em;
-    }
-    .headerGroupRight {
-        margin-left: -10em;
-    }
+  .headerTitle {
+    margin-left: -2.5em;
+  }
+  .headerGroupRight {
+    margin-left: -10em;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
-    .headerContainer {
-        background-image: url('../../images/Open_Source_and_Mobile_App_Development_Platform_Mobile.jpg');
-        background-size: cover;
-        width: 100%;
-        height: 700px;
-        overflow: auto;
-    }
-    .headerButton {
-        display: inline-block;
-        width: 148px;
-        height: 57px;
-        font-size: 18px;
-        margin-left: 2.5em;
-    }
+  .headerContainer {
+    background-image: url("../../images/Open_Source_and_Mobile_App_Development_Platform_Mobile.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+  }
+  .headerButton {
+    display: inline-block;
+    width: 148px;
+    height: 57px;
+    font-size: 18px;
+    margin-left: 2.5em;
+  }
 
-    .navigation-wrapper {
-        display: none;
-    }
+  .navigation-wrapper {
+    display: none;
+  }
 
-    .navigationButtons {
-        display: none;
-    }
+  .navigationButtons {
+    display: none;
+  }
 
-    .navigationButtons-contact {
-        display: none;
-    }
+  .navigationButtons-contact {
+    display: none;
+  }
 
-    .ivory-logo {
-        display: none;
-    }
-    .headerTitle {
-        position: relative;
-        font-size: 64px;
-        text-align: center;
-        margin-left: -1.25em;
-        margin-bottom: 0.5em;
-    }
-    .headerText {
-        position: relative;
-        text-align: center;
-        margin-left: -1.5em;
-        margin-bottom: 1.5em;
-        font-size: 27px;
-        width: 100%; 
-    }
-    .navigationButtons-contact{
-        display: none;
-    }
+  .ivory-logo {
+    display: none;
+  }
+  .headerTitle {
+    position: relative;
+    font-size: 64px;
+    text-align: center;
+    margin-left: -1.25em;
+    margin-bottom: 0.5em;
+  }
+  .headerText {
+    position: relative;
+    text-align: center;
+    margin-left: -1.5em;
+    margin-bottom: 1.5em;
+    font-size: 27px;
+    width: 100%;
+  }
+  .navigationButtons-contact {
+    display: none;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 413px) {
-    .headerButton {
-        margin-left: 1em;
-    }
+  .headerButton {
+    margin-left: 1em;
+  }
 }
 
 @media (max-width: 320px) {
-    .headerContainer {
-        background-image: url('../../images/Open_Source_and_Mobile_App_Development_Platform_Mobile.jpg');
-        background-size: cover;
-        width: 100%;
-        overflow: auto;
-    }
-    .navbar-mobile {
-        display: inline-block;
-        overflow: hidden;
-        height: 86px;
-        background-color: #00adee;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-    }
+  .headerContainer {
+    background-image: url("../../images/Open_Source_and_Mobile_App_Development_Platform_Mobile.jpg");
+    background-size: cover;
+    width: 100%;
+    overflow: auto;
+  }
+  .navbar-mobile {
+    display: inline-block;
+    overflow: hidden;
+    height: 86px;
+    background-color: #00adee;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
 
-    .mobile-ivory-logo {
-        width: 116px;
-        height: 44px;
-        margin-left: 1em;
-        margin-top: 0.75em;
-    }
+  .mobile-ivory-logo {
+    width: 116px;
+    height: 44px;
+    margin-left: 1em;
+    margin-top: 0.75em;
+  }
 
-    .headerTitle {
-        position: relative;
-        font-size: 64px;
-        text-align: center;
-        margin-left: -1.25em;
-        margin-bottom: 0.5em;
-    }
-    .headerText {
-        position: relative;
-        text-align: center;
-        margin-left: -1.5em;
-        margin-bottom: 1.5em;
-        font-size: 22px;
-        width: 100%; 
-    }
+  .headerTitle {
+    position: relative;
+    font-size: 64px;
+    text-align: center;
+    margin-left: -1.25em;
+    margin-bottom: 0.5em;
+  }
+  .headerText {
+    position: relative;
+    text-align: center;
+    margin-left: -1.5em;
+    margin-bottom: 1.5em;
+    font-size: 22px;
+    width: 100%;
+  }
 
-    .headerButton {
-        margin-left: -0.5em;
-    }
-    
+  .headerButton {
+    margin-left: -0.5em;
+  }
 }
